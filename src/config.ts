@@ -1,0 +1,50 @@
+export type LogLevel = "debug" | "info" | "warn" | "error";
+
+export function env(name: string, fallback?: string): string {
+  const v = process.env[name];
+  if (v === undefined || v === "") {
+    if (fallback !== undefined) return fallback;
+    throw new Error(`Missing required env var: ${name}`);
+  }
+  return v;
+}
+
+export function envOptional(
+  name: string,
+  fallback?: string,
+): string | undefined {
+  const v = process.env[name];
+  if (v === undefined || v === "") return fallback;
+  return v;
+}
+
+export const config = {
+  stagingDatasetKey: envOptional("STAGING_DATASET_KEY", "datasets/staging/dataset.json")!,
+  stagingCsvKey: envOptional("STAGING_CSV_KEY", "datasets/staging/dataset.csv")!,
+
+  awsRegion: envOptional("AWS_REGION", "eu-west-1")!,
+  bucket: envOptional("BUCKET", "bw-dev-media-249562468297-eu-west-1")!,
+  datasetKey: envOptional("DATASET_KEY", "datasets/latest/dataset.json")!,
+  csvKey: envOptional("CSV_KEY", "datasets/latest/dataset.csv")!,
+  dryRun: envOptional("DRY_RUN", "0") === "1",
+  source: envOptional("SOURCE", "manual")!,
+  limit: Number(envOptional("LIMIT", "0") || 0),
+  logLevel: (envOptional("LOG_LEVEL", "info") as LogLevel) || "info",
+};
+
+export function log(
+  level: LogLevel,
+  msg: string,
+  extra?: Record<string, unknown>,
+) {
+  const order: Record<LogLevel, number> = {
+    debug: 10,
+    info: 20,
+    warn: 30,
+    error: 40,
+  };
+  if (order[level] < order[config.logLevel]) return;
+  const payload = extra ? ` ${JSON.stringify(extra)}` : "";
+  // eslint-disable-next-line no-console
+  console.log(`[${level.toUpperCase()}] ${msg}${payload}`);
+}

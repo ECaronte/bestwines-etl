@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0",
+    "source": "manual-fixture",
+    "notes": "MVP manual dataset for bestwines-etl"
+  },
+  "wineries": [
+    {
+      "id": "w001",
+      "name": "Bodegas La Rioja Alta",
+      "countryCode": "es",
+      "region": "Rioja",
+      "score": 92,
+      "lat": 42.466,
+      "lng": -2.445,
+      "featuredLangs": ["en", "es"],
+      "slug": "bodegas-la-rioja-alta"
+    },
+    {
+      "id": "w002",
+      "name": "Domaine de la Romanée-Conti",
+      "countryCode": "FR",
+      "region": "Bourgogne",
+      "score": 99,
+      "lat": 47.198,
+      "lng": 4.949,
+      "featuredLangs": ["en", "fr"]
+    }
+  ],
+  "packs": [
+    {
+      "id": "p001",
+      "wineryId": "w001",
+      "countryCode": "ES",
+      "typeKey": "weekend",
+      "title": "Weekend Wine Experience"
+    },
+    {
+      "id": "p002",
+      "wineryId": "w002",
+      "countryCode": "FR",
+      "typeKey": "tasting",
+      "title": "Private Tasting Experience"
+    }
+  ],
+  "slugs": [
+    {
+      "slug": "bodegas-la-rioja-alta",
+      "targetType": "WINERY",
+      "targetId": "w001"
+    }
+  ]
+}

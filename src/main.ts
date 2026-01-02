@@ -7,6 +7,7 @@ import { buildCanonicalDataset } from "./export/toDatasetJson.js";
 import { datasetToCsv } from "./export/toCsv.js";
 import { putTextToS3 } from "./publish/s3.js";
 
+import { enrichOsm } from "./enrich/enrich_osm.js";
 
 async function ensureOutDir() {
   const outDir = path.resolve(process.cwd(), "out");
@@ -112,18 +113,18 @@ async function runPublishStaging() {
 
 // ✅ NUEVO: Enrich OSM
 async function runEnrichOsm() {
-  await ensureOutDir();
-
-  const limit = process.env.ENRICH_LIMIT
-    ? Number(process.env.ENRICH_LIMIT)
-    : undefined;
-
-  const { enrichOsm } = await import("./enrich/enrich_osm.js");
+  // prioridad: argumento CLI -> ENRICH_LIMIT -> sin límite
+  const arg = process.argv[3];
+  const envLimit = process.env.ENRICH_LIMIT;
+  const limit =
+    arg && !Number.isNaN(Number(arg)) ? Number(arg) :
+    envLimit && !Number.isNaN(Number(envLimit)) ? Number(envLimit) :
+    undefined;
 
   await enrichOsm({
-    inputPath: process.env.ENRICH_INPUT || "out/dataset.json",
-    outputPath: process.env.ENRICH_OUTPUT || "out/dataset.enriched.json",
-    outputCsvPath: process.env.ENRICH_CSV || "out/dataset.enriched.csv",
+    inputPath: "out/dataset.json",
+    outputPath: "out/dataset.enriched.json",
+    outputCsvPath: "out/dataset.enriched.csv",
     limit,
   });
 }
@@ -136,15 +137,12 @@ async function main() {
     "publish",
     "publish:staging",
     "etl:publish",
-    // ✅ NUEVOS
     "enrich:osm",
     "etl:enrich",
   ];
 
   if (!allowed.includes(cmd)) {
-    throw new Error(
-      `Unknown command: ${cmd}. Use ${allowed.join(" | ")}`,
-    );
+    throw new Error(`Unknown command: ${cmd}. Use ${allowed.join(" | ")}`);
   }
 
   if (cmd === "etl") {

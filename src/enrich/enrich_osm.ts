@@ -55,6 +55,11 @@ function writeCsv(p: string, rows: Record<string, any>[]) {
   fs.writeFileSync(p, out + "\n", "utf8");
 }
 
+function clip(s: any, n = 220) {
+  const t = s == null ? "" : String(s);
+  return t.length > n ? t.slice(0, n) : t;
+}
+
 export async function enrichOsm(opts: {
   inputPath?: string;
   outputPath?: string;
@@ -69,6 +74,9 @@ export async function enrichOsm(opts: {
   const weakScore = Number(process.env.OSM_WEAK_SCORE || 0.65);
   const radiusM = Number(process.env.OSM_RADIUS_M || 8000);
 
+  // si pones OSM_FALLBACK_NAME=0 desactivas el fallback por nombre
+  const enableNameFallback = String(process.env.OSM_FALLBACK_NAME ?? "1") !== "0";
+
   const client = new OverpassClient();
 
   const ds = readJson(inputPath) as Dataset;
@@ -82,6 +90,7 @@ export async function enrichOsm(opts: {
   let matchedStrong = 0;
   let matchedWeak = 0;
   let noMatch = 0;
+  let errors = 0;
 
   const qaRows: Record<string, any>[] = [];
 
@@ -101,47 +110,85 @@ export async function enrichOsm(opts: {
       continue;
     }
 
-    const res = await client.searchAround({
-  lat,
-  lon,
-  radiusM,
-});
+    let res: any = null;
 
-const els = Array.isArray((res as any)?.elements) ? (res as any).elements : [];
+    // 1) intento principal: around(lat,lon)
+    try {
+      res = await client.searchAround({ lat, lon, radiusM });
+    } catch (e: any) {
+      // 2) fallback opcional: searchByName
+      if (enableNameFallback) {
+        try {
+          res = await client.searchByName({ name: w.name });
+        } catch (e2: any) {
+          errors++;
+          qaRows.push({
+            id: w.id,
+            name: w.name,
+            status: "error",
+            error: clip(e2?.message || e2),
+            stage: "around+name",
+          });
+          continue;
+        }
+      } else {
+        errors++;
+        qaRows.push({
+          id: w.id,
+          name: w.name,
+          status: "error",
+          error: clip(e?.message || e),
+          stage: "around",
+        });
+        continue;
+      }
+    }
 
-const candidates: Candidate[] = els.map((el: any) => {
-  const t = el?.tags || {};
-  const c = el?.center || {};
-  const lat2 = typeof el?.lat === "number" ? el.lat : (typeof c?.lat === "number" ? c.lat : undefined);
-  const lon2 = typeof el?.lon === "number" ? el.lon : (typeof c?.lon === "number" ? c.lon : undefined);
+    const els = Array.isArray(res?.elements) ? res.elements : [];
 
-  // website en OSM suele estar en website o contact:website
-  const website = t.website || t["contact:website"] || t["url"] || "";
-  const phone = t.phone || t["contact:phone"] || t["contact:mobile"] || "";
-  const name = t.name || "";
-  const addr =
-    [
-      t["addr:housenumber"],
-      t["addr:street"],
-      t["addr:postcode"],
-      t["addr:city"],
-      t["addr:state"],
-      t["addr:country"],
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .trim() || "";
+    const candidates: Candidate[] = els.map((el: any) => {
+      const t = el?.tags || {};
+      const c = el?.center || {};
+      const lat2 =
+        typeof el?.lat === "number"
+          ? el.lat
+          : typeof c?.lat === "number"
+            ? c.lat
+            : undefined;
+      const lon2 =
+        typeof el?.lon === "number"
+          ? el.lon
+          : typeof c?.lon === "number"
+            ? c.lon
+            : undefined;
 
-  return {
-    name,
-    website,
-    phone,
-    address: addr,
-    lat: lat2,
-    lon: lon2,
-    tags: t,
-  };
-});
+      // website en OSM suele estar en website o contact:website
+      const website = t.website || t["contact:website"] || t["url"] || "";
+      const phone = t.phone || t["contact:phone"] || t["contact:mobile"] || "";
+      const name = t.name || "";
+      const addr =
+        [
+          t["addr:housenumber"],
+          t["addr:street"],
+          t["addr:postcode"],
+          t["addr:city"],
+          t["addr:state"],
+          t["addr:country"],
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .trim() || "";
+
+      return {
+        name,
+        website,
+        phone,
+        address: addr,
+        lat: lat2,
+        lon: lon2,
+        tags: t,
+      };
+    });
 
     const best = pickBestCandidate({ wineryName: w.name, candidates });
 
@@ -159,7 +206,11 @@ const candidates: Candidate[] = els.map((el: any) => {
     const b = best.c;
 
     const status =
-      score >= minScore ? "matched_strong" : score >= weakScore ? "matched_weak" : "low_confidence";
+      score >= minScore
+        ? "matched_strong"
+        : score >= weakScore
+          ? "matched_weak"
+          : "low_confidence";
 
     if (status === "matched_strong") matchedStrong++;
     else if (status === "matched_weak") matchedWeak++;
@@ -215,6 +266,7 @@ const candidates: Candidate[] = els.map((el: any) => {
         matchedStrong,
         matchedWeak,
         noMatch,
+        errors,
         minScore,
         weakScore,
         radiusM,

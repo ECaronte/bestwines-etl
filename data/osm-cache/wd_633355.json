@@ -1,0 +1,251 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:37:41Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 471507061,
+      "lat": 49.0427986,
+      "lon": 3.959082,
+      "tags": {
+        "check_date": "2024-08-26",
+        "craft": "winery",
+        "description": "Champagne producer. Open for tastings during office hours.",
+        "name": "Champagne Moët et Chandon",
+        "tourism": "attraction",
+        "wikidata": "Q699529",
+        "wikipedia": "en:Moët & Chandon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3697021307,
+      "lat": 49.0170271,
+      "lon": 3.9345135,
+      "tags": {
+        "craft": "winery",
+        "name": "Champagne Vollereaux",
+        "website": "https://www.champagne-vollereaux.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3712378220,
+      "lat": 49.0367922,
+      "lon": 3.9553764,
+      "tags": {
+        "addr:housenumber": "50",
+        "addr:street": "Rue des Huguenots",
+        "craft": "winery",
+        "name": "Champagne Veuve Marie Blanche Delescaut",
+        "operator": "TROUILLARD ENTREPRISE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6652083036,
+      "lat": 49.0161441,
+      "lon": 3.9423215,
+      "tags": {
+        "addr:city": "Pierry",
+        "addr:housenumber": "12",
+        "addr:postcode": "51530",
+        "addr:street": "Rue de l'Égalité",
+        "contact:phone": "+33 6 80 38 66 32",
+        "contact:website": "http://champagne-jean-seleque.net",
+        "craft": "winery",
+        "name": "Champagne Jean Seleque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6948638155,
+      "lat": 49.0445134,
+      "lon": 4.040425,
+      "tags": {
+        "addr:city": "Mareuil-sur-Ay",
+        "addr:housenumber": "13",
+        "addr:postcode": "51160",
+        "addr:street": "Rue du Pont",
+        "craft": "winery",
+        "email": "info@philipponnat.com",
+        "fax": "+33 3 26569318",
+        "name": "Champagne Philipponnat",
+        "operator": "Charles Philipponnat",
+        "phone": "+33 3 26569300",
+        "product": "champagner"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7906191785,
+      "lat": 49.0973343,
+      "lon": 3.9149414,
+      "tags": {
+        "addr:postcode": "51480",
+        "name": "Champagne Daverdon",
+        "shop": "wine",
+        "website": "http://champagne-daverdon.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10748636510,
+      "lat": 49.0394062,
+      "lon": 3.9767149,
+      "tags": {
+        "craft": "winery",
+        "name": "Comtesse Lafont"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11502658224,
+      "lat": 49.0652928,
+      "lon": 3.9658163,
+      "tags": {
+        "craft": "winery",
+        "name": "Champagne Jacquesson",
+        "website": "https://www.champagnejacquesson.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12992326543,
+      "lat": 49.082158,
+      "lon": 3.9422171,
+      "tags": {
+        "check_date": "2025-07-10",
+        "name": "Haton",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12992371263,
+      "lat": 49.0822649,
+      "lon": 3.9419272,
+      "tags": {
+        "check_date": "2025-07-10",
+        "name": "Gombillard & Fils",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12992386751,
+      "lat": 49.0824067,
+      "lon": 3.9424283,
+      "tags": {
+        "check_date": "2025-07-10",
+        "name": "Champagne Marion Bosser",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 358234611,
+      "center": {
+        "lat": 49.0440545,
+        "lon": 4.0399435
+      },
+      "tags": {
+        "addr:city": "Mareuil-sur-Ay",
+        "addr:housenumber": "16",
+        "addr:postcode": "51160",
+        "addr:street": "Quai du Moulin",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Champagne Marc Hébrart",
+        "phone": "+33 3 26 52 60 75",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931184645,
+      "center": {
+        "lat": 49.0227578,
+        "lon": 3.9814454
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "industrial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931184656,
+      "center": {
+        "lat": 49.0419031,
+        "lon": 3.9626594
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "industrial",
+        "name": "Champagne Pol Roger",
+        "note": "Champagne producer. Open for tastings during office hours.",
+        "tourism": "attraction",
+        "wikidata": "Q1061081",
+        "wikipedia": "en:Pol_Roger"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931184657,
+      "center": {
+        "lat": 49.0422706,
+        "lon": 3.9609483
+      },
+      "tags": {
+        "craft": "winery",
+        "description": "Champagne producer. Open for tastings during office hours.",
+        "landuse": "industrial",
+        "name": "Champagne Perrier Jouët",
+        "tourism": "attraction",
+        "wikidata": "Q2401562",
+        "wikipedia": "en:Perrier-Jouët"
+      }
+    },
+    {
+      "type": "way",
+      "id": 931184658,
+      "center": {
+        "lat": 49.0407177,
+        "lon": 3.9617976
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "industrial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012807598,
+      "center": {
+        "lat": 49.039094,
+        "lon": 3.9596087
+      },
+      "tags": {
+        "craft": "winery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012807599,
+      "center": {
+        "lat": 49.038831,
+        "lon": 3.9610607
+      },
+      "tags": {
+        "craft": "winery",
+        "name": "Champagne Alfred Gratien",
+        "note": "Champagne producer."
+      }
+    }
+  ]
+}

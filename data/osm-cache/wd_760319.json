@@ -1,0 +1,27 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:38:41Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11282234604,
+      "lat": 51.8105277,
+      "lon": -2.7178002,
+      "tags": {
+        "addr:city": "Monmouth",
+        "addr:housenumber": "64",
+        "addr:postcode": "NP25 3EN",
+        "addr:street": "Monnow Street",
+        "email": "hello@pinotnoir.co.uk",
+        "name": "Fingal Rock",
+        "opening_hours": "Mo-Sa 09:30-14:00; Su Off",
+        "phone": "+44 1600 712 372",
+        "shop": "wine"
+      }
+    }
+  ]
+}

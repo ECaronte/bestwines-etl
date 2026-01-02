@@ -1,0 +1,393 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:30:26Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6222396186,
+      "lat": 47.6001486,
+      "lon": 16.624181,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:postcode": "7301",
+        "addr:street": "Karrnergasse",
+        "name": "Weingut Gager",
+        "opening_hours": "Mo-Fr 08:00-14:00; Sa 10:00-17:00",
+        "phone": "+43261380385",
+        "shop": "wine",
+        "website": "https://www.weingut-gager.at"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6222402485,
+      "lat": 47.594629,
+      "lon": 16.6224641,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "7301",
+        "addr:street": "Rotweinweg",
+        "name": "Weingut K+K Kirnbauer",
+        "phone": "+43261389722",
+        "shop": "wine",
+        "website": "https://www.phantom.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6312083085,
+      "lat": 47.5886272,
+      "lon": 16.5463691,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:postcode": "7312",
+        "contact:phone": "+43 699 110 46 477",
+        "name": "Bioweingut Moritz",
+        "shop": "wine",
+        "website": "https://www.blaufraenkisch.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6401016467,
+      "lat": 47.5969586,
+      "lon": 16.5493342,
+      "tags": {
+        "level": "0",
+        "name": "Vinothek",
+        "opening_hours": "Th-Sa 10:00-12:00,15:00-19:00; Su 14:00-18:00; PH,Mo-We closed || \"nach Vereinbarung\"",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "wine",
+        "website": "http://www.wbv-neckenmarkt.at"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721685907,
+      "lat": 47.5996339,
+      "lon": 16.625454,
+      "tags": {
+        "name": "Vinatrium Gebietsvinothek & Weinlounge Deutschkreutz",
+        "opening_hours": "Mo-Th 13:00-18:00; Fr 13:00-19:00; Sa 10:00-19:00; PH,Su 10:00-17:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6946236845,
+      "lat": 47.5870257,
+      "lon": 16.5494442,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "8",
+        "addr:postcode": "7312",
+        "addr:street": "Günserstraße",
+        "at_bev:addr_date": "2018-10-01",
+        "contact:email": "info@amminger.at",
+        "contact:phone": "+43 2610 422 12",
+        "name": "RotweinHof Amminger",
+        "shop": "wine",
+        "website": "https://www.rotweinhof.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6946266823,
+      "lat": 47.5869063,
+      "lon": 16.5482801,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "11",
+        "addr:postcode": "7312",
+        "addr:street": "Florianigasse",
+        "at_bev:addr_date": "2018-10-01",
+        "contact:phone": "+43 2610 421 65",
+        "name": "Weingut Weninger",
+        "shop": "wine",
+        "website": "https://www.weninger.com/de"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577896125,
+      "lat": 47.5859335,
+      "lon": 16.5488747,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "26",
+        "addr:postcode": "7312",
+        "addr:street": "Florianigasse",
+        "alt_name": "Florianikeller",
+        "contact:facebook": "https://www.facebook.com/people/Bader-Wein-Weingut-und-Heuriger/100070305010672/",
+        "contact:mobile": "+43 664 75 038 152",
+        "contact:website": "https://www.der-bader.at/",
+        "craft": "winery",
+        "name": "Weingut \"Der Bader\"",
+        "operator": "Johannes & Judit Bader",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577951017,
+      "lat": 47.5865164,
+      "lon": 16.5509838,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "7",
+        "addr:postcode": "7312",
+        "addr:street": "Kirchengasse",
+        "at_bev:addr_date": "2020-04-01",
+        "contact:phone": "+43 2610 422 28",
+        "name": "Anton Gober",
+        "shop": "wine",
+        "website": "http://goberwein.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7578220585,
+      "lat": 47.5879944,
+      "lon": 16.5489775,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "36",
+        "addr:postcode": "7312",
+        "addr:street": "Hauptstraße",
+        "at_bev:addr_date": "2020-04-01",
+        "contact:phone": "+43 2610 423 26",
+        "name": "Domaine Mayrhofer",
+        "shop": "wine",
+        "website": "https://www.domaine-mayrhofer.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7578220588,
+      "lat": 47.5877538,
+      "lon": 16.5493128,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "34",
+        "addr:postcode": "7312",
+        "addr:street": "Hauptstraße",
+        "at_bev:addr_date": "2020-04-01",
+        "contact:phone": "+43 2610 421 13",
+        "name": "Weingut Iby-Lehrner",
+        "shop": "wine",
+        "website": "https://www.iby-lehrner.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7589656462,
+      "lat": 47.5852754,
+      "lon": 16.547808,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "10",
+        "addr:postcode": "7312",
+        "addr:street": "Bachgasse",
+        "contact:phone": "+43 650 913 67 47",
+        "name": "Gober & Freinbichler",
+        "shop": "wine",
+        "website": "https://www.weinevonhand.at/kontakt.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7589656474,
+      "lat": 47.5860244,
+      "lon": 16.5533978,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "3",
+        "addr:postcode": "7312",
+        "addr:street": "Am Blaufränkischweg",
+        "at_bev:addr_date": "2020-04-01",
+        "contact:phone": "+43 664 920 14 78",
+        "name": "IBY Rotweingut Bioweine",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-11:30, 13:30-18:00",
+        "shop": "wine",
+        "website": "https://www.iby.at/shop/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7589675352,
+      "lat": 47.5894403,
+      "lon": 16.5454423,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "56",
+        "addr:postcode": "7312",
+        "addr:street": "Hauptstraße",
+        "at_bev:addr_date": "2020-04-01",
+        "check_date": "2023-09-26",
+        "contact:phone": "+43 664 4556999",
+        "name": "Weingut Paul Lehrner",
+        "shop": "wine",
+        "website": "https://www.paul-lehrner.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7589729540,
+      "lat": 47.5916612,
+      "lon": 16.533013,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "111",
+        "addr:postcode": "7312",
+        "addr:street": "Hauptstraße",
+        "at_bev:addr_date": "2020-04-01",
+        "contact:phone": "+43 2610 423 92",
+        "name": "Weingut Kerschbaum",
+        "opening_hours": "Mo-Fr 10:00-17:00; Sa 10:00-16:00",
+        "shop": "wine",
+        "website": "https://www.kerschbaum.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10705178417,
+      "lat": 47.5996271,
+      "lon": 16.6063002,
+      "tags": {
+        "addr:city": "Deutschkreutz",
+        "addr:housenumber": "56",
+        "addr:postcode": "7301",
+        "addr:street": "Girmerstraße",
+        "craft": "winery",
+        "name": "Weingut Artner",
+        "phone": "+43 261389640",
+        "website": "https://www.weingut-artner.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11300493475,
+      "lat": 47.5994463,
+      "lon": 16.6215985,
+      "tags": {
+        "addr:city": "Deutschkreutz",
+        "addr:housenumber": "30-32",
+        "addr:postcode": "7301",
+        "addr:street": "Karrnergasse",
+        "name": "Weingut Pfneisl",
+        "phone": "+43 2613 80048",
+        "shop": "wine",
+        "website": "https://www.weingutpfneisl.at/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11302335675,
+      "lat": 47.5753552,
+      "lon": 16.546587,
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:housenumber": "60",
+        "addr:postcode": "7312",
+        "addr:street": "Günser Straße",
+        "email": "office@eichenwald.at",
+        "name": "Eichenwald Weine",
+        "phone": "+43 2610 42321",
+        "shop": "wine",
+        "website": "https://www.eichenwald.at"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13251257394,
+      "lat": 47.5640517,
+      "lon": 16.5306497,
+      "tags": {
+        "addr:city": "Raiding",
+        "addr:country": "AT",
+        "addr:housenumber": "4",
+        "addr:postcode": "7321",
+        "addr:street": "Lisztstraße",
+        "email": "info@lisztweine.at",
+        "name": "Weingut Schumits-Stocker Lisztweine",
+        "phone": "+43 2619 7482",
+        "shop": "wine",
+        "website": "https://www.lisztweine.at"
+      }
+    },
+    {
+      "type": "way",
+      "id": 251133638,
+      "center": {
+        "lat": 47.5990085,
+        "lon": 16.6191652
+      },
+      "tags": {
+        "addr:city": "Deutschkreutz",
+        "addr:housenumber": "59",
+        "addr:postcode": "7301",
+        "addr:street": "Karrnergasse",
+        "building": "yes",
+        "craft": "winery",
+        "fax": "+43 2613 89615 4",
+        "name": "Weingut J. Heinrich",
+        "phone": "+43 2613 89615",
+        "website": "https://www.weingut-heinrich.at/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 807207083,
+      "center": {
+        "lat": 47.5937459,
+        "lon": 16.6368996
+      },
+      "tags": {
+        "addr:city": "Deutschkreutz",
+        "addr:country": "AT",
+        "addr:postcode": "7301",
+        "addr:street": "Sonnenweg",
+        "building": "yes",
+        "name": "Weingut Christian Kirnbauer",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 810486499,
+      "center": {
+        "lat": 47.5869298,
+        "lon": 16.551687
+      },
+      "tags": {
+        "addr:city": "Horitschon",
+        "addr:country": "AT",
+        "addr:housenumber": "3",
+        "addr:postcode": "7312",
+        "addr:street": "Kirchengasse",
+        "at_bev:addr_date": "2020-04-01",
+        "building": "yes",
+        "name": "Weingut Wessely",
+        "shop": "wine"
+      }
+    }
+  ]
+}

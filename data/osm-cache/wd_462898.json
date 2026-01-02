@@ -1,0 +1,654 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:35:31Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2462105474,
+      "lat": 45.1521399,
+      "lon": -0.7417463,
+      "tags": {
+        "craft": "winery",
+        "name": "Château du Glana"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3432053246,
+      "lat": 45.1471892,
+      "lon": -0.7427088,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Saint-Pierre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3594411677,
+      "lat": 45.2120204,
+      "lon": -0.7705678,
+      "tags": {
+        "craft": "winery",
+        "name": "Musée du vin dans l'art du château Mouton Rothschild"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3751440211,
+      "lat": 45.1757849,
+      "lon": -0.7495453,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Pichon-Longueville Comtesse de Lalande"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3751518944,
+      "lat": 45.1848403,
+      "lon": -0.7521181,
+      "tags": {
+        "alcohol": "wine",
+        "craft": "winery",
+        "name": "Château Gaudin",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818670828,
+      "lat": 45.208716,
+      "lon": -0.7708132,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Pontet Canet",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4857189224,
+      "lat": 45.1597012,
+      "lon": -0.7569445,
+      "tags": {
+        "addr:city": "Saint-Julien-Beychevelle",
+        "addr:postcode": "33250",
+        "addr:street": "Route de Saint-Laurent",
+        "alcohol": "wine",
+        "craft": "winery",
+        "email": "talbot@chateau-talbot.com",
+        "name": "Château Talbot",
+        "phone": "+33 5 56 73 21 50",
+        "website": "https://www.chateau-talbot.com/",
+        "wikidata": "Q1090679",
+        "wikipedia": "en:Château Talbot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4867278921,
+      "lat": 45.148358,
+      "lon": -0.7418289,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Gloria"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6051390088,
+      "lat": 45.1265307,
+      "lon": -0.663616,
+      "tags": {
+        "addr:city": "Blaye",
+        "addr:housenumber": "1Bis",
+        "addr:postcode": "33390",
+        "addr:street": "Cours Vauban",
+        "contact:phone": "+33 5 57 33 04 18",
+        "contact:website": "https://www.cavedelestuaire.com",
+        "name": "Cave de l'Estuaire",
+        "opening_hours": "Tu-Sa 10:00-12:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7429713892,
+      "lat": 45.0964671,
+      "lon": -0.7802203,
+      "tags": {
+        "addr:city": "Listrac-Médoc",
+        "addr:housenumber": "11",
+        "addr:postcode": "33480",
+        "addr:street": "Route de Donissan",
+        "craft": "winery",
+        "name": "Château Reverdi",
+        "opening_hours": "Mo-Sa 09:00-12:00,14:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7959937419,
+      "lat": 45.1504461,
+      "lon": -0.7475177,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Lalande Borie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7959937443,
+      "lat": 45.1451556,
+      "lon": -0.7384421,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Branaire-Ducru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7959937444,
+      "lat": 45.1455729,
+      "lon": -0.734323,
+      "tags": {
+        "craft": "winery",
+        "description": "Château Beychevelle",
+        "name": "Château Beychevelle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7959937449,
+      "lat": 45.1637427,
+      "lon": -0.73933,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Léoville"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8601475153,
+      "lat": 45.191382,
+      "lon": -0.7545445,
+      "tags": {
+        "addr:city": "Pauillac",
+        "addr:postcode": "33250",
+        "craft": "winery",
+        "name": "Château Lynch-Bages",
+        "phone": "+33 5 56 73 24 00",
+        "website": "https://www.lynchbages.com/",
+        "wikidata": "Q1090546",
+        "wikipedia": "fr:Château Lynch-Bages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11425705368,
+      "lat": 45.2149699,
+      "lon": -0.7690274,
+      "tags": {
+        "addr:city": "Le Pouyalet",
+        "alcohol": "wine",
+        "appellation_wine1855": "Pauillac",
+        "classification_wine1855": "Premier_Grand_Crus",
+        "craft": "winery",
+        "name": "Château Mouton Rothschild",
+        "phone": "+33 5 56 73 21 29",
+        "website": "https://www.chateau-mouton-rothschild.com",
+        "wikidata": "Q1061469"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11428662024,
+      "lat": 45.1758564,
+      "lon": -0.7445573,
+      "tags": {
+        "addr:city": "Daubos",
+        "alcohol": "wine",
+        "appellation_wine1855": "Pauillac",
+        "classification_wine1855": "Premier_Grand_Crus",
+        "craft": "winery",
+        "email": "contact@chateau-latour.com",
+        "name": "Château Latour",
+        "phone": "+33 5 56 73 19 80",
+        "website": "https://www.chateau-latour.com/",
+        "wikidata": "Q1090583"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11540039584,
+      "lat": 45.1766155,
+      "lon": -0.7519532,
+      "tags": {
+        "alcohol": "wine",
+        "craft": "winery",
+        "description": "Château Pichon Baron",
+        "name": "Château Pichon Baron",
+        "shop": "alcohol",
+        "website": "https://www.pichonbaron.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11543154734,
+      "lat": 45.1444065,
+      "lon": -0.7390506,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Branaire-Ducru",
+        "wikidata": "Q1090345"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12165178295,
+      "lat": 45.1370901,
+      "lon": -0.6648801,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Marquis de Vauban"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12231569477,
+      "lat": 45.1858683,
+      "lon": -0.7530158,
+      "tags": {
+        "name": "Le Pavillon des Châteaux",
+        "shop": "wine",
+        "website": "https://lepavillondeschateaux.com/fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12923587116,
+      "lat": 45.1128982,
+      "lon": -0.7307248,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Avenue du Haut Médoc",
+        "contact:facebook": "https://www.facebook.com/chateaugrandbrun/",
+        "contact:instagram": "https://www.instagram.com/chateaugrandbrun/",
+        "craft": "winery",
+        "email": "contact@chateau-grand-brun.com",
+        "name": "Cave Grand Brun",
+        "phone": "+33 5 56 58 97 87",
+        "ref:FR:SIRET": "50930814400013",
+        "website": "https://www.chateau-grand-brun.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 191956793,
+      "center": {
+        "lat": 45.2248056,
+        "lon": -0.7731782
+      },
+      "tags": {
+        "addr:city": "Mousset",
+        "alcohol": "wine",
+        "appellation_wine1855": "Pauillac",
+        "building": "yes",
+        "classification_wine1855": "Premier_Grand_Crus",
+        "craft": "winery",
+        "heritage": "3",
+        "heritage:operator": "mhs",
+        "historic": "castle",
+        "mhs:inscription_date": "1989-11-22",
+        "name": "Château Lafite-Rothschild",
+        "phone": "+33 5 56 73 18 18",
+        "ref:mhs": "PA00083885",
+        "source:heritage": "data.gouv.fr:Ministère de la Culture - 04/2015",
+        "website": "https://www.lafite.com/domaines/chateau-lafite-rothschild/",
+        "wikidata": "Q1090558",
+        "wikipedia": "fr:Château Lafite-Rothschild"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365330685,
+      "center": {
+        "lat": 45.1710505,
+        "lon": -0.834046
+      },
+      "tags": {
+        "building": "yes",
+        "check_date": "2023-07-30",
+        "craft": "winery",
+        "name": "Château Balac",
+        "ref:FR:RNB": "XBWYSTFD1RTC",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613932256,
+      "center": {
+        "lat": 45.2127318,
+        "lon": -0.7571569
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Pédesclaux",
+        "ref:FR:RNB": "F2GS3YDQMMZT",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 804904705,
+      "center": {
+        "lat": 45.1442988,
+        "lon": -0.750921
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Gruaud Larose"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1014174769,
+      "center": {
+        "lat": 45.1482139,
+        "lon": -0.7721273
+      },
+      "tags": {
+        "craft": "winery",
+        "email": "contact@chateau-lagrange.com",
+        "image": "https://chateau-lagrange.com/wp-content/uploads/2020/05/lagrange.jpg",
+        "landuse": "farmyard",
+        "name": "Château Lagrange",
+        "phone": "+33 5 56 73 38 38",
+        "website": "https://chateau-lagrange.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1241102186,
+      "center": {
+        "lat": 45.1900924,
+        "lon": -0.7689987
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Grand-Puy Lacoste"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1242447082,
+      "center": {
+        "lat": 45.1491198,
+        "lon": -0.7324012
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Ducru-Beaucaillou",
+        "wikidata": "Q1090428"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1243545686,
+      "center": {
+        "lat": 45.146544,
+        "lon": -0.7862433
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Camensac",
+        "website": "https://chateaucamensac.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244160039,
+      "center": {
+        "lat": 45.1469827,
+        "lon": -0.7939859
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château La Tour Carnet",
+        "website": "https://www.chateau-latourcarnet.fr",
+        "wikidata": "Q465045",
+        "wikipedia": "fr:Château La Tour Carnet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244557622,
+      "center": {
+        "lat": 45.1512035,
+        "lon": -0.7789854
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Belgrave"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244596768,
+      "center": {
+        "lat": 45.1527056,
+        "lon": -0.8063481
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Barateau"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1245004577,
+      "center": {
+        "lat": 45.169053,
+        "lon": -0.7988237
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château de Cach"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320762188,
+      "center": {
+        "lat": 45.0851268,
+        "lon": -0.7445964
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Maucaillou"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1321810660,
+      "center": {
+        "lat": 45.1907855,
+        "lon": -0.7565709
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Croizet-Bages",
+        "website": "https://www.domaines-quie.com/croizet-bages/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1321810663,
+      "center": {
+        "lat": 45.1890382,
+        "lon": -0.7551733
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Haut de la Becade"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1322062703,
+      "center": {
+        "lat": 45.1810891,
+        "lon": -0.7529954
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Fonbadet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323832872,
+      "center": {
+        "lat": 45.1819876,
+        "lon": -0.7925172
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Lynch-Moussas"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323832873,
+      "center": {
+        "lat": 45.1763141,
+        "lon": -0.7729656
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Batailley"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323938149,
+      "center": {
+        "lat": 45.1657649,
+        "lon": -0.7900061
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Domaine Perganson"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324342076,
+      "center": {
+        "lat": 45.1637026,
+        "lon": -0.7868093
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Larose Trintaudon"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340814435,
+      "center": {
+        "lat": 45.1573262,
+        "lon": -0.7399688
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Langoa Barton"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1341515121,
+      "center": {
+        "lat": 45.221815,
+        "lon": -0.765335
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Clerc-Milon",
+        "website": "https://www.bpdr.com/chateau-clerc-milon"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1342088359,
+      "center": {
+        "lat": 45.1823238,
+        "lon": -0.7494083
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Haut-Bages Libéral"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8503987,
+      "center": {
+        "lat": 45.1574495,
+        "lon": -0.8234935
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Devise d'Ardilley",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015",
+        "type": "multipolygon",
+        "website": "https://www.chateaudevisedardilley.fr/"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8555781,
+      "center": {
+        "lat": 45.1913692,
+        "lon": -0.8000611
+      },
+      "tags": {
+        "building": "castle",
+        "craft": "winery",
+        "email": "contact@hourtin-ducasse.com",
+        "name": "Château Hourtin-Ducasse",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+33 5 56 59 56 92",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "website": "https://www.hourtin-ducasse.com/"
+      }
+    }
+  ]
+}

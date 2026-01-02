@@ -1,0 +1,435 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:29:24Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2405058705,
+      "lat": 47.0669037,
+      "lon": 4.8606572,
+      "tags": {
+        "addr:postcode": "21420",
+        "name": "Domaine Château de Corton André",
+        "shop": "wine",
+        "website": "http://www.corton-andre.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2929294101,
+      "lat": 47.0262295,
+      "lon": 4.8345975,
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Rue Sylvestre Chauvelot",
+        "name": "Caves de l'Abbaye",
+        "name:en": "Caves de l'Abbaye",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3561942727,
+      "lat": 47.0632244,
+      "lon": 4.8175001,
+      "tags": {
+        "name": "Pavillon des vignerons",
+        "opening_hours": "Tu-Sa 10:00-12:00,16:00-18:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681268569,
+      "lat": 47.0229323,
+      "lon": 4.8365208,
+      "tags": {
+        "name": "Domaine des Vins",
+        "opening_hours": "PH,Mo-Su 09:45-12:15,13:00-19:30",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681268572,
+      "lat": 47.0228267,
+      "lon": 4.8361142,
+      "tags": {
+        "name": "Espace Viticulture",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681268577,
+      "lat": 47.0233161,
+      "lon": 4.8360254,
+      "tags": {
+        "addr:city": "Beaune",
+        "addr:housenumber": "6b",
+        "addr:street": "Avenue de la République",
+        "name": "La P'tite Cave",
+        "phone": "+33380246083",
+        "shop": "wine",
+        "website": "https://www.laptitecave-beaune.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681303853,
+      "lat": 47.0209212,
+      "lon": 4.839658,
+      "tags": {
+        "name": "Vina List",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4867682939,
+      "lat": 47.0227929,
+      "lon": 4.8390254,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "21200",
+        "addr:street": "Place Carnot",
+        "name": "Domaine & Sélection",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4952437423,
+      "lat": 47.0470578,
+      "lon": 4.8657039,
+      "tags": {
+        "addr:street": "Rue Alexandre Tollot",
+        "name": "Domaine Tollot-Beaut",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5044234193,
+      "lat": 47.0199198,
+      "lon": 4.849796,
+      "tags": {
+        "addr:city": "Beaune",
+        "addr:housenumber": "6",
+        "addr:postcode": "21200",
+        "addr:street": "Route de Seurre",
+        "craft": "winery",
+        "name": "Comte de Chapelle",
+        "ref:FR:NAF": "01.21Z",
+        "ref:FR:SIRET": "49937084900014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5044234195,
+      "lat": 47.0196145,
+      "lon": 4.8461643,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Emmanuel Giboulot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5044450908,
+      "lat": 47.0192487,
+      "lon": 4.8285851,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Route de Pommard",
+        "craft": "winery",
+        "name": "Robert Laboureau",
+        "ref:FR:SIRET": "34039563100013",
+        "source": "INSEE-SIRET 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5603017444,
+      "lat": 47.0637923,
+      "lon": 4.8195031,
+      "tags": {
+        "addr:city": "Savigny-lès-Beaune",
+        "addr:country": "FR",
+        "addr:housenumber": "11",
+        "addr:postcode": "21420",
+        "addr:street": "Rue du Jarron",
+        "air_conditioning": "yes",
+        "check_date": "2024-08-05",
+        "craft": "winery",
+        "email": "thierry.pinte101@orange.fr",
+        "facebook": "https://www.facebook.com/domainepinte",
+        "internet_access": "no",
+        "name": "Domaine Pinte",
+        "opening_hours": "Mo-Sa 08:00-18:30; Su 08:00-12:00",
+        "operator": "Thierry & Nicolas Pinte",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+33 6 75 36 18 75",
+        "source": "local knowledge",
+        "toilets": "yes",
+        "website": "https://www.domaine-pinte.fr/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5603332841,
+      "lat": 47.0240982,
+      "lon": 4.8428382,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Rue du Château",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Bouchard Père et Fils",
+        "name:en": "Bouchard Pere et Fils",
+        "phone": "+33 3 80 24 80 24",
+        "shop": "alcohol",
+        "website": "https://www.bouchard-pereetfils.com",
+        "wikidata": "Q2921339",
+        "wikipedia": "fr:Bouchard Père & Fils"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7632556133,
+      "lat": 47.0876286,
+      "lon": 4.905112,
+      "tags": {
+        "addr:city": "Corgoloin",
+        "addr:housenumber": "85",
+        "addr:postcode": "21700",
+        "name": "Domaine Laurent Jeanniard",
+        "operator": "Laurent Jeanniard",
+        "phone": "+33380627253",
+        "shop": "wine",
+        "website": "https://domainelaurentjeanniard.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8554577442,
+      "lat": 47.0636434,
+      "lon": 4.8194601,
+      "tags": {
+        "addr:city": "Savigny-lès-Beaune",
+        "addr:housenumber": "9",
+        "addr:postcode": "21420",
+        "addr:street": "Rue du Jarron",
+        "check_date": "2024-08-05",
+        "craft": "winery",
+        "email": "contact@cremant-parigot.com",
+        "name": "PARIGOT & RICHARD",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "+33 3 80 21 50 66",
+        "website": "https://www.cremant-parigot.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9743036155,
+      "lat": 47.0283459,
+      "lon": 4.8289719,
+      "tags": {
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Domaine Guyot",
+        "operator": "Baptiste Guyot",
+        "phone": "+33 3 80 22 46 55",
+        "shop": "alcohol",
+        "tourism": "wine_cellar",
+        "was:name": "Ferme de l’Abbaye Saint-Martin",
+        "website": "https://www.domaine-baptiste-guyot.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9961016217,
+      "lat": 47.0222684,
+      "lon": 4.8371457,
+      "tags": {
+        "name": "Athenaeum",
+        "shop": "wine",
+        "survey:date": "2022-08-18",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10924011629,
+      "lat": 47.0242415,
+      "lon": 4.8416106,
+      "tags": {
+        "name": "OCD grands crus",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10963461656,
+      "lat": 47.0206521,
+      "lon": 4.8427298,
+      "tags": {
+        "name": "Mon Millésime",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11886996607,
+      "lat": 47.0219704,
+      "lon": 4.8397631,
+      "tags": {
+        "name": "L'arche des vins",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12139429478,
+      "lat": 47.1295255,
+      "lon": 4.9057525,
+      "tags": {
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Domaine Cruchandeau",
+        "operator": "Julien Cruchandeau",
+        "phone": "+33 6 74 85 79 62",
+        "shop": "alcohol",
+        "tourism": "wine_cellar",
+        "website": "https://www.domaine-cruchandeau.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12543324074,
+      "lat": 47.0305308,
+      "lon": 4.8418134,
+      "tags": {
+        "addr:city": "Beaune",
+        "addr:housenumber": "78",
+        "addr:postcode": "21200",
+        "addr:street": "Rue du Faubourg Saint-Nicolas",
+        "craft": "winery",
+        "email": "contact@domaine-besancenot.fr",
+        "name": "Domaine Besancenot",
+        "opening_hours": "Tu-Sa 10:00-12:00,14:00-17:45",
+        "phone": "+333 80 22 18 76",
+        "ref:FR:SIRET": "52917200900019",
+        "website": "https://www.domaine-besancenot.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13122862778,
+      "lat": 47.0848908,
+      "lon": 4.8973465,
+      "tags": {
+        "addr:city": "Corgoloin",
+        "addr:postcode": "21700",
+        "addr:street": "Route Départementale 974",
+        "name": "Domaine d'Ardhuy",
+        "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00",
+        "phone": "+33380629873",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13351398384,
+      "lat": 47.0878073,
+      "lon": 4.9209152,
+      "tags": {
+        "addr:city": "Corgoloin",
+        "addr:housenumber": "21",
+        "addr:postcode": "21700",
+        "addr:street": "Impasse du Château de la Chaume",
+        "name": "Domaine PANSIOT",
+        "phone": "+33 3 80 62 94 32",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117507321,
+      "center": {
+        "lat": 47.013052,
+        "lon": 4.8160895
+      },
+      "tags": {
+        "addr:housenumber": "97",
+        "addr:street": "Route de Pommard",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Cave des Hautes-Côtes Nuiton-Beaunoy",
+        "phone": "+33 3 80 25 01 03",
+        "ref:FR:SIRET": "77556721700028",
+        "shop": "wine",
+        "short_name": "CHC",
+        "website": "https://nuiton-beaunoy.fr"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117528887,
+      "center": {
+        "lat": 47.0225595,
+        "lon": 4.839487
+      },
+      "tags": {
+        "addr:city": "Beaune",
+        "addr:housenumber": "13",
+        "addr:postcode": "21200",
+        "addr:street": "Rue d'Alsace",
+        "building": "yes",
+        "name": "Mes Bourgognes",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117547537,
+      "center": {
+        "lat": 47.0199305,
+        "lon": 4.836703
+      },
+      "tags": {
+        "addr:city": "Beaune",
+        "addr:housenumber": "1",
+        "addr:postcode": "21200",
+        "addr:street": "Place Saint-Jacques",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Debray",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
+        "website": "https://www.domaine-debray.fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1382766259,
+      "center": {
+        "lat": 47.0615163,
+        "lon": 4.8229105
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Doudet Naudin SA"
+      }
+    }
+  ]
+}

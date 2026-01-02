@@ -1,0 +1,419 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:28:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1229508664,
+      "lat": 47.2259675,
+      "lon": 4.971109,
+      "tags": {
+        "name": "La Cave de Vénus",
+        "ref:FR:SIRET": "84868773700017",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893155031,
+      "lat": 47.1748772,
+      "lon": 4.9635799,
+      "tags": {
+        "name": "La Grande Cave de Vougeot",
+        "name:fr": "La Grande Cave de Vougeot",
+        "opening_hours": "May-Oct: Mo-Su,PH 10:00-19:00;Nov-Apr: Mo-Su,PH 10:00-18:00",
+        "ref:FR:SIRET": "36950085500050",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893166861,
+      "lat": 47.1792375,
+      "lon": 4.9642242,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Hudelot Noellat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893229621,
+      "lat": 47.1938109,
+      "lon": 4.9657508,
+      "tags": {
+        "name": "Domaine Dujac",
+        "name:fr": "Domaine Dujac",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4894430630,
+      "lat": 47.1590947,
+      "lon": 4.9552617,
+      "tags": {
+        "name": "Domaine anne gros",
+        "name:fr": "Domaine anne gros",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6076061662,
+      "lat": 47.1511163,
+      "lon": 4.892248,
+      "tags": {
+        "name": "Domaine de Villars-Fontaine",
+        "shop": "wine",
+        "website": "http://www.chateaudevillarsfontaine.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6296823685,
+      "lat": 47.1794444,
+      "lon": 4.9643231,
+      "tags": {
+        "addr:city": "Vougeot",
+        "addr:housenumber": "10",
+        "addr:postcode": "21640",
+        "addr:street": "Ancienne Route Nationale 74",
+        "craft": "winery",
+        "email": "contact@christianclerget-vins.fr",
+        "name": "Domaine Christian Clerget",
+        "phone": "+33 3 80 62 87 37",
+        "website": "http://www.christianclerget-vins.fr/fr/domaine/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6296823686,
+      "lat": 47.1784842,
+      "lon": 4.9643694,
+      "tags": {
+        "addr:city": "Gilly-lès-Cîteaux",
+        "addr:postcode": "21640",
+        "addr:street": "Rue du Vieux Château",
+        "craft": "winery",
+        "name": "Domaine Christian Confuron",
+        "phone": "+33 3 80 62 86 80",
+        "website": "http://www.domaine-christian-confuron.com/fr/index.php"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6296823687,
+      "lat": 47.1779421,
+      "lon": 4.9641196,
+      "tags": {
+        "addr:city": "Vougeot",
+        "addr:housenumber": "1",
+        "addr:postcode": "21640",
+        "addr:street": "Rue du Vieux Château",
+        "email": "contact@lamaisonvougeot.com",
+        "name": "La Maison Vougeot",
+        "phone": "+33 3 80 61 06 10",
+        "ref:FR:SIRET": "51542030500259",
+        "shop": "wine",
+        "website": "https://www.lamaisonvougeot.com/fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6720578503,
+      "lat": 47.1568049,
+      "lon": 4.9599922,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "Route Nationale 74",
+        "name": "Domaine Bernard Audiffred",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7544679829,
+      "lat": 47.1297993,
+      "lon": 4.9516422,
+      "tags": {
+        "name": "Domaine Jafflin",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7947763029,
+      "lat": 47.2258849,
+      "lon": 4.9697199,
+      "tags": {
+        "email": "closdebourgogne@orange.fr",
+        "name": "Clos de Bourgogne",
+        "ref:FR:SIRET": "42334150200031",
+        "shop": "wine",
+        "source": "INSEE - 06/2019",
+        "website": "https://www.closdebourgogne.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7947763048,
+      "lat": 47.2257544,
+      "lon": 4.970073,
+      "tags": {
+        "name": "Au Pinot Noir",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11174834337,
+      "lat": 47.1859872,
+      "lon": 4.9551179,
+      "tags": {
+        "name": "Domaine",
+        "name:fr": "domaine ghislaine barthod",
+        "shop": "wine",
+        "website": "https://rosenthalwinemerchant.com/growers/domaine-ghislaine-barthod/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12561424260,
+      "lat": 47.1657863,
+      "lon": 4.9798134,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Rue Haute",
+        "check_date": "2025-02-06",
+        "craft": "winery",
+        "name": "Domaine Coquard-Fleurot",
+        "phone": "+33 3 80 62 87 88"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13240907998,
+      "lat": 47.1951172,
+      "lon": 4.9618945,
+      "tags": {
+        "check_date": "2025-10-18",
+        "craft": "winery",
+        "name": "Stéphane Magnien"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13240907999,
+      "lat": 47.1956364,
+      "lon": 4.9620403,
+      "tags": {
+        "check_date": "2025-10-18",
+        "name": "Caveau Des Vignerons",
+        "opening_hours": "Mo 14:00-18:00; Tu-Sa 10:00-12:30,13:30-19:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13240908000,
+      "lat": 47.197476,
+      "lon": 4.9631888,
+      "tags": {
+        "check_date": "2025-10-18",
+        "craft": "winery",
+        "name": "Clos Des Lambrays"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13351409816,
+      "lat": 47.2616773,
+      "lon": 4.9765573,
+      "tags": {
+        "addr:city": "Couchey",
+        "addr:housenumber": "1",
+        "addr:postcode": "21160",
+        "addr:street": "Rue Raymond Poincaré",
+        "name": "FOURNIER Denis",
+        "phone": "+33 6 26 97 44 16",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106929167,
+      "center": {
+        "lat": 47.229111,
+        "lon": 4.964474
+      },
+      "tags": {
+        "addr:city": "Gevrey-Chambertin",
+        "addr:housenumber": "17",
+        "addr:postcode": "21220",
+        "addr:street": "Rue Haute",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Le Meix Coquebrique - Domaine Henri Magnien",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106929973,
+      "center": {
+        "lat": 47.2280445,
+        "lon": 4.963271
+      },
+      "tags": {
+        "addr:city": "Gevrey-Chambertin",
+        "addr:housenumber": "1",
+        "addr:postcode": "21220",
+        "addr:street": "Rue Haute",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Thibaut et Fils",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106931008,
+      "center": {
+        "lat": 47.2258655,
+        "lon": 4.9690025
+      },
+      "tags": {
+        "addr:city": "Gevrey-Chambertin",
+        "addr:housenumber": "3",
+        "addr:postcode": "21220",
+        "addr:street": "Rue des Halles",
+        "building": "yes",
+        "name": "M. Guillard",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106932146,
+      "center": {
+        "lat": 47.22746,
+        "lon": 4.962791
+      },
+      "tags": {
+        "addr:city": "Gevrey-Chambertin",
+        "addr:housenumber": "3",
+        "addr:postcode": "21220",
+        "addr:street": "Rue Neuve",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Clos St Jacques",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 125383650,
+      "center": {
+        "lat": 47.23834,
+        "lon": 4.9867785
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Grandsbourgognes",
+        "operator": "Grandsbourgognes",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 125383930,
+      "center": {
+        "lat": 47.238527,
+        "lon": 4.966946
+      },
+      "tags": {
+        "addr:city": "Brochon",
+        "addr:housenumber": "9",
+        "addr:postcode": "21220",
+        "addr:street": "Rue du Rapitot",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Cluny",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "website": "https://www.domaine-cluny.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 324067465,
+      "center": {
+        "lat": 47.261357,
+        "lon": 4.978224
+      },
+      "tags": {
+        "addr:city": "Couchey",
+        "addr:housenumber": "26",
+        "addr:postcode": "21160",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Philippe Robert",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015",
+        "website": "https://www.domainerobert.com/fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 324067509,
+      "center": {
+        "lat": 47.26109,
+        "lon": 4.9756205
+      },
+      "tags": {
+        "addr:city": "Couchey",
+        "addr:housenumber": "8",
+        "addr:postcode": "21160",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine de la Croix de Bois",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 646819523,
+      "center": {
+        "lat": 47.1522803,
+        "lon": 4.8918944
+      },
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Chemin des Beveys",
+        "craft": "winery",
+        "landuse": "industrial",
+        "name": "Cave de Viillars-Fontaine"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 4141043,
+      "center": {
+        "lat": 47.174805,
+        "lon": 4.9551815
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château du Clos de Vougeot",
+        "type": "multipolygon",
+        "website": "https://www.closdevougeot.fr/"
+      }
+    }
+  ]
+}

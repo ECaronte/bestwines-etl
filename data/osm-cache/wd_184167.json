@@ -1,0 +1,278 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:33:24Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2467422305,
+      "lat": 51.1328588,
+      "lon": 13.5998542,
+      "tags": {
+        "addr:city": "Coswig",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "01640",
+        "addr:street": "Spitzgrundstraße",
+        "craft": "winery",
+        "email": "info@weingut-matyas.de",
+        "entrance": "main",
+        "name": "Weingut Matyas",
+        "opening_hours": "Jan-Mar: Mo-Fr 10:00-17:00; Sa 14:00-17:00, Apr-Dec: Mo-Fr 10:00-18:00; Sa-Su,PH 14:00-18:00",
+        "operator": "Andrea Leder",
+        "phone": "+49 3523 532612",
+        "website": "https://www.weingut-matyas.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2599940356,
+      "lat": 51.1465734,
+      "lon": 13.5783484,
+      "tags": {
+        "addr:city": "Coswig",
+        "addr:housenumber": "115",
+        "addr:postcode": "01640",
+        "addr:street": "Steinbacher Weg",
+        "craft": "winery",
+        "name": "Süßmost und Weinkkelterei Sell GmbH",
+        "phone": "+49 3523 7749600",
+        "shop": "beverages",
+        "website": "https://www.kelterei-sell.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3779763809,
+      "lat": 51.1143925,
+      "lon": 13.6207004,
+      "tags": {
+        "name": "Haus Fliegenwedel",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3779840202,
+      "lat": 51.114095,
+      "lon": 13.6198593,
+      "tags": {
+        "name": "Markt",
+        "opening_hours": "Jan-Mar: 10:00-18:00; Apr-Dec: Mo-Sa 10:00-19:00; Apr-Dec: Su 11:00-19:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "wine",
+        "website": "https://shop.schloss-wackerbarth.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4345679457,
+      "lat": 51.111761,
+      "lon": 13.661492,
+      "tags": {
+        "name": "Hoflößnitzer Weinstube",
+        "phone": "+49 351 8398355",
+        "shop": "wine",
+        "website": "https://www.hofloessnitz.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4356385878,
+      "lat": 51.1047542,
+      "lon": 13.6293465,
+      "tags": {
+        "addr:city": "Radebeul",
+        "addr:housenumber": "59",
+        "addr:postcode": "01445",
+        "addr:street": "Altkötzschenbroda",
+        "amenity": "restaurant",
+        "name": "Zur Grünen Linde",
+        "operator": "Ina Hoffmann",
+        "payment:cash": "yes",
+        "phone": "+49 351 79211528",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6764197639,
+      "lat": 51.1407649,
+      "lon": 13.5046516,
+      "tags": {
+        "name": "Vinothek Vincenz Richter",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7080117931,
+      "lat": 51.1103972,
+      "lon": 13.6639294,
+      "tags": {
+        "name": "GutsLaden",
+        "operator": "Weingut Karl Friedrich Aust",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11883175582,
+      "lat": 51.1159304,
+      "lon": 13.6428389,
+      "tags": {
+        "check_date:opening_hours": "2025-07-11",
+        "name": "Besenschänke ,,Zur Gemse''",
+        "opening_hours": "2025 Aug 30 - 2025 Nov 02: Sa,Su 14:00+",
+        "phone": "+49 1723501003",
+        "shop": "wine",
+        "website": "https://www.weinbaugemeinschaft-niederloessnitz.de/Besenschaenke"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28622295,
+      "center": {
+        "lat": 51.0593408,
+        "lon": 13.6670296
+      },
+      "tags": {
+        "addr:city": "Dresden",
+        "addr:country": "DE",
+        "addr:housenumber": "69",
+        "addr:postcode": "01157",
+        "addr:street": "Warthaer Straße",
+        "building": "yes",
+        "name": "Gebhard's Frischdienst Delikatessen Weinhandel",
+        "shop": "wine",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43268130,
+      "center": {
+        "lat": 51.1369045,
+        "lon": 13.5213406
+      },
+      "tags": {
+        "addr:city": "Coswig",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "01640",
+        "addr:street": "Zaschendorfer Straße",
+        "addr:suburb": "Sörnewitz",
+        "building": "yes",
+        "contact:email": "info@weingut-schuh.de",
+        "contact:facebook": "https://www.facebook.com/weingutschuh/",
+        "contact:fax": "+49 3523 84820",
+        "contact:phone": "+49 3523 84810",
+        "contact:website": "http://www.weinhaus-schuh.de",
+        "heritage": "yes",
+        "image": "https://commons.wikimedia.org/wiki/File%3AS%C3%B6rnewitz_Zaschendorfer_Stra%C3%9Fe_2_Dreiseithof_II.jpg",
+        "name": "Vinothek \"Weingut Walter Schuh\"",
+        "operator": "Weinfamilie Schuh GbR",
+        "shop": "wine",
+        "source": "knowledge",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 78471151,
+      "center": {
+        "lat": 51.1399456,
+        "lon": 13.5284598
+      },
+      "tags": {
+        "addr:city": "Coswig",
+        "addr:country": "DE",
+        "addr:housenumber": "45",
+        "addr:postcode": "01640",
+        "addr:street": "Elbgaustraße",
+        "addr:suburb": "Sörnewitz",
+        "building": "yes",
+        "craft": "winery",
+        "heritage": "yes",
+        "historic": "industrial",
+        "image": "https://commons.wikimedia.org/wiki/File%3AP1190169-001.jpg",
+        "name": "Weingut Henke",
+        "old_name": "Cöllner Wasserwerk",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110309792,
+      "center": {
+        "lat": 51.0794419,
+        "lon": 13.6139845
+      },
+      "tags": {
+        "addr:city": "Dresden",
+        "addr:country": "DE",
+        "addr:housenumber": "62",
+        "addr:postcode": "01156",
+        "addr:street": "Talstraße",
+        "building": "yes",
+        "name": "Weinbau Fehrmann",
+        "shop": "wine",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 207656394,
+      "center": {
+        "lat": 51.1104778,
+        "lon": 13.6654613
+      },
+      "tags": {
+        "addr:city": "Radebeul",
+        "addr:housenumber": "16",
+        "addr:postcode": "01445",
+        "addr:street": "Weinbergstraße",
+        "building": "yes",
+        "name": "Weingut Ulf Große",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 238932648,
+      "center": {
+        "lat": 51.1328494,
+        "lon": 13.5999449
+      },
+      "tags": {
+        "addr:city": "Coswig",
+        "addr:housenumber": "12",
+        "addr:postcode": "01640",
+        "addr:street": "Spitzgrundstraße",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Weingut Matyas",
+        "shop": "alcohol",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 767988732,
+      "center": {
+        "lat": 51.1146859,
+        "lon": 13.6455224
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Finstere Gasse",
+        "website": "https://www.saechsische-vinothek.de/besenwirtschaft/"
+      }
+    }
+  ]
+}

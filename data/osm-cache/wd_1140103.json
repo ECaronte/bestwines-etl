@@ -1,0 +1,346 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:29:24Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2894143722,
+      "lat": 46.9740145,
+      "lon": 4.770221,
+      "tags": {
+        "addr:housenumber": "27",
+        "craft": "winery",
+        "email": "contact.millotb@domaine-millot.com",
+        "name": "Domaine Bernard MILLOT",
+        "opening_hours": "Mo-Sa 08:00-12:00,14:00-18:00",
+        "phone": "+33 3 80 21 20 91",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
+        "website": "https://www.domaine-millot.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5343344045,
+      "lat": 46.9740315,
+      "lon": 4.7833962,
+      "tags": {
+        "check_date": "2025-04-10",
+        "name": "Les Caves du Vieux Pressoir",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5416303850,
+      "lat": 46.9870142,
+      "lon": 4.7503061,
+      "tags": {
+        "addr:city": "Auxey-Duresses",
+        "addr:housenumber": "12",
+        "addr:postcode": "21190",
+        "addr:street": "Route de Beaune",
+        "craft": "winery",
+        "description": "Le domaine comprend 11,5 ha de vignes réparties sur le vignoble d’Auxey-Duresses et de Volnay. Une typicité du domaine est de posséder uniquement des vignes hautes en lyres.",
+        "name": "Domaine Roy",
+        "opening_hours": "mo-fr 09:00-12:00, 14:00-19:00",
+        "phone": "+33 3 80 21 22 37; +33 3 80 21 23 75",
+        "source": "Domaine Roy",
+        "website": "http://domaine.roy.free.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5603332843,
+      "lat": 46.976257,
+      "lon": 4.77128,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:postcode": "21190",
+        "addr:street": "Rue de Martray",
+        "name": "Domaine Matrot",
+        "name:en": "Domaine Matrot",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5603332844,
+      "lat": 46.9373392,
+      "lon": 4.7291941,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "21190",
+        "addr:street": "Rue Charles Paquelin",
+        "name": "Caveau de Chassagne",
+        "name:en": "Caveau de Chassagne",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5603332845,
+      "lat": 46.9358,
+      "lon": 4.7249754,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "21190",
+        "addr:street": "Rue du Clos Saint-Jean",
+        "name": "Domaine Paul Pillot",
+        "name:en": "Domaine Paul Pillot",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5603332940,
+      "lat": 47.0064371,
+      "lon": 4.7763674,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "21190",
+        "addr:street": "Cours François Blondeau",
+        "name": "Domaine Henri Delagrange - Didier",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5613523021,
+      "lat": 46.982735,
+      "lon": 4.7679957,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:postcode": "21190",
+        "addr:street": "Rue du 11 Novembre",
+        "name": "Buisson-Battaukt",
+        "name:en": "Buisson-Battaukt",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5912705750,
+      "lat": 46.9869995,
+      "lon": 4.7487471,
+      "tags": {
+        "addr:city": "Auxey-Duresses",
+        "addr:postcode": "21190",
+        "addr:street": "Route de Beaune",
+        "contact:email": "domainemichelprunier-fille@wanadoo.fr",
+        "contact:phone": "+33 3 80 21 21 05",
+        "contact:website": "http://www.domainemichelprunieretfille.com",
+        "craft": "winery",
+        "description": "Producteur - Dégustation Vins de Bourgogne",
+        "name": "Vigneron Michel Prunier et fille",
+        "operator": "Michel Prunier"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6450832343,
+      "lat": 46.9779987,
+      "lon": 4.770294,
+      "tags": {
+        "check_date": "2025-07-16",
+        "name": "Cave des vieilles vignes",
+        "opening_hours": "Mo-Su 09:30-12:30, 14:30-18:00",
+        "shop": "wine",
+        "source": "Observations personnelles"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7815214869,
+      "lat": 46.9134912,
+      "lon": 4.6847892,
+      "tags": {
+        "addr:city": "Santenay",
+        "addr:postcode": "21590",
+        "contact:email": "contact@domainechapelle.com",
+        "craft": "winery",
+        "description": "Depuis quatre générations le travail du vin rythme la vie de la Famille CHAPELLE.",
+        "name": "Domaine Chapelle",
+        "opening_hours": "mo-fr 09:00-12:00, 13:30-17:00",
+        "organic": "only",
+        "phone": "+33 3 80 20 60 09",
+        "website": "https://www.domainechapelle.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8167065017,
+      "lat": 46.9069063,
+      "lon": 4.653187,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:postcode": "71150",
+        "addr:street": "Rue de la Grange Champion",
+        "name": "Gîtes de France",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9147551232,
+      "lat": 46.9115621,
+      "lon": 4.7001684,
+      "tags": {
+        "addr:city": "Santenay",
+        "addr:housenumber": "12",
+        "addr:postcode": "21590",
+        "addr:street": "Place du Jet d'Eau",
+        "drive_through": "no",
+        "email": "contact@mestre-pere-et-fils.fr",
+        "name": "Domaine Mestre Père & Fils",
+        "operator": "Mestre Père & Fils",
+        "shop": "wine",
+        "website": "https://www.mestre-pere-et-fils.fr/fr/nous-contacter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9167448163,
+      "lat": 46.914146,
+      "lon": 4.6957634,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine de la Buissière",
+        "operator": "Jean Moreau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9168955908,
+      "lat": 46.9116304,
+      "lon": 4.6992234,
+      "tags": {
+        "craft": "winery",
+        "name": "Prosper Maufoux"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9732469635,
+      "lat": 46.9861412,
+      "lon": 4.7468378,
+      "tags": {
+        "contact:mobile": "+33 6 75 31 39 44",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "email": "domainelafouge@orange.fr",
+        "name": "Domaine Lafouge",
+        "phone": "+33 3 80 21 68 17",
+        "shop": "alcohol",
+        "tourism": "wine_cellar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10607767073,
+      "lat": 46.9497157,
+      "lon": 4.6388173,
+      "tags": {
+        "name": "Cave du Val d'Or",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11724308729,
+      "lat": 46.9454019,
+      "lon": 4.7527456,
+      "tags": {
+        "addr:city": "Puligny-Montrachet",
+        "addr:housenumber": "15",
+        "addr:postcode": "21190",
+        "addr:street": "Rue de l'Abreuvoir",
+        "craft": "winery",
+        "email": "info@domaineannebavardbrooks.com",
+        "name": "Domaine Anne Bavard-Brooks",
+        "opening_hours": "\"sur rendez-vous\"",
+        "phone": "+33 6 07 74 80 07",
+        "website": "https://www.domaineannebavardbrooks.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12305718163,
+      "lat": 46.9241967,
+      "lon": 4.7998747,
+      "tags": {
+        "craft": "winery",
+        "name": "Chateau Armand Heitz",
+        "tourism": "guest_house",
+        "website": "https://armandheitz.com/en/pages/le-chateau-armand-heitz"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12679530054,
+      "lat": 46.9809104,
+      "lon": 4.7084762,
+      "tags": {
+        "addr:city": "Auxey-Duresses",
+        "addr:housenumber": "7",
+        "addr:postcode": "21190",
+        "addr:street": "Rue d'Amont",
+        "craft": "winery",
+        "name": "Domaine de la Roche Aiguë",
+        "operator": "Guillemard",
+        "phone": "+33380212833",
+        "website": "https://domainedelarocheaigue.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13156023342,
+      "lat": 46.8748356,
+      "lon": 4.7478167,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Dureuil-Janthial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 118384406,
+      "center": {
+        "lat": 46.9752265,
+        "lon": 4.772118
+      },
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:postcode": "21190",
+        "addr:street": "Rue de Mazeray",
+        "alt_name": "Domaine Patrick Javillier",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Cave Saint-Nicolas",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 118387816,
+      "center": {
+        "lat": 46.981695,
+        "lon": 4.7709115
+      },
+      "tags": {
+        "addr:city": "Meursault",
+        "addr:housenumber": "12",
+        "addr:postcode": "21190",
+        "addr:street": "Rue du Cromin",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Michel Caillot",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    }
+  ]
+}

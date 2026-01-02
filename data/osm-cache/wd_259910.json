@@ -1,0 +1,2580 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:34:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 970204303,
+      "lat": 44.8998593,
+      "lon": -0.2131926,
+      "tags": {
+        "name": "V and B",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "822505335",
+        "ref:FR:SIRET": "82250533500015",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2402369562,
+      "lat": 44.9154985,
+      "lon": -0.2441975,
+      "tags": {
+        "name": "Daniaud",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "835132143",
+        "ref:FR:SIRET": "83513214300016",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2513052257,
+      "lat": 44.9122121,
+      "lon": -0.2479874,
+      "tags": {
+        "name": "Horeau-Beylot",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2513052264,
+      "lat": 44.9102915,
+      "lon": -0.2482398,
+      "tags": {
+        "addr:city": "Libourne",
+        "addr:housenumber": "31",
+        "addr:postcode": "33500",
+        "addr:street": "Quai du Priourat",
+        "name": "Jean-Baptiste Audy",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2513052268,
+      "lat": 44.9089763,
+      "lon": -0.2482754,
+      "tags": {
+        "name": "Jean-Pierre Moueix",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580090494,
+      "lat": 44.8866489,
+      "lon": -0.1757624,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Carteau Matras",
+        "ref:FR:CRTA": "DEGAQU033FS000FI",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014, Survey 2015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580094894,
+      "lat": 44.8943811,
+      "lon": -0.2006221,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Cantenac",
+        "ref:FR:CRTA": "DEGAQU033FS0006A",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.chateau-cantenac.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580094895,
+      "lat": 44.8910522,
+      "lon": -0.1789577,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Fonrazade",
+        "ref:FR:CRTA": "DEGAQU033FS0006W",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "http://www.chateau-fonrazade.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580173794,
+      "lat": 44.8982144,
+      "lon": -0.1741292,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Coutet",
+        "ref:FR:CRTA": "DEGAQU033FS000UI",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "http://www.chateau-coutet.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580173795,
+      "lat": 44.8897032,
+      "lon": -0.1768746,
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:housenumber": "1",
+        "addr:postcode": "33330",
+        "addr:street": "Roylland",
+        "craft": "winery",
+        "name": "Château Roylland",
+        "phone": "+336 12 33 31 89",
+        "ref:FR:CRTA": "DEGAQU033FS0008F",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.chateau-roylland.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580173993,
+      "lat": 44.8857849,
+      "lon": -0.1774248,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Carteau Côtes Daugay",
+        "ref:FR:CRTA": "DEGAQU033FS0006E",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014, survey 2015",
+        "website": "http://www.chateau-carteau.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580173998,
+      "lat": 44.901969,
+      "lon": -0.1673594,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Ambe Tour Pourret",
+        "ref:FR:CRTA": "DEGAQU033FS0008M",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "http://www.saint-emilion.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580174197,
+      "lat": 44.8997087,
+      "lon": -0.1808406,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Arnaud de Jacquemeau",
+        "ref:FR:CRTA": "DEGAQU033FS00060",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.arnaud-de-jacquemeau.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580174198,
+      "lat": 44.8948664,
+      "lon": -0.164405,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Beau-Séjour-Bécot",
+        "name:fr": "Château Beau-Séjour-Bécot",
+        "ref:FR:CRTA": "DEGAQU033FS0019J",
+        "shop": "wine",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "tourism": "wine_cellar",
+        "website": "http://www.beausejour-becot.com",
+        "wikidata": "Q1090330",
+        "wikipedia": "fr:Château Beau-Séjour Bécot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580174301,
+      "lat": 44.8955325,
+      "lon": -0.1625004,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Le Châtelet",
+        "ref:FR:CRTA": "DEGAQU033FS000FK",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.chateau-le-chatelet.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580174302,
+      "lat": 44.8946215,
+      "lon": -0.1583546,
+      "tags": {
+        "craft": "winery",
+        "name": "Clos Fourtet",
+        "ref:FR:CRTA": "DEGAQU033FS000PC",
+        "shop": "wine",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "http://www.closfourtet.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3580211795,
+      "lat": 44.9019861,
+      "lon": -0.1679645,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Franc Pourret",
+        "ref:FR:CRTA": "DEGAQU033FS000P8",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.ouzoulias-vins.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3755840154,
+      "lat": 44.9145545,
+      "lon": -0.1496058,
+      "tags": {
+        "craft": "winery",
+        "ref:FR:CRTA": "DEGAQU033FS0008N",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://chateau-tour-saint-pierre.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4396171493,
+      "lat": 44.8931447,
+      "lon": -0.1557844,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Place de l'Église Monolithe",
+        "level": "0",
+        "name": "Le Cellier de Saint-Émilion",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "538351172",
+        "ref:FR:SIRET": "53835117200019",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4667326194,
+      "lat": 44.9206501,
+      "lon": -0.1941866,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Tour Figeac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4667511990,
+      "lat": 44.9231362,
+      "lon": -0.1811376,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Corbin Michotte"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4667579189,
+      "lat": 44.9213016,
+      "lon": -0.1949885,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Grave Figeac",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4667579190,
+      "lat": 44.9195486,
+      "lon": -0.1900131,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Cheval Blanc"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4667579191,
+      "lat": 44.9258386,
+      "lon": -0.1954311,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Conseillante"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4667615389,
+      "lat": 44.9255651,
+      "lon": -0.1928455,
+      "tags": {
+        "craft": "winery",
+        "name": "Château L'Évangile"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818633223,
+      "lat": 44.9320833,
+      "lon": -0.2040517,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Gombaude Guillot",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818664222,
+      "lat": 44.835648,
+      "lon": -0.1927784,
+      "tags": {
+        "craft": "winery",
+        "name": "Château les Gravières",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818664225,
+      "lat": 44.867371,
+      "lon": -0.0904441,
+      "tags": {
+        "craft": "winery",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818710121,
+      "lat": 44.9399336,
+      "lon": -0.1233092,
+      "tags": {
+        "craft": "winery",
+        "name": "Vignobles Tapon",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4820856421,
+      "lat": 44.9149188,
+      "lon": -0.2033027,
+      "tags": {
+        "craft": "winery",
+        "name": "La Rose Figeac",
+        "organic": "only",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4915375310,
+      "lat": 44.8885365,
+      "lon": -0.1406215,
+      "tags": {
+        "name": "Château Troplong Mondot",
+        "shop": "wine",
+        "website": "www.chateau-troplong-mondot.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4918485924,
+      "lat": 44.9477585,
+      "lon": -0.2164569,
+      "tags": {
+        "addr:city": "Lalande-de-Pomerol",
+        "addr:postcode": "33500",
+        "addr:street": "Route de Bel-Air",
+        "craft": "winery",
+        "email": "contact@chateaudebelair.com",
+        "name": "Château de Bel-Air",
+        "phone": "+33 9 67 05 40 07",
+        "website": "http://chateaudebelair.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978050722,
+      "lat": 44.8734632,
+      "lon": -0.1825055,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Croix de Bertinat",
+        "ref:FR:CRTA": "DEGAQU033V508B0R",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978050723,
+      "lat": 44.8683067,
+      "lon": -0.182224,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Palais Cardinal",
+        "ref:FR:CRTA": "DEGAQU033FS001HW",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.chateau-palais-cardinal.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978050724,
+      "lat": 44.8657074,
+      "lon": -0.1832726,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Mauvinon",
+        "ref:FR:CRTA": "DEGAQU033FS000FL",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.chateaumauvinon.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978050728,
+      "lat": 44.8392578,
+      "lon": -0.2043356,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Montlau",
+        "ref:FR:CRTA": "DEGAQU033FS000GD",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.chateau-montlau.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978050729,
+      "lat": 44.8416381,
+      "lon": -0.2217343,
+      "tags": {
+        "craft": "winery",
+        "fixme": "A placer au 2 Les Arromans,",
+        "name": "Château La Mothe du Barry",
+        "ref:FR:CRTA": "DEGAQU033V509PM1",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://vignoblesjoelduffau.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4978050730,
+      "lat": 44.8511796,
+      "lon": -0.2420311,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Lecourt Caillet",
+        "ref:FR:CRTA": "DEGAQU033FS0016U",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.chateaulecourtcaillet.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5129348471,
+      "lat": 44.8627927,
+      "lon": -0.1458795,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Beaurang",
+        "ref:FR:CRTA": "DEGAQU033FS00147",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.chateau-beaurang.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5129348472,
+      "lat": 44.8608943,
+      "lon": -0.1287101,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Petit Bouquey",
+        "ref:FR:CRTA": "DEGAQU033FS001I0",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.chateau-petit-bouquey.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6006971201,
+      "lat": 44.9112945,
+      "lon": -0.248107,
+      "tags": {
+        "addr:city": "Libourne",
+        "addr:housenumber": "20",
+        "addr:postcode": "33500",
+        "addr:street": "Quai du Priourat",
+        "craft": "winery",
+        "name": "Maison de vins Emmanuel Giraud"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6040276586,
+      "lat": 44.8930648,
+      "lon": -0.1558672,
+      "tags": {
+        "level": "0",
+        "name": "La Cave du Marché",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6457255385,
+      "lat": 44.915595,
+      "lon": -0.2013925,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "33330",
+        "addr:street": "Chemin de la Lamberte",
+        "craft": "winery",
+        "email": "contact@latourfigeac.fr",
+        "name": "Château La Tour Figeac",
+        "opening_hours": "Mo-Fr 09:00-10:30,14:00-16:30",
+        "phone": "+33557517762",
+        "website": "https://latourfigeac.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6463872187,
+      "lat": 44.9103686,
+      "lon": -0.2111633,
+      "tags": {
+        "name": "Château Tailhas",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6604358218,
+      "lat": 44.8759821,
+      "lon": -0.1470775,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Peyrelongue",
+        "operator": "Christina et Hugues Augarde",
+        "website": "https://www.chateaupeyrelongue.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7092939815,
+      "lat": 44.9071735,
+      "lon": -0.2306385,
+      "tags": {
+        "name": "Cash Vin",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "397511783",
+        "ref:FR:SIRET": "39751178300078",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095409925,
+      "lat": 44.9025191,
+      "lon": -0.2037862,
+      "tags": {
+        "name": "Château Clos Saint-Émilion Philippe",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7449426512,
+      "lat": 44.9166297,
+      "lon": -0.1489593,
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:housenumber": "3",
+        "addr:postcode": "33330",
+        "addr:street": "Vachon",
+        "craft": "winery",
+        "internet_access": "wlan",
+        "name": "Vieux Chateau Vachon",
+        "operator": "Lavandier Thierry",
+        "phone": "+33557744664",
+        "product": "wine",
+        "website": "https://vieuxchateauvachon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7547890511,
+      "lat": 44.8734571,
+      "lon": -0.1763536,
+      "tags": {
+        "addr:city": "Saint-Sulpice-de-Faleyrens",
+        "addr:postcode": "33330",
+        "addr:street": "42 Avenue de Saint-Emilion",
+        "name": "Château Monbousquet",
+        "operator": "Perse Family",
+        "shop": "wine",
+        "website": "https://www.chateaumonbousquet.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7728561087,
+      "lat": 44.8677109,
+      "lon": -0.1553038,
+      "tags": {
+        "addr:hamlet": "Queyron",
+        "addr:housenumber": "3",
+        "name": "Château Queyron Pindefleurs",
+        "shop": "wine",
+        "website": "http://queyronpindefleurs.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7815462040,
+      "lat": 44.9101464,
+      "lon": -0.1356125,
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:postcode": "33330",
+        "contact:email": "info@chateau-champion.com",
+        "contact:facebook": "https://www.facebook.com/chateauchampion/",
+        "craft": "winery",
+        "description": "Le Château Champion est la propriété de la famille Bourrigaud qui perpétue son savoir-faire depuis le XVIIIème siècle, situé à Saint-Émilion, lieu authentique dans le vignoble bordelais.",
+        "name": "Château Champion",
+        "opening_hours": "mo-su 09:30-11:30,14:00-18:30",
+        "organic": "yes",
+        "phone": "+33 5 57 74 43 98",
+        "website": "https://chateau-champion.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9226054947,
+      "lat": 44.8851814,
+      "lon": -0.1754526,
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:housenumber": "3",
+        "addr:postcode": "33330",
+        "addr:street": "Lieu-dit Daugay",
+        "craft": "winery",
+        "name": "Château Daugay",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "SCEA Château Daugay",
+        "phone": "+33 5 57 74 82 55",
+        "website": "https://www.daugay.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9275946884,
+      "lat": 44.9335748,
+      "lon": -0.1732545,
+      "tags": {
+        "craft": "winery",
+        "name": "Vignobles Moncets & Chambrun",
+        "phone": "+33 5 57 51 19 33",
+        "ref:FR:CRTA": "DEGAQU033FS000HO",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.moncets.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9275946887,
+      "lat": 44.9397189,
+      "lon": -0.1919119,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Belles-Graves",
+        "phone": "+33 5 57 51 09 61",
+        "ref:FR:CRTA": "DEGAQU033FS000HM",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.belles-graves.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9275946906,
+      "lat": 44.9378157,
+      "lon": -0.1870326,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Tournefeuille",
+        "phone": "+33 5 57 51 18 61",
+        "ref:FR:CRTA": "DEGAQU033V50L8QZ",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.chateau-tournefeuille.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9930049022,
+      "lat": 44.8927277,
+      "lon": -0.1567481,
+      "tags": {
+        "check_date": "2025-05-22",
+        "name": "La Petite boutique",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10011819411,
+      "lat": 44.8952385,
+      "lon": -0.2203387,
+      "tags": {
+        "craft": "winery",
+        "description": "Organic, bee-friendly certified winery. Tours (including in English) are available with an appointment.",
+        "email": "gueyrosse@free.fr",
+        "name": "Château Gueyrosse",
+        "phone": "+33 5 57 51 02 63",
+        "website": "https://www.vignobles-yves-delol.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10829941400,
+      "lat": 44.8947716,
+      "lon": -0.1450248,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "33330",
+        "addr:street": "Trotte-Vieille",
+        "craft": "winery",
+        "name": "Châteu Trottevieille"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10886940186,
+      "lat": 44.8877807,
+      "lon": -0.0856386,
+      "tags": {
+        "name": "Château Valandraud",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10886940195,
+      "lat": 44.8878498,
+      "lon": -0.0854758,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Valandraud"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10886940196,
+      "lat": 44.8898741,
+      "lon": -0.0828718,
+      "tags": {
+        "name": "Château Fleur Cardinale",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10886940197,
+      "lat": 44.8899638,
+      "lon": -0.0826722,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Fleur Cardinale"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10926135307,
+      "lat": 44.8967689,
+      "lon": -0.1140936,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Fombrauge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10926135310,
+      "lat": 44.8959295,
+      "lon": -0.1175599,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Tonneret"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10926135311,
+      "lat": 44.8913894,
+      "lon": -0.1189483,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Laroque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940001230,
+      "lat": 44.8970157,
+      "lon": -0.1384602,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Haut-Sarpe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940001231,
+      "lat": 44.897117,
+      "lon": -0.1381598,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Clos de Sarpe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940001258,
+      "lat": 44.8919164,
+      "lon": -0.1326442,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Barde-Haut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940015615,
+      "lat": 44.8924852,
+      "lon": -0.139221,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Sarpe Grand Jacques"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940015618,
+      "lat": 44.8844489,
+      "lon": -0.1349259,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Croizille"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10949472595,
+      "lat": 44.8811629,
+      "lon": -0.1609192,
+      "tags": {
+        "craft": "winery",
+        "name": "CHÂTEAU CANON LA GAFFELIÈRE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11216178039,
+      "lat": 44.9030761,
+      "lon": -0.1720739,
+      "tags": {
+        "craft": "winery",
+        "name": "Clos des jacobins",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11495319465,
+      "lat": 44.9089848,
+      "lon": -0.1626197,
+      "tags": {
+        "craft": "winery",
+        "name": "Vignobles Sautereau",
+        "phone": "+33 6 85 20 62 90",
+        "website": "https://www.vignoble-sautereau.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11696595406,
+      "lat": 44.9390522,
+      "lon": -0.2113695,
+      "tags": {
+        "addr:city": "Pomerol",
+        "addr:housenumber": "56",
+        "addr:postcode": "33500",
+        "addr:street": "Route de Périgueux",
+        "name": "Château La Croix Taillefer",
+        "opening_hours": "Mo-Fr 09:00-12:00, 14:00-17:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11724482730,
+      "lat": 44.9083735,
+      "lon": -0.1917197,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Marzelle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11727924149,
+      "lat": 44.9092946,
+      "lon": -0.1831566,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Pas de l'Ane",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11727946907,
+      "lat": 44.9086244,
+      "lon": -0.1799624,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Haut Segottes",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11747925277,
+      "lat": 44.9058685,
+      "lon": -0.1641509,
+      "tags": {
+        "craft": "winery",
+        "name": "Chateau Côte De Baleau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11747925307,
+      "lat": 44.904264,
+      "lon": -0.1549999,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Moulin du Cadet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11747925347,
+      "lat": 44.9044032,
+      "lon": -0.1597063,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Fonroque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11750294893,
+      "lat": 44.899736,
+      "lon": -0.1542662,
+      "tags": {
+        "name": "Château Cadet-Pontet",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11750294937,
+      "lat": 44.9016642,
+      "lon": -0.1532319,
+      "tags": {
+        "name": "Chäteau Cadet-Bon",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11767258093,
+      "lat": 44.9539447,
+      "lon": -0.2072326,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Perron",
+        "website": "https://chateauperron.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11786725256,
+      "lat": 44.9532216,
+      "lon": -0.195176,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Champs de Lalande",
+        "website": "https://www.domaine-champs-de-lalande.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876962,
+      "lat": 44.9305946,
+      "lon": -0.2001049,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Lafleur Pétrus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876963,
+      "lat": 44.9278421,
+      "lon": -0.1986042,
+      "tags": {
+        "name": "Château Certan de May",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876964,
+      "lat": 44.9318203,
+      "lon": -0.1925182,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Lafleur Saint-Jean"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876965,
+      "lat": 44.9320539,
+      "lon": -0.1880336,
+      "tags": {
+        "name": "Château Lafleur Gazin",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876966,
+      "lat": 44.9319685,
+      "lon": -0.1874757,
+      "tags": {
+        "name": "Château Gazin",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876967,
+      "lat": 44.9296917,
+      "lon": -0.1796892,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Vieux Maillet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871876968,
+      "lat": 44.9300335,
+      "lon": -0.1792493,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Franc Maillet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885669,
+      "lat": 44.9294695,
+      "lon": -0.1801184,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Tour Maillet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885670,
+      "lat": 44.9292739,
+      "lon": -0.1810357,
+      "tags": {
+        "name": "Château le Bon Pasteur",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885671,
+      "lat": 44.929027,
+      "lon": -0.1818752,
+      "tags": {
+        "name": "Château Haut Maillet",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885672,
+      "lat": 44.9238598,
+      "lon": -0.2004764,
+      "tags": {
+        "name": "Château Petit Village",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885673,
+      "lat": 44.9229596,
+      "lon": -0.2020374,
+      "tags": {
+        "name": "Château Beauregard",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885674,
+      "lat": 44.9233299,
+      "lon": -0.2040276,
+      "tags": {
+        "name": "Château le Clos du Clocher",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885675,
+      "lat": 44.9232777,
+      "lon": -0.2072462,
+      "tags": {
+        "name": "Château le Caillou",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885676,
+      "lat": 44.9233204,
+      "lon": -0.2067956,
+      "tags": {
+        "name": "Château la Croix",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885677,
+      "lat": 44.915617,
+      "lon": -0.2034751,
+      "tags": {
+        "name": "Clos Beauregard",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885678,
+      "lat": 44.9153615,
+      "lon": -0.2095543,
+      "tags": {
+        "craft": "winery",
+        "name": "Château les grands Sillons"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885679,
+      "lat": 44.9204716,
+      "lon": -0.2158977,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Beau Soleil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885680,
+      "lat": 44.9207261,
+      "lon": -0.2151802,
+      "tags": {
+        "craft": "winery",
+        "name": "Château la Fleur de Plince"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885681,
+      "lat": 44.9205533,
+      "lon": -0.2148637,
+      "tags": {
+        "craft": "winery",
+        "name": "Clos Beau Soleil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885682,
+      "lat": 44.9201316,
+      "lon": -0.2138954,
+      "tags": {
+        "name": "Château la Tribune",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11871885683,
+      "lat": 44.9138875,
+      "lon": -0.2140798,
+      "tags": {
+        "name": "Château Taillefer",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075316027,
+      "lat": 44.8929622,
+      "lon": -0.1562796,
+      "tags": {
+        "name": "Will Wine",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075321819,
+      "lat": 44.8922565,
+      "lon": -0.156524,
+      "tags": {
+        "name": "Caveau du Château Rozier",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075321820,
+      "lat": 44.8914779,
+      "lon": -0.155524,
+      "tags": {
+        "name": "Le Jardin d'Amélie",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075328549,
+      "lat": 44.8934961,
+      "lon": -0.1554747,
+      "tags": {
+        "craft": "winery",
+        "name": "La Tour des Vins"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075328550,
+      "lat": 44.8933072,
+      "lon": -0.1556819,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Rue de la Cadène",
+        "name": "La Boutique du Tertre",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "335273777",
+        "ref:FR:SIRET": "33527377700201",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075328575,
+      "lat": 44.8925053,
+      "lon": -0.1566864,
+      "tags": {
+        "name": "Les Caves de la Tour du Roy",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075333080,
+      "lat": 44.8935679,
+      "lon": -0.155535,
+      "tags": {
+        "name": "Caveau des Vins",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075337834,
+      "lat": 44.8938776,
+      "lon": -0.1551692,
+      "tags": {
+        "name": "Nicole Tapon",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075347487,
+      "lat": 44.8937758,
+      "lon": -0.1551912,
+      "tags": {
+        "name": "Etablissement Martin",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075352376,
+      "lat": 44.8915334,
+      "lon": -0.1555959,
+      "tags": {
+        "name": "Amphoria Vinæ",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075353856,
+      "lat": 44.8928142,
+      "lon": -0.1564017,
+      "tags": {
+        "name": "Petit Gravet",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075353857,
+      "lat": 44.8924597,
+      "lon": -0.1565141,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Escalette de la Grande Fontaine",
+        "name": "Le Cellier des Châteaux",
+        "ref:FR:NAF": "47.25Z",
+        "ref:FR:SIREN": "794056432",
+        "ref:FR:SIRET": "79405643200014",
+        "shop": "wine",
+        "source": "INSEE - 2025-03"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12075359980,
+      "lat": 44.8926935,
+      "lon": -0.1566268,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Rue de la Porte Bouqueyre",
+        "name": "Marchand de Soif",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "495167116",
+        "ref:FR:SIRET": "49516711600047",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12085358473,
+      "lat": 44.9284816,
+      "lon": -0.0820595,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Guillotin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12451685072,
+      "lat": 44.8911168,
+      "lon": -0.1554115,
+      "tags": {
+        "addr:city": "Saint-Emilion",
+        "addr:housenumber": "12",
+        "addr:street": "Rue André Loiseau",
+        "name": "Why not ...",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12451685074,
+      "lat": 44.8910415,
+      "lon": -0.1552972,
+      "tags": {
+        "name": "Établissements Lauret",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291058,
+      "lat": 44.891881,
+      "lon": -0.1560285,
+      "tags": {
+        "name": "Les Producteurs Associés",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291059,
+      "lat": 44.8918308,
+      "lon": -0.155951,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Rue de la Porte Bouqueyre",
+        "name": "Badon Wine Boutique",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "335273777",
+        "ref:FR:SIRET": "33527377700227",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291060,
+      "lat": 44.8917836,
+      "lon": -0.155999,
+      "tags": {
+        "name": "... Vins",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291062,
+      "lat": 44.8917261,
+      "lon": -0.1559346,
+      "tags": {
+        "name": "Les délices du Roy",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291063,
+      "lat": 44.8916876,
+      "lon": -0.1558907,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Rue de la Porte Bouqueyre",
+        "name": "Boutique Wines",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "848931697",
+        "ref:FR:SIRET": "84893169700017",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291068,
+      "lat": 44.8915078,
+      "lon": -0.1557079,
+      "tags": {
+        "addr:city": "Saint-Emilion",
+        "addr:housenumber": "15",
+        "addr:street": "Rue de la Porte Bouqueyre",
+        "name": "Bordeaux Classique",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "479798944",
+        "ref:FR:SIRET": "47979894400019",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291070,
+      "lat": 44.8913888,
+      "lon": -0.1555765,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Rue de la Porte Bouqueyre",
+        "name": "Cave de la Fontaine",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "495167116",
+        "ref:FR:SIRET": "49516711600054",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452291071,
+      "lat": 44.8913494,
+      "lon": -0.1554265,
+      "tags": {
+        "name": "Terres Millésimées",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12452312157,
+      "lat": 44.8935507,
+      "lon": -0.1551524,
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Rue Guadet",
+        "name": "Les Caves Natures",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "890195175",
+        "ref:FR:SIRET": "89019517500025",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12453598648,
+      "lat": 44.909871,
+      "lon": -0.1836562,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Croix Meunier",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12453642501,
+      "lat": 44.9066283,
+      "lon": -0.1755774,
+      "tags": {
+        "craft": "winery",
+        "name": "Château la Grâce Dieu",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12453642514,
+      "lat": 44.9074822,
+      "lon": -0.1772022,
+      "tags": {
+        "craft": "winery",
+        "name": "Château la Grâce Dieu Les Menuts",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12457339078,
+      "lat": 44.90708,
+      "lon": -0.22262,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Cruzeau",
+        "ref:FR:CRTA": "DEGAQU033V510OX3",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.chateau-cruzeau.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12457768069,
+      "lat": 44.8930384,
+      "lon": -0.1557475,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Rue du Marché",
+        "name": "Direct Château",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "538351172",
+        "ref:FR:SIRET": "53835117200027",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12457768070,
+      "lat": 44.8930529,
+      "lon": -0.1559738,
+      "tags": {
+        "addr:city": "Saint-Emilion",
+        "addr:housenumber": "3",
+        "addr:street": "Place de l'Église Monolithe",
+        "name": "L'Émilion",
+        "ref:FR:NAF": "4725Z",
+        "ref:FR:SIREN": "441591963",
+        "ref:FR:SIRET": "44159196300018",
+        "shop": "wine",
+        "source": "INSEE - 2025-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12457799579,
+      "lat": 44.8936059,
+      "lon": -0.155439,
+      "tags": {
+        "name": "O Tour du 20",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13179795168,
+      "lat": 44.9202811,
+      "lon": -0.1696646,
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:housenumber": "2194",
+        "addr:postcode": "33330",
+        "addr:street": "Route des Cabanes",
+        "craft": "winery",
+        "email": "chateau@grandcorbin.com",
+        "name": "Château Grand Corbin",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+33 7 87 35 97 95",
+        "website": "https://grand-corbin.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79335439,
+      "center": {
+        "lat": 44.9204942,
+        "lon": -0.2199774
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Seraphine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79336147,
+      "center": {
+        "lat": 44.910127,
+        "lon": -0.2098756
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château du Tailhas",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79340352,
+      "center": {
+        "lat": 44.9135909,
+        "lon": -0.2130667
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79344336,
+      "center": {
+        "lat": 44.9180067,
+        "lon": -0.2152943
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château la Croix du Casse",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79356724,
+      "center": {
+        "lat": 44.9149444,
+        "lon": -0.2160764
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château des Jacobins",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79357574,
+      "center": {
+        "lat": 44.9209334,
+        "lon": -0.2200555
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Clos Vieux Taillefer",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79361238,
+      "center": {
+        "lat": 44.915223,
+        "lon": -0.2041561
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château la Clémence",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79362328,
+      "center": {
+        "lat": 44.909729,
+        "lon": -0.2104646
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Rocher Beauregard",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79363477,
+      "center": {
+        "lat": 44.9175412,
+        "lon": -0.2127757
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Ferrand",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79365040,
+      "center": {
+        "lat": 44.9225949,
+        "lon": -0.2107775
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Nénin",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173275021,
+      "center": {
+        "lat": 44.8726145,
+        "lon": -0.162051
+      },
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:postcode": "33330",
+        "addr:street": "Lieu-dit Lartigue",
+        "building": "yes",
+        "name": "Château Grand-Lartigue",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173279215,
+      "center": {
+        "lat": 44.915595,
+        "lon": -0.2014145
+      },
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "33330",
+        "addr:street": "Chemin de la Lamberte",
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173279282,
+      "center": {
+        "lat": 44.8720755,
+        "lon": -0.161225
+      },
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:postcode": "33330",
+        "addr:street": "Lieu-dit Lartigue",
+        "building": "yes",
+        "name": "Château Ferrand-Lartigue",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173279296,
+      "center": {
+        "lat": 44.9249855,
+        "lon": -0.1832755
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "historic": "castle",
+        "name": "Château Croque-Michotte",
+        "organic": "only",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173279498,
+      "center": {
+        "lat": 44.9202265,
+        "lon": -0.182673
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Jean Faure",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+        "website": "https://www.jeanfaure.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173279703,
+      "center": {
+        "lat": 44.886816,
+        "lon": -0.1817175
+      },
+      "tags": {
+        "building": "yes",
+        "castle_type": "manor",
+        "craft": "winery",
+        "heritage": "3",
+        "heritage:operator": "mhs",
+        "historic": "castle",
+        "mhs:inscription_date": "2015-12-01",
+        "name": "Château Pindefleurs",
+        "ref:mhs": "PA33000193",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+        "wikidata": "Q59149301"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173279983,
+      "center": {
+        "lat": 44.8894845,
+        "lon": -0.202993
+      },
+      "tags": {
+        "addr:city": "Saint-Émilion",
+        "addr:housenumber": "1",
+        "addr:postcode": "33330",
+        "addr:street": "Les Grandes Versannes",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Saint-Jean",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173280046,
+      "center": {
+        "lat": 44.9081422,
+        "lon": -0.1788074
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Laroze",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173280407,
+      "center": {
+        "lat": 44.9093221,
+        "lon": -0.1817567
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Montlambert"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173281524,
+      "center": {
+        "lat": 44.8909225,
+        "lon": -0.154408
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Petit Gravet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173281551,
+      "center": {
+        "lat": 44.92349,
+        "lon": -0.177825
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Grand Corbin-Despagne",
+        "organic": "only",
+        "ref:FR:CRTA": "DEGAQU033FS00074",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012,Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.grand-corbin-despagne.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173281654,
+      "center": {
+        "lat": 44.909009,
+        "lon": -0.20689
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Pierre Ier",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173281743,
+      "center": {
+        "lat": 44.920512,
+        "lon": -0.186864
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château La Dominique",
+        "ref:FR:CRTA": "DEGAQU033FS0014B",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.chateau-ladominique.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173282280,
+      "center": {
+        "lat": 44.9098275,
+        "lon": -0.208663
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173282432,
+      "center": {
+        "lat": 44.909094,
+        "lon": -0.1507525
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Saint-Esprit",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173282649,
+      "center": {
+        "lat": 44.8969455,
+        "lon": -0.15454
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Guadet",
+        "ref:FR:CRTA": "DEGAQU033FS00075",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "http://www.chateau-guadet-saintemilion.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 315852771,
+      "center": {
+        "lat": 44.9344143,
+        "lon": -0.1970192
+      },
+      "tags": {
+        "building": "house",
+        "craft": "winery",
+        "name": "Château Le Gay",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225421,
+      "center": {
+        "lat": 44.927949,
+        "lon": -0.2028222
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "craft": "winery",
+        "name": "Château Haut-Tropchaud"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225427,
+      "center": {
+        "lat": 44.9303367,
+        "lon": -0.2006767
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "craft": "winery",
+        "name": "Château Tropchaud L'Église",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225435,
+      "center": {
+        "lat": 44.9311364,
+        "lon": -0.2009339
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Château Saint-Pierre",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225477,
+      "center": {
+        "lat": 44.9347333,
+        "lon": -0.199756
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225479,
+      "center": {
+        "lat": 44.9350567,
+        "lon": -0.1993845
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château La Fleur de Gay",
+        "operator": "Château La Fleur de Gay",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021",
+        "website": "https://www.chateau-la-fleur-de-gay.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225480,
+      "center": {
+        "lat": 44.9352795,
+        "lon": -0.1997792
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316225486,
+      "center": {
+        "lat": 44.9344048,
+        "lon": -0.2031789
+      },
+      "tags": {
+        "addr:city": "Pomerol",
+        "addr:postcode": "33500",
+        "addr:street": "Chemin de l'Ancienne Église",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Clos l'église",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316253584,
+      "center": {
+        "lat": 44.9345185,
+        "lon": -0.208325
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316253596,
+      "center": {
+        "lat": 44.934052,
+        "lon": -0.215405
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316253611,
+      "center": {
+        "lat": 44.9314516,
+        "lon": -0.2134882
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Ronan by Clinet",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316253618,
+      "center": {
+        "lat": 44.933555,
+        "lon": -0.1973666
+      },
+      "tags": {
+        "building": "house",
+        "building:levels": "1",
+        "craft": "winery",
+        "name": "Château Vray Croix de Gay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316253619,
+      "center": {
+        "lat": 44.9278628,
+        "lon": -0.198395
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021",
+        "wall": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316253623,
+      "center": {
+        "lat": 44.9273493,
+        "lon": -0.1978016
+      },
+      "tags": {
+        "addr:city": "Pomerol",
+        "addr:housenumber": "1",
+        "addr:postcode": "33500",
+        "addr:street": "Route de Lussac",
+        "building": "house",
+        "building:levels": "1",
+        "craft": "winery",
+        "name": "Vieux Château Certan",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316624278,
+      "center": {
+        "lat": 44.923574,
+        "lon": -0.2043899
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321040319,
+      "center": {
+        "lat": 44.9309274,
+        "lon": -0.1934557
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Château Lafleur Pétrus",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321040330,
+      "center": {
+        "lat": 44.9305925,
+        "lon": -0.192826
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Pétrus",
+        "source": "Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322329028,
+      "center": {
+        "lat": 44.9227605,
+        "lon": -0.206897
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322329033,
+      "center": {
+        "lat": 44.9223073,
+        "lon": -0.2087116
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château la Fleur du Roy",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322562444,
+      "center": {
+        "lat": 44.9332525,
+        "lon": -0.1926785
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Lafleur",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322567807,
+      "center": {
+        "lat": 44.916783,
+        "lon": -0.2043885
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Pomeaux",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322567808,
+      "center": {
+        "lat": 44.9154535,
+        "lon": -0.2029825
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Clos Toulifaut",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322567810,
+      "center": {
+        "lat": 44.9200555,
+        "lon": -0.2107075
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château La Commanderie",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322567811,
+      "center": {
+        "lat": 44.915741,
+        "lon": -0.2035421
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Clos Beauregard",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322567818,
+      "center": {
+        "lat": 44.915585,
+        "lon": -0.204287
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Toulifaut",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322567825,
+      "center": {
+        "lat": 44.91754,
+        "lon": -0.2090095
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Pierhem",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+      }
+    },
+    {
+      "type": "way",
+      "id": 341825171,
+      "center": {
+        "lat": 44.9391775,
+        "lon": -0.2115173
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château La Croix Taillefer",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 341825181,
+      "center": {
+        "lat": 44.9364021,
+        "lon": -0.215758
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 341825240,
+      "center": {
+        "lat": 44.9366385,
+        "lon": -0.1971296
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 341825243,
+      "center": {
+        "lat": 44.9364596,
+        "lon": -0.1974959
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362085719,
+      "center": {
+        "lat": 44.9315447,
+        "lon": -0.2161303
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021",
+        "wall": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362144257,
+      "center": {
+        "lat": 44.9362115,
+        "lon": -0.194134
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 438823967,
+      "center": {
+        "lat": 44.9337436,
+        "lon": -0.1540019
+      },
+      "tags": {
+        "addr:city": "Montagne",
+        "addr:postcode": "33570",
+        "addr:street": "Maison Blanche",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Maison Blanche",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"
+      }
+    },
+    {
+      "type": "way",
+      "id": 438828680,
+      "center": {
+        "lat": 44.9062088,
+        "lon": -0.09787
+      },
+      "tags": {
+        "addr:housenumber": "3 bis",
+        "addr:street": "Route de Parsac",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Baudon",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016",
+        "website": "https://www.domaine-baudon.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005509862,
+      "center": {
+        "lat": 44.9351877,
+        "lon": -0.1996831
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château La Croix de Gay",
+        "operator": "Château La Croix de Gay",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021",
+        "website": "https://www.chateau-la-croix-de-gay.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1339767268,
+      "center": {
+        "lat": 44.8899056,
+        "lon": -0.1727345
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Le Dôme",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1346441203,
+      "center": {
+        "lat": 44.9084831,
+        "lon": -0.1778432
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery"
+      }
+    }
+  ]
+}

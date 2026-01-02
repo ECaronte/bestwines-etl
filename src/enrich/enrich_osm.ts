@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { OverpassClient } from "../sources/osm_overpass.js";
+import { OverpassClient, readCache, writeCache, type OverpassResponse } from "../sources/osm_overpass.js";
 import { pickBestCandidate, type Candidate } from "./match.js";
 
 type Winery = {
@@ -11,7 +11,9 @@ type Winery = {
   lat?: number;
   lng?: number;
   website?: string;
-  // cualquier otro campo lo dejamos pasar sin tiparlo
+  phone?: string;
+  email?: string;
+  v2?: any;
   [k: string]: any;
 };
 
@@ -55,9 +57,130 @@ function writeCsv(p: string, rows: Record<string, any>[]) {
   fs.writeFileSync(p, out + "\n", "utf8");
 }
 
-function clip(s: any, n = 220) {
-  const t = s == null ? "" : String(s);
-  return t.length > n ? t.slice(0, n) : t;
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function toNumber(x: any): number | undefined {
+  return typeof x === "number" && Number.isFinite(x) ? x : undefined;
+}
+
+function normalizeWebsite(u: string): string {
+  const s = String(u || "").trim();
+  if (!s) return "";
+  if (/^https?:\/\//i.test(s)) return s;
+  // OSM a veces tiene "www.xxx.com" sin esquema
+  if (/^www\./i.test(s)) return `https://${s}`;
+  return s;
+}
+
+function firstNonEmpty(...vals: any[]) {
+  for (const v of vals) {
+    const s = v == null ? "" : String(v).trim();
+    if (s) return s;
+  }
+  return "";
+}
+
+function getAddrFromTags(t: Record<string, string>) {
+  const parts = [
+    [t["addr:housenumber"], t["addr:street"]].filter(Boolean).join(" ").trim(),
+    t["addr:postcode"],
+    t["addr:city"],
+    t["addr:state"],
+    t["addr:country"],
+  ].filter(Boolean);
+  return parts.join(" ").trim();
+}
+
+function buildOsmUrl(type: "node" | "way" | "relation" | string | undefined, id: number | undefined) {
+  if (!type || !id) return "";
+  if (type !== "node" && type !== "way" && type !== "relation") return "";
+  return `https://www.openstreetmap.org/${type}/${id}`;
+}
+
+function extractCandidates(res: OverpassResponse): Candidate[] {
+  const els = Array.isArray((res as any)?.elements) ? (res as any).elements : [];
+  return els.map((el: any) => {
+    const t = (el?.tags || {}) as Record<string, string>;
+    const c = el?.center || {};
+    const lat = toNumber(el?.lat) ?? toNumber(c?.lat);
+    const lon = toNumber(el?.lon) ?? toNumber(c?.lon);
+    const name = firstNonEmpty(t.name, "");
+    const website = normalizeWebsite(firstNonEmpty(t.website, t["contact:website"], t.url));
+    const phone = firstNonEmpty(t.phone, t["contact:phone"], t["contact:mobile"]);
+    const email = firstNonEmpty(t.email, t["contact:email"]);
+    const address = getAddrFromTags(t);
+
+    return {
+      name,
+      website,
+      phone,
+      address,
+      lat,
+      lon,
+      tags: t,
+      // extra opcional (lo ignorará match si no lo usa)
+      type: el?.type,
+      osmId: el?.id,
+    } as any;
+  });
+}
+
+async function safeOverpassJSON(client: OverpassClient, queryFn: () => Promise<OverpassResponse>): Promise<OverpassResponse> {
+  const maxRetries = Number(process.env.OSM_MAX_RETRIES || 6);
+  const base = Number(process.env.OSM_BACKOFF_BASE_MS || 2500);
+  const jitter = Number(process.env.OSM_BACKOFF_JITTER_MS || 600);
+  const hardTimeoutS = Number(process.env.OSM_TIMEOUT_S || 90);
+
+  let lastErr: any = null;
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      // timeout “duro” a nivel cliente
+      const res = await Promise.race([
+        queryFn(),
+        new Promise<OverpassResponse>((_, rej) =>
+          setTimeout(() => rej(new Error(`Overpass hard-timeout ${hardTimeoutS}s`)), hardTimeoutS * 1000)
+        ),
+      ]);
+
+      // sanity: tiene elements array
+      const ok = res && Array.isArray((res as any).elements);
+      if (!ok) {
+        // a veces devuelve HTML/XML sin status != 200; o JSON inesperado
+        throw new Error("Overpass returned non-standard payload (no elements array)");
+      }
+      return res;
+    } catch (e: any) {
+      lastErr = e;
+
+      // si es parse error por HTML/XML: reintentar igual, pero con backoff grande
+      const msg = String(e?.message || e);
+      const isParseLike = /Unexpected token\s*<|not valid JSON|non-standard payload/i.test(msg);
+      const is429 = /429/.test(msg);
+      const is504 = /504/.test(msg);
+      const isTimeout = /timeout/i.test(msg);
+
+      const shouldRetry = attempt < maxRetries && (isParseLike || is429 || is504 || isTimeout || true);
+      if (!shouldRetry) break;
+
+      const wait = base * Math.pow(2, attempt) + Math.floor(Math.random() * jitter);
+      await sleep(wait);
+      continue;
+    }
+  }
+
+  throw lastErr || new Error("Overpass failed (unknown)");
+}
+
+function ensureV2(outW: any) {
+  if (!outW.v2) outW.v2 = {};
+  if (!outW.v2.content) outW.v2.content = {};
+  if (!outW.v2.content.i18n) outW.v2.content.i18n = {};
+  if (!outW.v2.content.i18n.en) outW.v2.content.i18n.en = {};
+  if (!outW.v2.content.i18n.es) outW.v2.content.i18n.es = {};
+  if (!outW.v2.osm) outW.v2.osm = {};
 }
 
 export async function enrichOsm(opts: {
@@ -74,8 +197,9 @@ export async function enrichOsm(opts: {
   const weakScore = Number(process.env.OSM_WEAK_SCORE || 0.65);
   const radiusM = Number(process.env.OSM_RADIUS_M || 8000);
 
-  // si pones OSM_FALLBACK_NAME=0 desactivas el fallback por nombre
-  const enableNameFallback = String(process.env.OSM_FALLBACK_NAME ?? "1") !== "0";
+  const fallbackByName = String(process.env.OSM_FALLBACK_NAME || "0") === "1";
+  const cacheTtlDays = Number(process.env.OSM_CACHE_TTL_DAYS || 30);
+  const cacheOnly = String(process.env.OSM_CACHE_ONLY || "0") === "1";
 
   const client = new OverpassClient();
 
@@ -96,159 +220,153 @@ export async function enrichOsm(opts: {
 
   for (let i = 0; i < max; i++) {
     const w = wineries[i];
-    const lat = w.lat;
-    const lon = w.lng;
 
-    // si no hay coords, no hacemos OSM por ahora
-    if (typeof lat !== "number" || typeof lon !== "number") {
+    // preferimos enriquecer solo si tiene id+name
+    if (!w?.id || !w?.name) {
       noMatch++;
       qaRows.push({
-        id: w.id,
-        name: w.name,
-        status: "no_coords",
+        id: w?.id || "",
+        name: w?.name || "",
+        status: "invalid_row",
       });
       continue;
     }
 
-    let res: any = null;
+    const lat = typeof w.lat === "number" ? w.lat : undefined;
+    const lon = typeof w.lng === "number" ? w.lng : undefined;
 
-    // 1) intento principal: around(lat,lon)
+    let usedFallbackName = 0;
+    let cacheHit = 0;
+
     try {
-      res = await client.searchAround({ lat, lon, radiusM });
-    } catch (e: any) {
-      // 2) fallback opcional: searchByName
-      if (enableNameFallback) {
-        try {
-          res = await client.searchByName({ name: w.name });
-        } catch (e2: any) {
-          errors++;
-          qaRows.push({
-            id: w.id,
-            name: w.name,
-            status: "error",
-            error: clip(e2?.message || e2),
-            stage: "around+name",
-          });
-          continue;
+      // 1) cache
+      let res: OverpassResponse | null = readCache(w.id, cacheTtlDays);
+      if (res) cacheHit = 1;
+
+      // 2) query coords
+      if (!res && !cacheOnly) {
+        if (typeof lat === "number" && typeof lon === "number") {
+          res = await safeOverpassJSON(client, () =>
+            client.searchAround({ lat, lon, radiusM })
+          );
         }
-      } else {
-        errors++;
+      }
+
+      // 3) fallback: query por name (si permitido)
+      if (!res && fallbackByName && !cacheOnly) {
+        usedFallbackName = 1;
+        res = await safeOverpassJSON(client, () => client.searchByName({ name: w.name }));
+      }
+
+      if (!res) {
+        noMatch++;
         qaRows.push({
           id: w.id,
           name: w.name,
-          status: "error",
-          error: clip(e?.message || e),
-          stage: "around",
+          status: typeof lat === "number" && typeof lon === "number" ? "no_match" : "no_coords",
+          cache: cacheHit ? "hit" : "miss",
+          fallbackName: usedFallbackName,
         });
         continue;
       }
-    }
 
-    const els = Array.isArray(res?.elements) ? res.elements : [];
+      // persist cache (aunque sea fallback name)
+      if (!cacheHit) writeCache(w.id, res);
 
-    const candidates: Candidate[] = els.map((el: any) => {
-      const t = el?.tags || {};
-      const c = el?.center || {};
-      const lat2 =
-        typeof el?.lat === "number"
-          ? el.lat
-          : typeof c?.lat === "number"
-            ? c.lat
-            : undefined;
-      const lon2 =
-        typeof el?.lon === "number"
-          ? el.lon
-          : typeof c?.lon === "number"
-            ? c.lon
-            : undefined;
+      const candidates: Candidate[] = extractCandidates(res);
 
-      // website en OSM suele estar en website o contact:website
-      const website = t.website || t["contact:website"] || t["url"] || "";
-      const phone = t.phone || t["contact:phone"] || t["contact:mobile"] || "";
-      const name = t.name || "";
-      const addr =
-        [
-          t["addr:housenumber"],
-          t["addr:street"],
-          t["addr:postcode"],
-          t["addr:city"],
-          t["addr:state"],
-          t["addr:country"],
-        ]
-          .filter(Boolean)
-          .join(" ")
-          .trim() || "";
+      const best = pickBestCandidate({ wineryName: w.name, candidates });
 
-      return {
-        name,
-        website,
-        phone,
-        address: addr,
-        lat: lat2,
-        lon: lon2,
-        tags: t,
+      if (!best) {
+        noMatch++;
+        qaRows.push({
+          id: w.id,
+          name: w.name,
+          status: "no_match",
+          cache: cacheHit ? "hit" : "miss",
+          fallbackName: usedFallbackName,
+        });
+        continue;
+      }
+
+      const score = best.score;
+      const b: any = best.c || {};
+
+      const status =
+        score >= minScore
+          ? "matched_strong"
+          : score >= weakScore
+            ? "matched_weak"
+            : "low_confidence";
+
+      if (status === "matched_strong") matchedStrong++;
+      else if (status === "matched_weak") matchedWeak++;
+      else noMatch++;
+
+      // Guardamos “safe fields” + metadatos OSM
+      const outW: any = { ...w };
+      ensureV2(outW);
+
+      // website/phone/email solo si vacío
+      const website = normalizeWebsite(firstNonEmpty(b.website, ""));
+      if (!outW.website && website) outW.website = website;
+
+      const phone = firstNonEmpty(b.phone, "");
+      if (!outW.phone && phone) outW.phone = phone;
+
+      const email = firstNonEmpty(b.email, "");
+      if (!outW.email && email) outW.email = email;
+
+      // addressText: solo si vacío
+      const address = firstNonEmpty(b.address, "");
+      if (address) {
+        if (!outW.v2.content.i18n.en.addressText) outW.v2.content.i18n.en.addressText = address;
+        if (!outW.v2.content.i18n.es.addressText) outW.v2.content.i18n.es.addressText = address;
+      }
+
+      // osm meta siempre (aunque low_confidence)
+      const osmType = b.type || (b.tags ? "" : "");
+      const osmId = typeof b.osmId === "number" ? b.osmId : undefined;
+      const osmUrl = buildOsmUrl(osmType, osmId);
+
+      outW.v2.osm = {
+        id: osmId ?? outW.v2.osm?.id,
+        type: osmType || outW.v2.osm?.type,
+        url: osmUrl || outW.v2.osm?.url,
+        score: Number.isFinite(score) ? Number(score.toFixed(3)) : outW.v2.osm?.score,
+        match: status,
+        source: "overpass",
       };
-    });
 
-    const best = pickBestCandidate({ wineryName: w.name, candidates });
+      wineries[i] = outW;
 
-    if (!best) {
-      noMatch++;
       qaRows.push({
         id: w.id,
         name: w.name,
-        status: "no_match",
+        status,
+        score: Number.isFinite(score) ? score.toFixed(3) : "",
+        osmName: firstNonEmpty(b.name, ""),
+        website: website || "",
+        phone: phone || "",
+        email: email || "",
+        address: address || "",
+        osmType: osmType || "",
+        osmId: osmId ?? "",
+        osmUrl: osmUrl || "",
+        cache: cacheHit ? "hit" : "miss",
+        fallbackName: usedFallbackName,
       });
+    } catch (e: any) {
+      errors++;
+      qaRows.push({
+        id: w?.id || "",
+        name: w?.name || "",
+        status: "error",
+        error: String(e?.message || e).slice(0, 240),
+      });
+      // no rompemos el loop
       continue;
     }
-
-    const score = best.score;
-    const b = best.c;
-
-    const status =
-      score >= minScore
-        ? "matched_strong"
-        : score >= weakScore
-          ? "matched_weak"
-          : "low_confidence";
-
-    if (status === "matched_strong") matchedStrong++;
-    else if (status === "matched_weak") matchedWeak++;
-    else noMatch++;
-
-    // guardamos SOLO cosas “safe” (web/phone/address) sin tocar slugs ni ids
-    const outW = { ...w };
-
-    if (!outW.website && b.website) outW.website = b.website;
-    if (!outW.v2) outW.v2 = {};
-    if (!outW.v2.location) outW.v2.location = {};
-    if (!outW.v2.content) outW.v2.content = {};
-    if (!outW.v2.content.i18n) outW.v2.content.i18n = {};
-    if (!outW.v2.content.i18n.en) outW.v2.content.i18n.en = {};
-    if (!outW.v2.content.i18n.es) outW.v2.content.i18n.es = {};
-
-    // addressText (mínimo)
-    const address = b.address || "";
-    if (address) {
-      if (!outW.v2.content.i18n.en.addressText) outW.v2.content.i18n.en.addressText = address;
-      if (!outW.v2.content.i18n.es.addressText) outW.v2.content.i18n.es.addressText = address;
-    }
-
-    // phone (mínimo)
-    if (b.phone) outW.phone = outW.phone || b.phone;
-
-    wineries[i] = outW;
-
-    qaRows.push({
-      id: w.id,
-      name: w.name,
-      status,
-      score: score.toFixed(3),
-      osmName: b.name || "",
-      website: b.website || "",
-      phone: b.phone || "",
-      address: b.address || "",
-    });
   }
 
   const out: Dataset = { ...ds, wineries };
@@ -270,6 +388,9 @@ export async function enrichOsm(opts: {
         minScore,
         weakScore,
         radiusM,
+        cacheTtlDays,
+        fallbackByName,
+        cacheOnly,
       },
       null,
       2

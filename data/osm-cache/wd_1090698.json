@@ -1,0 +1,508 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:27:22Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1281506059,
+      "lat": 44.136639,
+      "lon": 4.8085689,
+      "tags": {
+        "addr:city": "Orange",
+        "check_date": "2022-07-24",
+        "name": "L’art Dit Vin",
+        "opening_hours": "Tu-Su 10:30-19:00",
+        "organic": "yes",
+        "panoramax": "953eca09-20f9-4e28-8335-c01936bb55f7",
+        "postal_code": "84100",
+        "ref:FR:SIRET": "91230093600016",
+        "shop": "wine",
+        "source": "survey",
+        "survey:date": "2023-10-15",
+        "was:name": "L'instant gourmand;Regusto",
+        "was:shop": "confectionery",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2271458546,
+      "lat": 44.0926766,
+      "lon": 4.8230774,
+      "tags": {
+        "name": "Domaine des Chanssauds",
+        "opening_hours": "Mo-Fr 09:00-12:00,13:30-18:00; Sa 09:00-12:00",
+        "operator": "PatrickJaume",
+        "phone": "+33 4 90 34 23 51",
+        "shop": "wine",
+        "source": "survey 2013",
+        "website": "https://www.domaine-des-chanssaud.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4190903389,
+      "lat": 44.056769,
+      "lon": 4.8346751,
+      "tags": {
+        "contact:housenumber": "10",
+        "contact:street": "Avenue Louis Pasteur",
+        "craft": "winery",
+        "name": "Domaine Ogier",
+        "opening_hours": "Mo-Sa 09:30-12:00, 14:00-18:30",
+        "phone": "+33 4 90 39 32 32"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6561482144,
+      "lat": 44.1209662,
+      "lon": 4.8454238,
+      "tags": {
+        "name": "Domaine de la Palud",
+        "shop": "wine",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6649593424,
+      "lat": 44.0718101,
+      "lon": 4.8640131,
+      "tags": {
+        "name": "Maison Ogier",
+        "shop": "wine",
+        "source": "CCPRO 2019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927455741,
+      "lat": 44.0560414,
+      "lon": 4.8314854,
+      "tags": {
+        "name": "Jean-Pierre Boisson",
+        "official_name": "Domaine du père Caboche",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7816136997,
+      "lat": 44.121094,
+      "lon": 4.8632097,
+      "tags": {
+        "addr:city": "Courthezon",
+        "addr:postcode": "84350",
+        "addr:street": "Chemin de Beaucastel",
+        "contact:email": "contact@beaucastel.com",
+        "contact:facebook": "http://facebook.com/beaucastel",
+        "craft": "winery",
+        "description": "Respecter le terroir signifie à la fois valoriser le sol, l’environnement, mais aussi l’histoire du lieu. Rechercher l’authenticité, la singularité, pour la transmettre et la faire vivre, tout en révélant tous les trésors du Château de Beaucastel.",
+        "name": "Château de Beaucastel",
+        "opening_hours": "Mo-Th 09:00-12:00, 14:00-18:00; Fr 09:00-12:00,14:00-17:00",
+        "organic": "yes",
+        "phone": "+33 4 90 70 41 15",
+        "website": "http://www.beaucastel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8529118617,
+      "lat": 44.0902601,
+      "lon": 4.8074052,
+      "tags": {
+        "addr:postcode": "84100",
+        "addr:street": "Chemin de Maucoil",
+        "name": "Château Maucoil",
+        "phone": "+33 4 90 70 98 70",
+        "shop": "wine",
+        "website": "https://www.chateau-maucoil.lavau.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9950528591,
+      "lat": 44.0597721,
+      "lon": 4.8298777,
+      "tags": {
+        "name": "Domaine Pierre Usseglio",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10132873112,
+      "lat": 44.0428192,
+      "lon": 4.8852767,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine du Vieux Télégraphe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10132873113,
+      "lat": 44.0427896,
+      "lon": 4.8852892,
+      "tags": {
+        "name": "Domaine du Vieux Télégraphe",
+        "opening_hours": "Mo-Fr 09:00-12:00, 13:30-18:00",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11056501754,
+      "lat": 44.0661814,
+      "lon": 4.8548906,
+      "tags": {
+        "contact:email": "contact@domainedelacharbonniere.com",
+        "contact:phone": "+33 4 90 83 74 59",
+        "craft": "winery",
+        "name": "Domaine de la Charbonnière",
+        "website": "https://www.domainedelacharbonniere.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11387122090,
+      "lat": 44.0813072,
+      "lon": 4.8815953,
+      "tags": {
+        "name": "Domaine de la Janasse",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11387122097,
+      "lat": 44.0798846,
+      "lon": 4.8812128,
+      "tags": {
+        "name": "Domaine de Val Frais",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11495599079,
+      "lat": 44.1556058,
+      "lon": 4.9172884,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Rigot",
+        "website": "https://www.domaine-rigot.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11921629796,
+      "lat": 44.0630084,
+      "lon": 4.81123,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Barville"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11922099924,
+      "lat": 44.0628546,
+      "lon": 4.8412468,
+      "tags": {
+        "craft": "winery",
+        "name": "Le Vieux Donjon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11922099928,
+      "lat": 44.0678923,
+      "lon": 4.8499602,
+      "tags": {
+        "craft": "winery",
+        "name": "Château de Nalys"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11922117426,
+      "lat": 44.0581618,
+      "lon": 4.832979,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine des Sénéchaux"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12500599357,
+      "lat": 44.0373917,
+      "lon": 4.8529015,
+      "tags": {
+        "craft": "winery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13005813468,
+      "lat": 44.0748341,
+      "lon": 4.8160077,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Brun Avril"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13016777470,
+      "lat": 44.0923038,
+      "lon": 4.8018904,
+      "tags": {
+        "addr:street": "Chemin de Maucoil",
+        "name": "Domaine Chavrin",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13052359315,
+      "lat": 44.0919907,
+      "lon": 4.8346118,
+      "tags": {
+        "name": "Domaine de la Fagotière",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13052380401,
+      "lat": 44.0918549,
+      "lon": 4.8356999,
+      "tags": {
+        "name": "Domaine Palestor",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13319632942,
+      "lat": 44.0558977,
+      "lon": 4.8315566,
+      "tags": {
+        "addr:city": "Châteauneuf-du-Pape",
+        "addr:housenumber": "2",
+        "addr:postcode": "84230",
+        "addr:street": "Rue du Commandant Lemaître",
+        "level": "-1",
+        "name": "Trintignant et Fils",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "shop": "wine",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76224870,
+      "center": {
+        "lat": 44.0537173,
+        "lon": 4.8345088
+      },
+      "tags": {
+        "building": "yes",
+        "contact:facebook": "http://www.facebook.com/beaurenard",
+        "craft": "winery",
+        "name": "Domaine de Beaurenard",
+        "organic": "yes",
+        "phone": "+33 4 90 83 71 79",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "website": "http://www.beaurenard.fr"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76226026,
+      "center": {
+        "lat": 44.0741569,
+        "lon": 4.8464303
+      },
+      "tags": {
+        "building": "winery",
+        "craft": "winery",
+        "name": "Château Rayas",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76240369,
+      "center": {
+        "lat": 44.1048592,
+        "lon": 4.8519446
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "castle",
+        "name": "Château de Beaucastel",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "wikidata": "Q1090698",
+        "wikipedia": "fr:Château de Beaucastel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76240526,
+      "center": {
+        "lat": 44.0827874,
+        "lon": 4.8803008
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Cave Jamet",
+        "opening_hours": "Mo-Sa 08:30-12:30,14:00-18:00",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76242018,
+      "center": {
+        "lat": 44.0849406,
+        "lon": 4.8602771
+      },
+      "tags": {
+        "building": "yes",
+        "contact:city": "Courthézon",
+        "contact:housenumber": "1358",
+        "contact:postcode": "84350",
+        "contact:street": "Chemin Saint-Dominique",
+        "craft": "winery",
+        "description": "La Bastide Saint Dominique, un domaine familial du Sud de la Vallée du Rhône qui se distingue par ses vins élégants et subtilement équilibrés depuis plus de 35 ans. Une production soignée durable de vins.",
+        "email": "contact@bastidesaintdominique.com",
+        "name": "La Bastide Saint-Dominique",
+        "opening_hours": "Mo-Th 08:30-12:30,13:30-17:00; Fr 08:30-12:30,13:30-16:00",
+        "organic": "yes",
+        "shop": "alcohol",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "website": "https://bastide-st-dominique.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76242969,
+      "center": {
+        "lat": 44.0841252,
+        "lon": 4.8812813
+      },
+      "tags": {
+        "addr:city": "Courthézon",
+        "addr:housenumber": "17",
+        "addr:street": "Rue Pierre Mendès France",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Domaine Pierre André",
+        "operator": "Jacqueline André",
+        "phone": "+33 4 90 70 81 14",
+        "postal_code": "84350",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 77033051,
+      "center": {
+        "lat": 44.0699846,
+        "lon": 4.8448024
+      },
+      "tags": {
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Château de Vaudieu",
+        "shop": "wine",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "start_date": "1767"
+      }
+    },
+    {
+      "type": "way",
+      "id": 392113402,
+      "center": {
+        "lat": 44.119731,
+        "lon": 4.8532024
+      },
+      "tags": {
+        "industrial": "winery",
+        "landuse": "industrial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 998692093,
+      "center": {
+        "lat": 44.104755,
+        "lon": 4.8519635
+      },
+      "tags": {
+        "industrial": "winery",
+        "landuse": "industrial"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016585718,
+      "center": {
+        "lat": 44.0378132,
+        "lon": 4.8470127
+      },
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine Chante Perdrix"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1041377336,
+      "center": {
+        "lat": 44.0929746,
+        "lon": 4.7960982
+      },
+      "tags": {
+        "craft": "winery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1042247640,
+      "center": {
+        "lat": 44.1076517,
+        "lon": 4.8503383
+      },
+      "tags": {
+        "industrial": "winery",
+        "landuse": "industrial",
+        "name": "Beaucastel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1425268576,
+      "center": {
+        "lat": 44.1050383,
+        "lon": 4.8512847
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "operator": "Famille Perrin",
+        "website": "https://m.familleperrin.com/10DA7LU6GY"
+      }
+    }
+  ]
+}

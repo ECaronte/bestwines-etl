@@ -1,11 +1,16 @@
 export type Candidate = {
-  name?: string;
+  name: string;
   website?: string;
   phone?: string;
   address?: string;
   lat?: number;
   lon?: number;
   tags?: Record<string, string>;
+
+  // ✅ NUEVO: identidad OSM
+  osmType?: "node" | "way" | "relation";
+  osmId?: number;
+  osmUrl?: string;
 };
 
 function norm(s: string) {

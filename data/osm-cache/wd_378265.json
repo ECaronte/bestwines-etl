@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:35:31Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4314671369,
+      "lat": 42.6512083,
+      "lon": -2.0438784,
+      "tags": {
+        "addr:city": "Ayegui",
+        "addr:postcode": "31240",
+        "addr:street": "Camino Francés - Donejakue bidea",
+        "craft": "winery",
+        "name": "Bodegas Irache",
+        "phone": "+34 948 551 932",
+        "tourism": "attraction",
+        "website": "https://www.irache.com/",
+        "wikidata": "Q4936461"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893368734,
+      "lat": 42.645709,
+      "lon": -2.0457267,
+      "tags": {
+        "craft": "winery",
+        "name": "Bodegas Pago de Larrainzar",
+        "website": "https://www.pagodelarrainzar.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893389524,
+      "lat": 42.6407569,
+      "lon": -2.064233,
+      "tags": {
+        "craft": "winery",
+        "name": "Bodegas y Vinedos Quaderna Via"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187038991,
+      "center": {
+        "lat": 42.6670352,
+        "lon": -1.9537699
+      },
+      "tags": {
+        "building": "yes",
+        "email": "bodega@tandem.es",
+        "fax": "+34 948 53 6068",
+        "name": "Bodega Tandem",
+        "phone": "+34 948 53 60 31",
+        "shop": "wine",
+        "website": "https://tandem.es/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 413449227,
+      "center": {
+        "lat": 42.686487,
+        "lon": -2.0025439
+      },
+      "tags": {
+        "addr:city": "Zurucuáin-Grocin",
+        "addr:housenumber": "13",
+        "addr:postcode": "31292",
+        "addr:street": "Calle Apalaz",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Bodegas Aroa",
+        "phone": "+34 948 92 19 95",
+        "website": "https://www.aroawines.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208844562,
+      "center": {
+        "lat": 42.5943705,
+        "lon": -2.0321355
+      },
+      "tags": {
+        "craft": "distillery",
+        "industrial": "winery",
+        "name": "Destilería Patxarán Zoco",
+        "website": "https://pacharanzoco.com/"
+      }
+    }
+  ]
+}

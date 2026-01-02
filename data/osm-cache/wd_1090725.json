@@ -1,0 +1,825 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:28:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3563413095,
+      "lat": 45.046614,
+      "lon": -0.5947523,
+      "tags": {
+        "craft": "winery",
+        "name": "Châteay Tayac",
+        "ref:FR:CRTA": "DEGAQU033FS000JO",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.chateau-tayac.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3758631491,
+      "lat": 45.0020976,
+      "lon": -0.6141221,
+      "tags": {
+        "check_date": "2025-08-08",
+        "craft": "winery",
+        "name": "Château Maucamps",
+        "ref:FR:CRTA": "DEGAQU033FS000MH",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3760040171,
+      "lat": 44.990091,
+      "lon": -0.7025007,
+      "tags": {
+        "craft": "winery",
+        "name": "Château d'Arsac",
+        "ref:FR:CRTA": "DEGAQU033FS0000P",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 12/2014",
+        "website": "https://www.chateau-arsac.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764099,
+      "lat": 45.051072,
+      "lon": -0.677022,
+      "tags": {
+        "craft": "winery",
+        "name": "Vignobles des Quatre Vents",
+        "ref:FR:CRTA": "DEGAQU033FS000MP",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.clos4vents.net"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764100,
+      "lat": 45.0381215,
+      "lon": -0.6779076,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Marquis de Terme",
+        "ref:FR:CRTA": "DEGAQU033V5065KH",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://chateau-marquis-de-terme.com/",
+        "wikidata": "Q1090575"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764103,
+      "lat": 45.0282022,
+      "lon": -0.6537912,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Desmirail",
+        "ref:FR:CRTA": "DEGAQU033FS00019",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.desmirail.com/",
+        "wikidata": "Q1090422"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764104,
+      "lat": 45.0289676,
+      "lon": -0.6565291,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Prieuré-Lichine",
+        "ref:FR:CRTA": "DEGAQU033FS0001B",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.prieure-lichine.fr/",
+        "wikidata": "Q1090625"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764106,
+      "lat": 45.0271172,
+      "lon": -0.6584179,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Kirwan",
+        "ref:FR:CRTA": "DEGAQU033FS0005F",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.chateau-kirwan.com/",
+        "wikidata": "Q1090484"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764107,
+      "lat": 45.0228923,
+      "lon": -0.6558915,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Boyd Cantenac",
+        "ref:FR:CRTA": "DEGAQU033V50A556",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764108,
+      "lat": 45.0174378,
+      "lon": -0.6807416,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Tour de Bessan",
+        "ref:FR:CRTA": "DEGAQU033FS00017",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.marielaurelurton.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4598764111,
+      "lat": 44.9948905,
+      "lon": -0.6915112,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Mongravey",
+        "ref:FR:CRTA": "DEGAQU033FS0000Q",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "http://www.chateau-mongravey.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818594821,
+      "lat": 45.0138524,
+      "lon": -0.683679,
+      "tags": {
+        "craft": "winery",
+        "name": "Les Closeries des Moussis",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4873121421,
+      "lat": 45.0273304,
+      "lon": -0.6583528,
+      "tags": {
+        "name": "Château Kirwan",
+        "name:en": "Chateau Kirwan",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4873121422,
+      "lat": 45.0290106,
+      "lon": -0.6562995,
+      "tags": {
+        "name": "Château Pierre-L",
+        "name:en": "Chateau Pierre-L",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5266055840,
+      "lat": 45.0854397,
+      "lon": -0.6353723,
+      "tags": {
+        "craft": "winery",
+        "name": "Château de Barbe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6457688385,
+      "lat": 45.0814495,
+      "lon": -0.6047472,
+      "tags": {
+        "name": "Château la Grolet",
+        "name:en": "Chateau la Grolet",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7751975965,
+      "lat": 45.0448963,
+      "lon": -0.5735942,
+      "tags": {
+        "craft": "winery",
+        "name": "Le Tertre de Camillac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7770170666,
+      "lat": 45.0406877,
+      "lon": -0.5647188,
+      "tags": {
+        "craft": "winery",
+        "name": "Roc de Cambes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7804157233,
+      "lat": 45.0723806,
+      "lon": -0.7245604,
+      "tags": {
+        "addr:city": "Arcins",
+        "addr:housenumber": "1",
+        "addr:postcode": "33460",
+        "addr:street": "Place des Châteaux",
+        "craft": "winery",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMqLMeTah_ZERJW8XWiHqd5LKmKtpXI8bMB3WVd=w408-h272-k-no",
+        "name": "Château d'Arcins",
+        "opening_hours": "Mo-Fr 9:00-12:30,14:00-18:00",
+        "phone": "+33 5 56 58 91 29",
+        "website": "https://www.cavedarcins.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7804157235,
+      "lat": 45.0727101,
+      "lon": -0.7252143,
+      "tags": {
+        "addr:city": "Arcins",
+        "addr:housenumber": "2",
+        "addr:postcode": "33460",
+        "addr:street": "Place des Châteaux",
+        "craft": "winery",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNLrbvBWdJ9e6IqKbdfCq1rT-TbgTYzHYy3dVMX=w408-h272-k-no",
+        "name": "Château Arnauld",
+        "phone": "+33 5 57 88 89 10",
+        "website": "https://www.chateau-arnauld.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7804157236,
+      "lat": 45.0738182,
+      "lon": -0.7252616,
+      "tags": {
+        "addr:city": "Arcins",
+        "addr:housenumber": "1",
+        "addr:postcode": "33460",
+        "addr:street": "Route de l'Église",
+        "craft": "winery",
+        "email": "tourduroc@wanadoo.fr",
+        "name": "Château Tour du Roc",
+        "phone": "+33 5 56 58 90 25",
+        "website": "http://www.chateautourduroc.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7804157237,
+      "lat": 45.0850376,
+      "lon": -0.7020145,
+      "tags": {
+        "addr:city": "Arcins",
+        "addr:housenumber": "46",
+        "addr:postcode": "33460",
+        "addr:street": "Route du Port",
+        "craft": "winery",
+        "name": "Château Barreyres",
+        "phone": "+33 5 56 58 94 94",
+        "website": "https://www.chateau-barreyres.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8941740674,
+      "lat": 44.9683198,
+      "lon": -0.6405213,
+      "tags": {
+        "craft": "winery",
+        "name": "Château de Malleret",
+        "website": "https://www.chateau-malleret.fr/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9791918322,
+      "lat": 45.0378462,
+      "lon": -0.7504399,
+      "tags": {
+        "addr:city": "Avensan",
+        "addr:housenumber": "1-2",
+        "addr:postcode": "33480",
+        "addr:street": "Chemin de la Tuilerie",
+        "craft": "winery",
+        "description": "Le Château de Villegeorge, propriété de Marie-Laure Lurton, vous accueille pour des visites, dégustations, ateliers autour du vin & afterwork en période estivale. Plus d'informations sur notre site internet, contactez-nous pour toute réservation !",
+        "email": "contact@marielaurelurton.com",
+        "min_age": "18",
+        "name": "Château de Villegeorge",
+        "opening_hours": "08:00-12:00,13:00-16:00",
+        "operator": "Vignobles Marie-Laure Lurton",
+        "phone": "+33 5 57 88 84 23",
+        "website": "https://www.marielaurelurton.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11432250358,
+      "lat": 45.0436841,
+      "lon": -0.6680473,
+      "tags": {
+        "addr:city": "Margaux",
+        "alcohol": "wine",
+        "appellation_wine1855": "Margaux",
+        "classification_wine1855": "Premier_Grand_Crus",
+        "craft": "winery",
+        "name": "Château Margaux",
+        "phone": "+33 5 57 88 83 83",
+        "website": "https://www.chateau-margaux.com/",
+        "wikidata": "Q1063236"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11971740113,
+      "lat": 44.9942383,
+      "lon": -0.6259289,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Cantemerle",
+        "opening_hours": "Mo-Fr 09:00-12:00, 14:00-17:00",
+        "phone": "+33 55 7970282",
+        "website": "https://www.cantemerle.com/fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12202143738,
+      "lat": 45.0400458,
+      "lon": -0.6745049,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Durfort-Vivens",
+        "wikidata": "Q457827"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12202143739,
+      "lat": 45.0406387,
+      "lon": -0.6757111,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Malescot Saint-Exupéry",
+        "wikidata": "Q1090564"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12202162616,
+      "lat": 45.0422021,
+      "lon": -0.6766702,
+      "tags": {
+        "addr:city": "Margaux",
+        "addr:postcode": "33460",
+        "craft": "winery",
+        "name": "Château Marquis d’Alesme -"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12204978982,
+      "lat": 45.036818,
+      "lon": -0.6751041,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Rauzan-Gassies"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12204978986,
+      "lat": 45.0346719,
+      "lon": -0.6765486,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Rauzan-Segla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12207043943,
+      "lat": 45.0397342,
+      "lon": -0.5584996,
+      "tags": {
+        "name": "Villa Burgus",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12211572221,
+      "lat": 45.0588555,
+      "lon": -0.6902389,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Deyrem-Valentin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12213465562,
+      "lat": 45.0589595,
+      "lon": -0.6911959,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Tour de Mons"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12215491108,
+      "lat": 45.0088295,
+      "lon": -0.6454649,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Giscours"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12215820073,
+      "lat": 45.0233747,
+      "lon": -0.673443,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Brane-Cantenac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12216857285,
+      "lat": 45.0203404,
+      "lon": -0.6256732,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Dauzac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12216857334,
+      "lat": 45.0217297,
+      "lon": -0.6342793,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Siran"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12222183821,
+      "lat": 45.0588452,
+      "lon": -0.7164888,
+      "tags": {
+        "name": "Château Tayac",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+33 5 57883306",
+        "shop": "wine",
+        "website": "https://www.chateautayac-margaux.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12222183827,
+      "lat": 45.0611218,
+      "lon": -0.7179334,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Bellevue de Tayac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12222585016,
+      "lat": 45.0763549,
+      "lon": -0.7420243,
+      "tags": {
+        "craft": "winery",
+        "name": "Château Branas Grand Poujeaux"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12463630252,
+      "lat": 45.0411461,
+      "lon": -0.6764573,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Rue de la Trémoille",
+        "email": "cave-ulysse@wanadoo.fr",
+        "name": "La Cave d'Ulysse",
+        "phone": "+33557887994",
+        "shop": "wine",
+        "website": "https://www.caveulysse.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12826267432,
+      "lat": 45.0587432,
+      "lon": -0.5862742,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Chemin de Cots",
+        "biodynamic": "yes",
+        "check_date": "2025-05-10",
+        "craft": "winery",
+        "email": "info@chateau-de-cots.com",
+        "name": "Château de Cots",
+        "operator": "Rémi Bergon",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+33 6 83 83 86 24",
+        "website": "https://www.chateau-de-cots.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 192628848,
+      "center": {
+        "lat": 45.0159785,
+        "lon": -0.62623
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Larrieu-Terrefort",
+        "phone": "+33 6 12 25 03 40",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 192683609,
+      "center": {
+        "lat": 45.0378475,
+        "lon": -0.6580675
+      },
+      "tags": {
+        "alcohol:sales": "yes",
+        "building": "yes",
+        "craft": "winery",
+        "heritage": "3",
+        "heritage:operator": "mhs",
+        "mhs:inscription_date": "1970",
+        "name": "Château d'Issan",
+        "ref:mhs": "PA00083506",
+        "shop": "alcohol",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012;Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "source:heritage": "data.gouv.fr:Ministère de la Culture - 04/2015",
+        "website": "http://www.chateau-issan.com",
+        "wikidata": "Q1090725",
+        "wikipedia": "fr:Château d'Issan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 231054951,
+      "center": {
+        "lat": 45.0273334,
+        "lon": -0.6789726
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Cantenac-Brown"
+      }
+    },
+    {
+      "type": "way",
+      "id": 231055392,
+      "center": {
+        "lat": 45.0270275,
+        "lon": -0.6578437
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Kirwan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 350595009,
+      "center": {
+        "lat": 45.0483151,
+        "lon": -0.5976934
+      },
+      "tags": {
+        "building": "castle",
+        "craft": "winery",
+        "name": "Château Eyquem",
+        "ref:FR:CRTA": "DEGAQU033V5000RT",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015",
+        "website": "https://www.bayle-carreau.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681438294,
+      "center": {
+        "lat": 44.9853424,
+        "lon": -0.6328737
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Paloumey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032911317,
+      "center": {
+        "lat": 45.0395113,
+        "lon": -0.6620658
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Pontac-Lynch",
+        "source": "BDOrtho IGN - available 2022 at the latest",
+        "website": "https://www.pontac-lynch.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032944538,
+      "center": {
+        "lat": 45.0584922,
+        "lon": -0.7168451
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Tayac",
+        "source": "BDOrtho IGN - available 2022 at the latest"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320251006,
+      "center": {
+        "lat": 45.0222926,
+        "lon": -0.6334826
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Siran"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320251008,
+      "center": {
+        "lat": 45.0199699,
+        "lon": -0.6242156
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Dauzac"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320762191,
+      "center": {
+        "lat": 45.0793323,
+        "lon": -0.7415163
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Poujeaux"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1320762192,
+      "center": {
+        "lat": 45.0749331,
+        "lon": -0.7403267
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Chasse-Spleen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328163363,
+      "center": {
+        "lat": 45.0060339,
+        "lon": -0.6806827
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château du Tertre",
+        "website": "https://www.chateaudutertre.fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328163367,
+      "center": {
+        "lat": 45.0151497,
+        "lon": -0.66138
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Angludet",
+        "website": "https://www.chateau-angludet.fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340818966,
+      "center": {
+        "lat": 45.0227494,
+        "lon": -0.6558857
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Boyd Cantenac"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340818967,
+      "center": {
+        "lat": 45.023194,
+        "lon": -0.6566783
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Pouget"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340821602,
+      "center": {
+        "lat": 44.9787667,
+        "lon": -0.6187329
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château La Lagune"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340823080,
+      "center": {
+        "lat": 45.028013,
+        "lon": -0.653969
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Desmirail"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1343681880,
+      "center": {
+        "lat": 45.0286668,
+        "lon": -0.6560793
+      },
+      "tags": {
+        "craft": "winery",
+        "landuse": "farmyard",
+        "name": "Château Prieuré-Lichine"
+      }
+    }
+  ]
+}

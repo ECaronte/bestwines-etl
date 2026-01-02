@@ -1,0 +1,578 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:29:24Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1687532852,
+      "lat": 50.5124033,
+      "lon": 7.0370187,
+      "tags": {
+        "addr:city": "Rech",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "53506",
+        "addr:street": "Bärenbachstraße",
+        "craft": "winery",
+        "name": "Weingut Johannes Hostert",
+        "phone": "+49 2643 8489",
+        "tourism": "wine_cellar",
+        "website": "https://www.jjhostert.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1687532853,
+      "lat": 50.512656,
+      "lon": 7.0374107,
+      "tags": {
+        "addr:city": "Rech",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "53506",
+        "addr:street": "Bärenbachstraße",
+        "craft": "winery",
+        "name": "Weingut Walter Hostert",
+        "tourism": "wine_cellar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2327235595,
+      "lat": 50.5355106,
+      "lon": 7.0566125,
+      "tags": {
+        "addr:city": "Dernau",
+        "addr:country": "DE",
+        "addr:housename": "Bernd Gilles",
+        "addr:housenumber": "5",
+        "addr:postcode": "53507",
+        "addr:street": "Rotweinstraße",
+        "addr:suburb": "Marienthal",
+        "craft": "winery",
+        "email": "info@klosterhof-gilles.de",
+        "fax": "+49 2641 35854",
+        "name": "Winzerhof Gilles",
+        "operator": "Familie Gilles",
+        "phone": "+49 2641 36280",
+        "rooms": "5",
+        "source": "http://www.klosterhof-gilles.de/",
+        "source:date": "2023-03-31",
+        "tourism": "guest_house",
+        "website": "http://www.klosterhof-gilles.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4193272520,
+      "lat": 50.5344133,
+      "lon": 7.0404924,
+      "tags": {
+        "addr:city": "Dernau",
+        "addr:country": "DE",
+        "addr:housenumber": "26",
+        "addr:postcode": "53507",
+        "addr:street": "Wingertstraße",
+        "craft": "winery",
+        "email": "weingut-riske@t-online.de",
+        "fax": "+49 2643 3531",
+        "name": "Weingut Erwin Riske",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 12:00-22:00; Su 12:00-20:00",
+        "phone": "+49 2643 8406",
+        "source": "https://www.weingut-riske.de/",
+        "source:date": "2023-03-31",
+        "website": "https://www.weingut-riske.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4193272521,
+      "lat": 50.5348135,
+      "lon": 7.0407562,
+      "tags": {
+        "addr:city": "Dernau",
+        "addr:country": "DE",
+        "addr:housenumber": "32",
+        "addr:postcode": "53507",
+        "addr:street": "Wingertstraße",
+        "craft": "winery",
+        "email": "info@weingut-reinhold-riske.de",
+        "name": "Weingut Reinhold Riske",
+        "phone": "+49 2643 7020",
+        "source": "https://www.weingut-reinhold-riske.de/",
+        "source:date": "2023-03-31",
+        "website": "https://www.weingut-reinhold-riske.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4681749271,
+      "lat": 50.5167147,
+      "lon": 6.9852163,
+      "tags": {
+        "name": "Weingut Sermann-Kreuzberg",
+        "shop": "wine",
+        "website": "https://www.sermann.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4966370153,
+      "lat": 50.5446033,
+      "lon": 7.1080537,
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "53474",
+        "addr:street": "Max-Planck-Straße",
+        "addr:suburb": "Ahrweiler",
+        "check_date": "2024-07-03",
+        "contact:email": "JJAdeneuer@t-online.de",
+        "contact:facebook": "https://www.facebook.com/WeingutJ.J.Adeneuer",
+        "contact:fax": "+49 2641 37379",
+        "contact:instagram": "https://www.instagram.com/weingutadeneuer",
+        "contact:phone": "+49 2641 34473",
+        "contact:website": "http://www.adeneuer.de/",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Weingut Adeneuer",
+        "opening_hours": "Mo-Fr 09:00-12:00, 13:30-18:00; Sa 10:00-15:00; Su,PH \"Rufen Sie an\"",
+        "shop": "alcohol",
+        "source": "http://www.adeneuer.de/",
+        "source:date": "2023-04-01",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6036989873,
+      "lat": 50.536202,
+      "lon": 7.044193,
+      "tags": {
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:street": "Friedenstraße",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "email": "weingut@meyer-naekel.de",
+        "fax": "+49 2643 3363",
+        "name": "Weingut Meyer-Näkel",
+        "opening_hours": "Mo-Fr 09:00-12:00, 14:00-17:00; Sa 11:00-16:00",
+        "phone": "+49 2643 1628",
+        "shop": "alcohol",
+        "source": "http://www.meyer-naekel.de/",
+        "source:date": "2023-03-31",
+        "website": "http://www.meyer-naekel.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10774704830,
+      "lat": 50.5334679,
+      "lon": 7.0431422,
+      "tags": {
+        "addr:country": "DE",
+        "addr:housenumber": "49",
+        "addr:street": "Hauptstraße",
+        "contact:email": "info@weingut-schlosshof.de",
+        "contact:phone": "+49 2643 8465",
+        "contact:website": "https://www.weingut-schlosshof.de/",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Weingut Schloßhof",
+        "opening_hours": "Mo-Fr 14:00-17:00; Sa 10:00-12:00,14:00-17:00; Su 11:00-14:00",
+        "shop": "alcohol",
+        "source": "https://www.weingut-schlosshof.de/",
+        "source:date": "2023-03-31",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10777620586,
+      "lat": 50.5310899,
+      "lon": 7.0788579,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:phone": "+49 2641 34414",
+        "craft": "winery",
+        "indoor_seating": "yes",
+        "name": "Im Kräuterberg",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10777620587,
+      "lat": 50.5355461,
+      "lon": 7.058404,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Marienthaler Straße",
+        "amenity": "restaurant",
+        "contact:email": "ps-info@weingut-ps.de",
+        "contact:facebook": "https://www.facebook.com/people/Weingut-Paul-Schumacher/100027461636410",
+        "contact:phone": "+49 177 7534225",
+        "contact:website": "https://www.weingut-ps.de/",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "WeinGut Paul Schumacher",
+        "shop": "alcohol",
+        "source": "https://www.weingut-ps.de/",
+        "source:date": "2023-04-01",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10777808795,
+      "lat": 50.5365813,
+      "lon": 7.069568,
+      "tags": {
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Weingut Försterhof",
+        "opening_hours": "12:30-17:30",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10781771983,
+      "lat": 50.5413054,
+      "lon": 7.094404,
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:housenumber": "16",
+        "addr:postcode": "53474",
+        "addr:street": "Oberhutstraße",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Körtgens Winzerhof",
+        "opening_hours": "We-Su 10:30-22:00",
+        "phone": "+49 2641 37113",
+        "shop": "alcohol",
+        "website": "https://www.koertgens.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11275982239,
+      "lat": 50.5424957,
+      "lon": 7.0948394,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Marktplatz",
+        "check_date": "2024-11-05",
+        "contact:phone": "+49 2641 3039891",
+        "contact:website": "https://www.ahrweindepot.de",
+        "email": "info@ahrweindepot.de",
+        "name": "Ahrweindepot",
+        "opening_hours": "Sa-Su 12:00-18:00",
+        "shop": "wine",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13208448879,
+      "lat": 50.5444543,
+      "lon": 7.1382839,
+      "tags": {
+        "check_date": "2025-10-11",
+        "name": "Vinoteca Iseo",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 86234240,
+      "center": {
+        "lat": 50.522658,
+        "lon": 7.0913857
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "100",
+        "addr:postcode": "53474",
+        "addr:street": "Im Maibachtal",
+        "check_date:opening_hours": "2025-08-03",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "email": "info@maibachfarm.de",
+        "fax": "+49 2641 36643",
+        "landuse": "farmyard",
+        "name": "Maibachfarm",
+        "opening_hours": "Jan-Dec Mo-Fr 10:00-16:00; Apr-Dec Sa,Su 11:00-17:00",
+        "phone": "+49 2641 36679",
+        "shop": "alcohol",
+        "source": "https://www.maibachfarm.de/",
+        "source:date": "2023-04-01",
+        "tourism": "wine_cellar",
+        "website": "https://www.maibachfarm.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 147956449,
+      "center": {
+        "lat": 50.5309055,
+        "lon": 7.0759438
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "173",
+        "addr:postcode": "53474",
+        "addr:street": "Walporzheimer Straße",
+        "addr:suburb": "Walporzheim",
+        "building": "yes",
+        "craft": "winery",
+        "email": "wein@weinmanufaktur-walporzheim.com",
+        "fax": "+49 2641 31410",
+        "name": "Weinmanufaktur Walporzheim",
+        "phone": "+49 2641 34763",
+        "source": "http://www.wgwalporzheim.de/",
+        "source:date": "2023-04-01",
+        "website": "http://www.wgwalporzheim.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150077021,
+      "center": {
+        "lat": 50.5314034,
+        "lon": 7.0793332
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "135",
+        "addr:postcode": "53474",
+        "addr:street": "Walporzheimer Straße",
+        "addr:suburb": "Walporzheim",
+        "building": "yes",
+        "check_date": "2025-07-29",
+        "craft": "winery",
+        "email": "info@weingut-bier.de",
+        "fax": "+49 2641 35477",
+        "name": "Weingut Bier",
+        "operator": "Heinz Peter Bier",
+        "phone": "+49 2641 35477",
+        "phone:mobile": "+49 177 7495189",
+        "source": "http://weingut-bier.de/",
+        "source:date": "2023-04-01",
+        "tourism": "wine_cellar",
+        "website": "http://weingut-bier.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150077022,
+      "center": {
+        "lat": 50.5332287,
+        "lon": 7.0816997
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "90",
+        "addr:postcode": "53474",
+        "addr:street": "Walporzheimer Straße",
+        "addr:suburb": "Walporzheim",
+        "building": "yes",
+        "craft": "winery",
+        "email": "info@weingutbaecker.de",
+        "fax": "+49 2641 359193",
+        "name": "Weingut Bäcker",
+        "phone": "+49 2641 359192",
+        "source": "https://www.weingutbaecker.de/",
+        "source:date": "2023-04-01",
+        "tourism": "wine_cellar",
+        "website": "https://www.weingutbaecker.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150077023,
+      "center": {
+        "lat": 50.5332525,
+        "lon": 7.0814155
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "92",
+        "addr:postcode": "53474",
+        "addr:street": "Walporzheimer Straße",
+        "addr:suburb": "Walporzheim",
+        "building": "yes",
+        "check_date": "2025-07-29",
+        "craft": "winery",
+        "email": "info@weingut-sonnenschein.de",
+        "fax": "+49 2641 918416",
+        "name": "Weingut Sonnenschein",
+        "operator": "D.J. Stahl",
+        "phone": "+49 2641 31295",
+        "tourism": "wine_cellar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 160633166,
+      "center": {
+        "lat": 50.5445687,
+        "lon": 7.0958394
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "53474",
+        "addr:street": "Bossardstraße",
+        "building": "yes",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "email": "weingut-weilerhof@web.de",
+        "facebook": "https://www.facebook.com/WeingutWeilerhof",
+        "fax": "+49 2641 34074",
+        "name": "Weingut Weilerhof",
+        "phone": "+49 2641 34264",
+        "shop": "alcohol",
+        "tourism": "wine_cellar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233321926,
+      "center": {
+        "lat": 50.5723158,
+        "lon": 7.0308756
+      },
+      "tags": {
+        "addr:city": "Grafschaft",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "53501",
+        "addr:street": "Max-Planck-Straße",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/Brogsitter",
+        "contact:instagram": "https://www.instagram.com/brogsitter_de/",
+        "drive_through": "no",
+        "email": "verkauf@brogsitter.de",
+        "fax": "+49 2225 918112",
+        "name": "Brogsitter",
+        "phone": "+49 2225 918111",
+        "ref:vatin": "DE811183192",
+        "shop": "wine",
+        "website": "https://www.brogsitter.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 323498331,
+      "center": {
+        "lat": 50.5243224,
+        "lon": 6.9916006
+      },
+      "tags": {
+        "addr:housenumber": "125",
+        "addr:street": "Rossberg",
+        "building": "yes",
+        "name": "Winzergenossenschaft Mayschoss Altenahr",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630020061,
+      "center": {
+        "lat": 50.5350045,
+        "lon": 7.082679
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "83-85",
+        "addr:postcode": "53474",
+        "addr:street": "Walporzheimer Straße",
+        "building": "yes",
+        "craft": "winery",
+        "drink:wine": "retail",
+        "email": "info@weingut-kriechel.de",
+        "fax": "+49 2641 5004",
+        "name": "Weingut Kriechel",
+        "opening_hours": "Mo-Fr 09:00-17:00; Jan-Mar Sa-Su 12:00-17:00; Jan-Mar PH 12:00-17:00; Apr-Dec Sa-Su 10:00-17:00; Apr-Dec PH 10:00-17:00; Dec 25-26 closed; Dec 31 closed; Jan 1 closed; Dec 24 09:00-12:00",
+        "operator": "Familie Kriechel",
+        "phone": "+49 2641 36193",
+        "shop": "alcohol",
+        "source": "http://www.weingut-kriechel.de/",
+        "source:date": "2023-04-01",
+        "tourism": "wine_cellar",
+        "website": "http://www.weingut-kriechel.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 769386319,
+      "center": {
+        "lat": 50.5394211,
+        "lon": 7.1042885
+      },
+      "tags": {
+        "addr:country": "DE",
+        "addr:housenumber": "44",
+        "addr:street": "Bachemer Straße",
+        "building": "yes",
+        "check_date": "2024-04-10",
+        "contact:instagram": "https://www.instagram.com/weingutkurth",
+        "craft": "winery",
+        "email": "info@weingut-kurth.de",
+        "facebook": "https://www.facebook.com/weingutkurth",
+        "name": "Weingut Kurth",
+        "phone": "+49 2641 900654",
+        "phone:mobile": "+49 159 06779584",
+        "source": "https://www.weingut-kurth.de/",
+        "source:date": "2023-04-01",
+        "tourism": "wine_cellar",
+        "website": "https://www.weingut-kurth.de/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 802248407,
+      "center": {
+        "lat": 50.5487063,
+        "lon": 7.133327
+      },
+      "tags": {
+        "addr:city": "Bad Neuenahr-Ahrweiler",
+        "addr:country": "DE",
+        "addr:housenumber": "91-93",
+        "addr:postcode": "53474",
+        "addr:street": "Heerstraße",
+        "building": "commercial",
+        "check_date:opening_hours": "2022-07-23",
+        "contact:instagram": "https://www.instagram.com",
+        "drink:wine": "retail",
+        "email": "info@dagernova.de",
+        "facebook": "https://www.facebook.com",
+        "fax": "+49 2641 947294",
+        "name": "Dagernova Weinmanufaktur",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+        "operator": "Ahr Winzer eG",
+        "phone": "+49 2641 947263",
+        "shop": "wine",
+        "website": "https://www.dagernova.de/",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}

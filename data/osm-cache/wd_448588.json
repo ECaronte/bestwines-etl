@@ -1,0 +1,580 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:35:31Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 390692073,
+      "lat": 38.4479623,
+      "lon": -122.4110666,
+      "tags": {
+        "craft": "winery",
+        "name": "Cakebread"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2792874247,
+      "lat": 38.4205119,
+      "lon": -122.326493,
+      "tags": {
+        "craft": "winery",
+        "landuse": "vineyard",
+        "name": "Shafer Vineyards"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3816635924,
+      "lat": 38.4737005,
+      "lon": -122.402662,
+      "tags": {
+        "craft": "winery",
+        "name": "Frog's Leap Winery",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4344574800,
+      "lat": 38.4414863,
+      "lon": -122.4093929,
+      "tags": {
+        "addr:housenumber": "7801",
+        "addr:postcode": "94562",
+        "addr:street": "Saint Helena Highway",
+        "craft": "winery",
+        "name": "Robert Mondavi Winery",
+        "name:en": "Robert Mondavi Winery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4629515789,
+      "lat": 38.4493933,
+      "lon": -122.3882718,
+      "tags": {
+        "addr:housenumber": "7802",
+        "addr:postcode": "94558",
+        "addr:street": "Money Road",
+        "name": "Saddleback Cellars",
+        "opening_hours": "Mo-Su 10:00-16:00",
+        "phone": "+1-707-944-1305",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5591054714,
+      "lat": 38.4494578,
+      "lon": -122.4121095,
+      "tags": {
+        "craft": "winery",
+        "name": "Sequoia Grove Winery",
+        "website": "https://www.sequoiagrove.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6284591754,
+      "lat": 38.4426074,
+      "lon": -122.4069116,
+      "tags": {
+        "check_date": "2025-01-03",
+        "craft": "winery",
+        "name": "Nickel & Nickel Winery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6284598405,
+      "lat": 38.4257147,
+      "lon": -122.4031884,
+      "tags": {
+        "addr:city": "Oakville",
+        "addr:housenumber": "1350",
+        "addr:postcode": "94562",
+        "addr:state": "CA",
+        "addr:street": "Acacia Drive",
+        "check_date": "2025-01-03",
+        "craft": "winery",
+        "name": "Far Niente Winery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7146807587,
+      "lat": 38.4257786,
+      "lon": -122.4031476,
+      "tags": {
+        "name": "far niente",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7148119485,
+      "lat": 38.4913162,
+      "lon": -122.4523637,
+      "tags": {
+        "name": "Louis martini vinery",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7309415284,
+      "lat": 38.4890011,
+      "lon": -122.4531111,
+      "tags": {
+        "addr:city": "St. Helena",
+        "addr:housenumber": "401",
+        "addr:postcode": "94574",
+        "addr:state": "CA",
+        "addr:street": "Saint Helena Highway South",
+        "craft": "winery",
+        "name": "HALL Wines",
+        "opening_hours": "Mo-Su 10:00-6:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8787665080,
+      "lat": 38.4213063,
+      "lon": -122.4147989,
+      "tags": {
+        "craft": "winery",
+        "name": "Promontory Winery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10110630180,
+      "lat": 38.4886223,
+      "lon": -122.4487035,
+      "tags": {
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12316716107,
+      "lat": 38.405519,
+      "lon": -122.3320475,
+      "tags": {
+        "craft": "winery",
+        "name": "Pine Ridge Vineyards"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12469841327,
+      "lat": 38.4001665,
+      "lon": -122.3592463,
+      "tags": {
+        "craft": "winery",
+        "name": "Handwritten Wine Tasting"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79879635,
+      "center": {
+        "lat": 38.4544606,
+        "lon": -122.4312088
+      },
+      "tags": {
+        "addr:city": "Rutherford",
+        "addr:housenumber": "1991",
+        "addr:postcode": "94573",
+        "addr:state": "CA",
+        "building": "yes",
+        "name": "ingelnook",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "way",
+      "id": 158820938,
+      "center": {
+        "lat": 38.4404579,
+        "lon": -122.3810177
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Silver Oak",
+        "shop": "wine",
+        "tourism": "winery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 444505335,
+      "center": {
+        "lat": 38.4732638,
+        "lon": -122.4075625
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Honig Vineyard & Winery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586743752,
+      "center": {
+        "lat": 38.4590301,
+        "lon": -122.4219749
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "food": "yes",
+        "name": "Elizabeth Spencer Winery",
+        "website": "https://www.elizabethspencerwinery.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 766414072,
+      "center": {
+        "lat": 38.4890535,
+        "lon": -122.451994
+      },
+      "tags": {
+        "addr:city": "St. Helena",
+        "addr:housenumber": "401",
+        "addr:postcode": "94574",
+        "addr:state": "CA",
+        "addr:street": "Saint Helena Highway South",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Hall Wines"
+      }
+    },
+    {
+      "type": "way",
+      "id": 766414074,
+      "center": {
+        "lat": 38.4889833,
+        "lon": -122.4530903
+      },
+      "tags": {
+        "addr:city": "St. Helena",
+        "addr:housenumber": "401",
+        "addr:postcode": "94574",
+        "addr:state": "CA",
+        "addr:street": "Saint Helena Highway South",
+        "building": "yes",
+        "building:levels": "2",
+        "craft": "winery",
+        "name": "HALL Wines"
+      }
+    },
+    {
+      "type": "way",
+      "id": 766414085,
+      "center": {
+        "lat": 38.4924005,
+        "lon": -122.4525056
+      },
+      "tags": {
+        "building": "retail",
+        "craft": "winery",
+        "name": "Louis Martini"
+      }
+    },
+    {
+      "type": "way",
+      "id": 949245226,
+      "center": {
+        "lat": 38.4212849,
+        "lon": -122.414873
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Promontory"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993565596,
+      "center": {
+        "lat": 38.4868808,
+        "lon": -122.4106286
+      },
+      "tags": {
+        "addr:housenumber": "1601",
+        "addr:state": "CA",
+        "addr:street": "Silverado Trail",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Quintessa",
+        "website": "https://www.quintessa.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993572409,
+      "center": {
+        "lat": 38.4777407,
+        "lon": -122.4381545
+      },
+      "tags": {
+        "addr:city": "Helena",
+        "addr:housenumber": "1563",
+        "addr:postcode": "94574",
+        "addr:state": "CA",
+        "addr:street": "Saint Helena Highway South",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Whitehall Lane"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1104873729,
+      "center": {
+        "lat": 38.4889454,
+        "lon": -122.4486003
+      },
+      "tags": {
+        "addr:city": "St. Helena",
+        "addr:housenumber": "1111",
+        "addr:postcode": "94574",
+        "addr:state": "CA",
+        "addr:street": "White Lane",
+        "contact:facebook": "vsattui1885",
+        "contact:instagram": "vsattui",
+        "contact:pinterest": "vsattui",
+        "contact:twitter": "vsattui",
+        "craft": "winery",
+        "fixme": "Check bounds",
+        "name": "V. Sattui Winery",
+        "phone": "+1 707 9637774",
+        "tourism": "attraction",
+        "website": "https://www.vsattui.com/",
+        "website:calendar": "https://www.vsattui.com/visit/winery-events/",
+        "wikidata": "Q7906244",
+        "wikimedia_commons": "Category:V. Sattui Winery",
+        "wikipedia": "en:V. Sattui Winery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1139089101,
+      "center": {
+        "lat": 38.4600881,
+        "lon": -122.4234271
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Beaulieu Vineyard"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1139097123,
+      "center": {
+        "lat": 38.4655288,
+        "lon": -122.429197
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Grgich Hills Estate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1139097786,
+      "center": {
+        "lat": 38.4906984,
+        "lon": -122.4508522
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "The Salon at Heitz Cellar"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1139100933,
+      "center": {
+        "lat": 38.4791751,
+        "lon": -122.3944988
+      },
+      "tags": {
+        "addr:city": "Rutherford",
+        "addr:housenumber": "8445",
+        "addr:postcode": "94573",
+        "addr:state": "CA",
+        "addr:street": "Silverado Trail South",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Mumm",
+        "phone": "+1 707 9677700",
+        "shop": "wine",
+        "tourism": "attraction",
+        "wikidata": "Q63762360"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1146157724,
+      "center": {
+        "lat": 38.4120292,
+        "lon": -122.3365948
+      },
+      "tags": {
+        "addr:city": "Napa",
+        "addr:housenumber": "6121",
+        "addr:postcode": "94558",
+        "addr:state": "CA",
+        "addr:street": "Silverado Trail",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Silverado Vineyards"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1146163673,
+      "center": {
+        "lat": 38.4000279,
+        "lon": -122.3591214
+      },
+      "tags": {
+        "addr:city": "Yountville",
+        "addr:housenumber": "6490",
+        "addr:postcode": "94599",
+        "addr:state": "CA",
+        "addr:street": "Washington Street",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Priest Ranch Wines Tasting Room"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1146468491,
+      "center": {
+        "lat": 38.4011388,
+        "lon": -122.3598897
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Hill Family Estate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1147500974,
+      "center": {
+        "lat": 38.4059544,
+        "lon": -122.3662736
+      },
+      "tags": {
+        "addr:city": "Yountville",
+        "addr:housenumber": "6740",
+        "addr:postcode": "94599",
+        "addr:state": "CA",
+        "addr:street": "Washington Street",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Jessup Cellars Tasting Gallery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1147503008,
+      "center": {
+        "lat": 38.4592269,
+        "lon": -122.4214089
+      },
+      "tags": {
+        "addr:city": "Napa",
+        "addr:housenumber": "1151",
+        "addr:postcode": "94558",
+        "addr:state": "CA",
+        "addr:street": "Rutherford Road",
+        "building": "yes",
+        "craft": "winery",
+        "name": "Mathew Bruno Napa Valley"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1202658395,
+      "center": {
+        "lat": 38.4936877,
+        "lon": -122.4037822
+      },
+      "tags": {
+        "addr:city": "Rutherford",
+        "addr:housenumber": "200",
+        "addr:postcode": "94573",
+        "addr:state": "CA",
+        "addr:street": "Rutherford Hill Road",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "building:levels": "3",
+        "craft": "winery",
+        "name": "Rutherford Hill Winery",
+        "opening_hours": "Mo-Su 10:00-17:00",
+        "operator": "Rutherford Hill Winery",
+        "phone": "+1-707-963-1871",
+        "website": "https://www.rutherfordhill.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1348710665,
+      "center": {
+        "lat": 38.4208385,
+        "lon": -122.3382376
+      },
+      "tags": {
+        "addr:city": "Napa",
+        "addr:housenumber": "6236",
+        "addr:postcode": "94558",
+        "addr:state": "CA",
+        "addr:street": "Silverado Trail",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "building:levels": "1",
+        "craft": "winery",
+        "name": "Baldacci Family Vineyard",
+        "phone": "+1-707-944-9261",
+        "website": "http://baldaccivineyard.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q16950093",
+        "wikipedia": "en:Baldacci Family Vineyards"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1430086343,
+      "center": {
+        "lat": 38.4254549,
+        "lon": -122.3370015
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "landuse": "vineyard",
+        "name": "Robert Sinskey Vineyards"
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.8 b1080abd",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-02T22:38:41Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4818670822,
+      "lat": 44.7566916,
+      "lon": -0.5508265,
+      "tags": {
+        "craft": "winery",
+        "name": "Bardins",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4841922202,
+      "lat": 44.7209918,
+      "lon": -0.5559366,
+      "tags": {
+        "craft": "winery",
+        "name": "Château de Rochemorin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4914040921,
+      "lat": 44.7322627,
+      "lon": -0.5583542,
+      "tags": {
+        "addr:postcode": "33650",
+        "email": "visites@smith-haut-lafitte.com",
+        "name": "Château Smith Haut Lafitte",
+        "name:fr": "Château Smith Haut Lafitte",
+        "phone": "+33557831122",
+        "shop": "wine",
+        "website": "https://www.smith-haut-lafitte.com/en/home/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5718688950,
+      "lat": 44.7221785,
+      "lon": -0.5950578,
+      "tags": {
+        "craft": "winery",
+        "name": "Domaine du Petit-Bourdieu",
+        "ref:FR:CRTA": "DEGAQU033V5044F4",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5718688951,
+      "lat": 44.7376061,
+      "lon": -0.5794874,
+      "tags": {
+        "craft": "winery",
+        "name": "Château La Louvière",
+        "ref:FR:CRTA": "DEGAQU033FS000BN",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.andrelurton.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5718688952,
+      "lat": 44.7453161,
+      "lon": -0.5689784,
+      "tags": {
+        "addr:city": "Villenave-d'Ornon",
+        "addr:postcode": "33140",
+        "addr:street": "Chemin de Peyssardet",
+        "craft": "winery",
+        "name": "Château Carbonnieux",
+        "phone": "+33 5 57 96 56 20",
+        "ref:FR:CRTA": "DEGAQU033FS000VO",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://carbonnieux.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5913717247,
+      "lat": 44.7581943,
+      "lon": -0.5919119,
+      "tags": {
+        "craft": "winery",
+        "drink:wine": "retail",
+        "name": "Château Brown",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7438224701,
+      "lat": 44.728667,
+      "lon": -0.598543,
+      "tags": {
+        "addr:city": "Léognan",
+        "addr:housenumber": "7",
+        "addr:postcode": "33850",
+        "addr:street": "Cours du Maréchal de Lattre de Tassigny",
+        "craft": "winery",
+        "email": "lespritdesvinsleognan@orange.fr",
+        "name": "L'Esprit Des Vins Léognan",
+        "opening_hours": "Tu-Sa 09:30-12:30,15:00-19:00",
+        "phone": "+33 5 56 85 01 13",
+        "ref:FR:CRTA": "DEGAQU033V50UKSE",
+        "ref:FR:NAF": "47.25Z",
+        "ref:FR:SIREN": "853320604",
+        "ref:FR:SIRET": "85332060400038",
+        "shop": "wine",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://lespritdesvins.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7438225817,
+      "lat": 44.6864998,
+      "lon": -0.5195205,
+      "tags": {
+        "addr:city": "La Brède",
+        "addr:housenumber": "80",
+        "addr:postcode": "33650",
+        "addr:street": "Avenue Charles de Gaulle",
+        "email": "lacave@lespritdesvins.com",
+        "name": "L'Esprit Des Vins La Brède",
+        "phone": "+33 5 56 68 72 60",
+        "ref:FR:NAF": "47.25Z",
+        "ref:FR:SIREN": "853320604",
+        "ref:FR:SIRET": "85332060400020",
+        "shop": "wine",
+        "source": "INSEE - 2025-03",
+        "website": "https://www.lespritdesvins.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078214144,
+      "lat": 44.7059653,
+      "lon": -0.6374603,
+      "tags": {
+        "contact:email": "contact@chateauleognan.com",
+        "contact:website": "https://chateauleognan.com/",
+        "craft": "winery",
+        "name": "Château de Léognan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 139675532,
+      "center": {
+        "lat": 44.7729475,
+        "lon": -0.5658795
+      },
+      "tags": {
+        "addr:city": "Villenave-d'Ornon",
+        "addr:housenumber": "43",
+        "addr:postcode": "33140",
+        "addr:street": "Avenue des Pyrénées",
+        "building": "yes",
+        "craft": "winery",
+        "description": "22 hectares de vignes, Grand cru Pessac-Léognan.",
+        "historic": "castle",
+        "mapillary": "519712459058204",
+        "name": "Château Baret",
+        "name:en": "Chateau Baret",
+        "name:ru": "Шато Барет",
+        "opening_hours": "Mo-Fr 08:30-16:30",
+        "phone": "+33 9 82 56 87 71",
+        "ref:FR:CRTA": "DEGAQU033FS000WF",
+        "source": "Réseau SIRTAQUI - Comité Régional de Tourisme d'Aquitaine - www.sirtaqui-aquitaine.com - 06/2016",
+        "website": "https://www.lechateaubaret.com/fr/contactchateau-baret"
+      }
+    },
+    {
+      "type": "way",
+      "id": 228079509,
+      "center": {
+        "lat": 44.7375005,
+        "lon": -0.6002682
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Laguloup",
+        "ref:FR:RNB": "97MDX228PTKH",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 473606654,
+      "center": {
+        "lat": 44.6862207,
+        "lon": -0.5339982
+      },
+      "tags": {
+        "craft": "winery",
+        "name": "Château Bichon Cassignols",
+        "operator": "Jean-François et Marie Lespinasse",
+        "organic": "only"
+      }
+    },
+    {
+      "type": "way",
+      "id": 785425171,
+      "center": {
+        "lat": 44.7862353,
+        "lon": -0.6423003
+      },
+      "tags": {
+        "addr:city": "Pessac",
+        "addr:housenumber": "10",
+        "addr:postcode": "33600",
+        "addr:street": "Avenue Gustave Eiffel",
+        "building": "yes",
+        "name": "Vinimarché",
+        "operator": "Vinimarché",
+        "phone": "+33 5 57 26 85 85",
+        "shop": "wine",
+        "website": "https://www.vinimarche.fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964991972,
+      "center": {
+        "lat": 44.7336918,
+        "lon": -0.5813751
+      },
+      "tags": {
+        "architect": "Daniel Romeo",
+        "building": "yes",
+        "craft": "winery",
+        "layer": "-1",
+        "start_date": "2021"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1066998818,
+      "center": {
+        "lat": 44.7092949,
+        "lon": -0.5395972
+      },
+      "tags": {
+        "building": "yes",
+        "craft": "winery",
+        "name": "Château Lagarde"
+      }
+    }
+  ]
+}

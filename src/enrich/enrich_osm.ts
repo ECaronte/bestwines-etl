@@ -102,21 +102,46 @@ export async function enrichOsm(opts: {
     }
 
     const res = await client.searchAround({
-      lat,
-      lon,
-      radiusM,
-      queryName: w.name,
-    });
+  lat,
+  lon,
+  radiusM,
+});
 
-    const candidates: Candidate[] = (res || []).map((it: any) => ({
-      name: it.name,
-      website: it.website,
-      phone: it.phone,
-      address: it.address,
-      lat: it.lat,
-      lon: it.lon,
-      tags: it.tags,
-    }));
+const els = Array.isArray((res as any)?.elements) ? (res as any).elements : [];
+
+const candidates: Candidate[] = els.map((el: any) => {
+  const t = el?.tags || {};
+  const c = el?.center || {};
+  const lat2 = typeof el?.lat === "number" ? el.lat : (typeof c?.lat === "number" ? c.lat : undefined);
+  const lon2 = typeof el?.lon === "number" ? el.lon : (typeof c?.lon === "number" ? c.lon : undefined);
+
+  // website en OSM suele estar en website o contact:website
+  const website = t.website || t["contact:website"] || t["url"] || "";
+  const phone = t.phone || t["contact:phone"] || t["contact:mobile"] || "";
+  const name = t.name || "";
+  const addr =
+    [
+      t["addr:housenumber"],
+      t["addr:street"],
+      t["addr:postcode"],
+      t["addr:city"],
+      t["addr:state"],
+      t["addr:country"],
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .trim() || "";
+
+  return {
+    name,
+    website,
+    phone,
+    address: addr,
+    lat: lat2,
+    lon: lon2,
+    tags: t,
+  };
+});
 
     const best = pickBestCandidate({ wineryName: w.name, candidates });
 

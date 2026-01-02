@@ -7,8 +7,6 @@ import { buildCanonicalDataset } from "./export/toDatasetJson.js";
 import { datasetToCsv } from "./export/toCsv.js";
 import { putTextToS3 } from "./publish/s3.js";
 
-// ✅ NUEVO
-import { enrichOsm } from "./enrich/enrich_osm.js";
 
 async function ensureOutDir() {
   const outDir = path.resolve(process.cwd(), "out");
@@ -114,10 +112,13 @@ async function runPublishStaging() {
 
 // ✅ NUEVO: Enrich OSM
 async function runEnrichOsm() {
-  // se asume que ya existe out/dataset.json
   await ensureOutDir();
 
-  const limit = process.env.ENRICH_LIMIT ? Number(process.env.ENRICH_LIMIT) : undefined;
+  const limit = process.env.ENRICH_LIMIT
+    ? Number(process.env.ENRICH_LIMIT)
+    : undefined;
+
+  const { enrichOsm } = await import("./enrich/enrich_osm.js");
 
   await enrichOsm({
     inputPath: process.env.ENRICH_INPUT || "out/dataset.json",

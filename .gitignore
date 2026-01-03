@@ -7,3 +7,8 @@ out
 
 data/osm-cache/
 out/
+
+# local artifacts
+data/osm-cache/
+out/
+logs/

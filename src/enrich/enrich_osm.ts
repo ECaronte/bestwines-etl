@@ -38,29 +38,6 @@ function writeJson(p: string, obj: any) {
   fs.writeFileSync(p, JSON.stringify(obj, null, 2) + "\n", "utf8");
 }
 
-function writeCsv(p: string, rows: Record<string, any>[]) {
-  const headers = Array.from(
-    rows.reduce((set, r) => {
-      Object.keys(r).forEach((k) => set.add(k));
-      return set;
-    }, new Set<string>())
-  );
-
-  const esc = (v: any) => {
-    const s = v == null ? "" : String(v);
-    if (/[,"\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
-    return s;
-  };
-
-  const out = [
-    headers.join(","),
-    ...rows.map((r) => headers.map((h) => esc(r[h])).join(",")),
-  ].join("\n");
-
-  fs.mkdirSync(path.dirname(p), { recursive: true });
-  fs.writeFileSync(p, out + "\n", "utf8");
-}
-
 function msToHms(ms: number) {
   const s = Math.max(0, Math.floor(ms / 1000));
   const h = Math.floor(s / 3600);
@@ -72,29 +49,16 @@ function msToHms(ms: number) {
 function safeUrl(u: any) {
   const s = (u == null ? "" : String(u)).trim();
   if (!s) return "";
-  // normaliza urls sin esquema
   if (/^www\./i.test(s)) return `https://${s}`;
   return s;
 }
 
 function extractEmail(tags: Record<string, string>) {
-  return (
-    tags["email"] ||
-    tags["contact:email"] ||
-    tags["addr:email"] ||
-    ""
-  ).trim();
+  return (tags["email"] || tags["contact:email"] || tags["addr:email"] || "").trim();
 }
-
 function extractWebsite(tags: Record<string, string>) {
-  return (
-    tags["website"] ||
-    tags["contact:website"] ||
-    tags["url"] ||
-    ""
-  ).trim();
+  return (tags["website"] || tags["contact:website"] || tags["url"] || "").trim();
 }
-
 function extractPhone(tags: Record<string, string>) {
   return (
     tags["phone"] ||
@@ -104,7 +68,6 @@ function extractPhone(tags: Record<string, string>) {
     ""
   ).trim();
 }
-
 function buildAddress(tags: Record<string, string>) {
   const parts = [
     tags["addr:housenumber"],
@@ -139,7 +102,6 @@ function osmElementToCandidate(el: any): Candidate {
     lat: lat2,
     lon: lon2,
     tags: t,
-    // pasamos email en tags; el match no lo necesita pero lo usamos luego
     extra: { email },
   } as any;
 }
@@ -151,6 +113,45 @@ function elementOsmUrl(el: any) {
   return `https://www.openstreetmap.org/${type}/${id}`;
 }
 
+// ---------- CSV incremental (append) ----------
+const CSV_HEADERS = [
+  "id",
+  "name",
+  "status",
+  "score",
+  "osmName",
+  "website",
+  "phone",
+  "email",
+  "address",
+  "osmType",
+  "osmId",
+  "osmUrl",
+  "cache",
+  "fallbackName",
+  "error",
+];
+
+function escCsv(v: any) {
+  const s = v == null ? "" : String(v);
+  if (/[,"\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+  return s;
+}
+
+function ensureCsvHeader(p: string) {
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  if (!fs.existsSync(p) || fs.statSync(p).size === 0) {
+    fs.writeFileSync(p, CSV_HEADERS.join(",") + "\n", "utf8");
+  }
+}
+
+function appendCsvRow(p: string, row: Record<string, any>) {
+  ensureCsvHeader(p);
+  const line = CSV_HEADERS.map((h) => escCsv(row[h])).join(",") + "\n";
+  fs.appendFileSync(p, line, "utf8");
+}
+
+// ---------- Overpass fetch with fallback ----------
 async function fetchOverpassWithFallback(params: {
   client: OverpassClient;
   wineryId: string;
@@ -163,31 +164,33 @@ async function fetchOverpassWithFallback(params: {
   cacheOnly: boolean;
 }): Promise<{
   res: OverpassResponse | null;
-  cache: "hit" | "miss" | "stale";
+  cache: "hit" | "miss";
   usedFallbackName: boolean;
   error?: string;
 }> {
   const {
-    client, wineryId, lat, lon, radiusM, wineryName,
-    cacheTtlDays, fallbackByName, cacheOnly,
+    client,
+    wineryId,
+    lat,
+    lon,
+    radiusM,
+    wineryName,
+    cacheTtlDays,
+    fallbackByName,
+    cacheOnly,
   } = params;
 
-  // 1) cache first
   const cached = readCache(wineryId, cacheTtlDays);
   if (cached) return { res: cached, cache: "hit", usedFallbackName: false };
 
-  if (cacheOnly) {
-    return { res: null, cache: "miss", usedFallbackName: false, error: "cache_only" };
-  }
+  if (cacheOnly) return { res: null, cache: "miss", usedFallbackName: false, error: "cache_only" };
 
-  // 2) try around
   try {
     const fresh = await client.searchAround({ lat, lon, radiusM });
     writeCache(wineryId, fresh);
     return { res: fresh, cache: "miss", usedFallbackName: false };
   } catch (e: any) {
     const msg = e?.message ? String(e.message) : "unknown_error";
-    // 3) optional fallback by name
     if (fallbackByName) {
       try {
         const byName = await client.searchByName({ name: wineryName });
@@ -200,6 +203,17 @@ async function fetchOverpassWithFallback(params: {
     }
     return { res: null, cache: "miss", usedFallbackName: false, error: msg };
   }
+}
+
+// ---------- RESUME helpers ----------
+function getResumeStartIndex(ds: Dataset): number {
+  const n = Number(ds?.meta?.enriched?.progress?.processed || 0);
+  return Number.isFinite(n) && n > 0 ? n : 0;
+}
+
+function shouldSkipAlreadyEnriched(w: Winery): boolean {
+  // si ya tiene v2.osm.match, lo consideramos procesado
+  return Boolean(w?.v2?.osm?.match);
 }
 
 export async function enrichOsm(opts: {
@@ -221,18 +235,40 @@ export async function enrichOsm(opts: {
   const cacheOnly = String(process.env.OSM_CACHE_ONLY || "0") === "1";
 
   const progressEvery = Math.max(1, Number(process.env.OSM_PROGRESS_EVERY || 10));
-  const checkpointEvery = Math.max(0, Number(process.env.OSM_CHECKPOINT_EVERY || 25)); // 0 = off
+  const checkpointEvery = Math.max(0, Number(process.env.OSM_CHECKPOINT_EVERY || 25)); // 0=off
   const checkpointPath = process.env.OSM_CHECKPOINT_PATH || "out/dataset.enriched.partial.json";
+  const resume = String(process.env.OSM_RESUME || "0") === "1";
 
   const client = new OverpassClient();
 
-  const ds = readJson(inputPath) as Dataset;
+  // RESUME: si existe checkpoint, lo usamos como input real
+  let ds: Dataset;
+  if (resume && fs.existsSync(checkpointPath)) {
+    ds = readJson(checkpointPath) as Dataset;
+    process.stdout.write(`[OSM] RESUME=1 usando checkpoint: ${checkpointPath}\n`);
+  } else {
+    ds = readJson(inputPath) as Dataset;
+  }
+
   const wineries = ds.wineries || [];
+  const total = wineries.length;
 
   const max =
     typeof opts.limit === "number" && opts.limit > 0
-      ? Math.min(opts.limit, wineries.length)
-      : wineries.length;
+      ? Math.min(opts.limit, total)
+      : total;
+
+  // start index
+  let startIndex = 0;
+  if (resume && fs.existsSync(checkpointPath)) {
+    startIndex = getResumeStartIndex(ds);
+    // protección: si el meta está mal, buscamos el primer índice no enriquecido
+    if (startIndex <= 0 || startIndex > max) {
+      const idx = wineries.findIndex((w, i) => i < max && !shouldSkipAlreadyEnriched(w));
+      startIndex = idx >= 0 ? idx : max;
+    }
+    process.stdout.write(`[OSM] RESUME startIndex=${startIndex} (max=${max})\n`);
+  }
 
   let matchedStrong = 0;
   let matchedWeak = 0;
@@ -240,11 +276,13 @@ export async function enrichOsm(opts: {
   let noCoords = 0;
   let errors = 0;
 
-  const qaRows: Record<string, any>[] = [];
-  const startedAt = Date.now();
-  let processed = 0;
+  // si reanudamos, no contamos desde cero los contadores históricos (no es crítico),
+  // pero sí mantenemos progreso y seguimos escribiendo CSV en append.
+  ensureCsvHeader(outputCsvPath);
 
-  // helper: checkpoint
+  const startedAt = Date.now();
+  let processed = startIndex;
+
   const writeCheckpoint = () => {
     if (!checkpointEvery) return;
     const out: Dataset = {
@@ -253,6 +291,7 @@ export async function enrichOsm(opts: {
       meta: {
         ...(ds.meta || {}),
         enriched: {
+          ...(ds.meta?.enriched || {}),
           source: "osm",
           generatedAt: nowIso(),
           progress: { processed, max },
@@ -262,16 +301,28 @@ export async function enrichOsm(opts: {
     writeJson(checkpointPath, out);
   };
 
-  for (let i = 0; i < max; i++) {
+  for (let i = startIndex; i < max; i++) {
     const w = wineries[i];
     processed = i + 1;
+
+    // si ya estaba enriquecida (por un intento anterior), saltamos
+    if (resume && shouldSkipAlreadyEnriched(w)) {
+      continue;
+    }
 
     const lat = w.lat;
     const lon = w.lng;
 
     if (typeof lat !== "number" || typeof lon !== "number") {
       noCoords++;
-      qaRows.push({ id: w.id, name: w.name, status: "no_coords" });
+      appendCsvRow(outputCsvPath, {
+        id: w.id,
+        name: w.name,
+        status: "no_coords",
+        cache: "",
+        fallbackName: 0,
+        error: "",
+      });
       continue;
     }
 
@@ -289,13 +340,13 @@ export async function enrichOsm(opts: {
 
     if (!res || !Array.isArray((res as any).elements)) {
       errors++;
-      qaRows.push({
+      appendCsvRow(outputCsvPath, {
         id: w.id,
         name: w.name,
         status: "error",
-        error: error || "no_response",
         cache,
         fallbackName: usedFallbackName ? 1 : 0,
+        error: error || "no_response",
       });
       continue;
     }
@@ -307,53 +358,55 @@ export async function enrichOsm(opts: {
 
     if (!best) {
       noMatch++;
-      qaRows.push({
+      appendCsvRow(outputCsvPath, {
         id: w.id,
         name: w.name,
         status: "no_match",
         cache,
         fallbackName: usedFallbackName ? 1 : 0,
+        error: "",
       });
       continue;
     }
 
     const score = best.score;
     const b: any = best.c;
+
     const status =
-      score >= minScore ? "matched_strong" : score >= weakScore ? "matched_weak" : "low_confidence";
+      score >= minScore ? "matched_strong" :
+      score >= weakScore ? "matched_weak" :
+      "low_confidence";
 
     if (status === "matched_strong") matchedStrong++;
     else if (status === "matched_weak") matchedWeak++;
     else noMatch++;
 
-    // intentamos localizar el elemento original para extraer osm id/type/url
-    // (pickBestCandidate devuelve Candidate; Candidate no guarda id/type, así que lo inferimos buscando match exacto por name+website si posible)
+    // buscar elemento para osmType/osmId/osmUrl
     let osmType = "";
     let osmId: number | "" = "";
     let osmUrl = "";
-    if (els.length) {
-      const targetName = (b?.name || "").trim();
-      const targetWeb = safeUrl(b?.website || "");
-      const found = els.find((el) => {
-        const t = el?.tags || {};
-        const nm = (t.name || "").trim();
-        const wb = safeUrl(extractWebsite(t));
-        if (targetName && nm && nm.toLowerCase() === targetName.toLowerCase()) {
-          if (!targetWeb) return true;
-          if (wb && wb.toLowerCase() === targetWeb.toLowerCase()) return true;
-          // si coincide nombre, aceptamos igualmente
-          return true;
-        }
-        return false;
-      });
-      if (found) {
-        osmType = found.type || "";
-        osmId = found.id || "";
-        osmUrl = elementOsmUrl(found);
-      }
+
+    const targetName = (b?.name || "").trim().toLowerCase();
+    const targetWeb = safeUrl(b?.website || "").toLowerCase();
+
+    const found = els.find((el) => {
+      const t = el?.tags || {};
+      const nm = (t.name || "").trim().toLowerCase();
+      if (!nm || !targetName) return false;
+      if (nm !== targetName) return false;
+      if (!targetWeb) return true;
+      const wb = safeUrl(extractWebsite(t)).toLowerCase();
+      if (wb && wb === targetWeb) return true;
+      return true; // si coincide nombre, aceptamos
+    });
+
+    if (found) {
+      osmType = found.type || "";
+      osmId = found.id || "";
+      osmUrl = elementOsmUrl(found);
     }
 
-    // aplicamos enriquecimiento “safe”
+    // aplicar enriquecimiento
     const outW: Winery = { ...w };
 
     const website = safeUrl(b.website || "");
@@ -376,7 +429,6 @@ export async function enrichOsm(opts: {
       if (!outW.v2.content.i18n.es.addressText) outW.v2.content.i18n.es.addressText = address;
     }
 
-    // metadata OSM
     if (!outW.v2.osm) outW.v2.osm = {};
     outW.v2.osm.id = osmId || outW.v2.osm.id || "";
     outW.v2.osm.type = osmType || outW.v2.osm.type || "";
@@ -386,7 +438,7 @@ export async function enrichOsm(opts: {
 
     wineries[i] = outW;
 
-    qaRows.push({
+    appendCsvRow(outputCsvPath, {
       id: w.id,
       name: w.name,
       status,
@@ -401,12 +453,13 @@ export async function enrichOsm(opts: {
       osmUrl: osmUrl || "",
       cache,
       fallbackName: usedFallbackName ? 1 : 0,
+      error: "",
     });
 
     // progreso
     if (processed % progressEvery === 0 || processed === max) {
       const elapsed = Date.now() - startedAt;
-      const perItem = elapsed / processed;
+      const perItem = elapsed / Math.max(1, (processed - startIndex));
       const eta = perItem * (max - processed);
       process.stdout.write(
         `[OSM] ${processed}/${max} | strong=${matchedStrong} weak=${matchedWeak} noMatch=${noMatch} noCoords=${noCoords} errors=${errors} | elapsed=${msToHms(elapsed)} | eta=${msToHms(eta)}\n`
@@ -419,28 +472,31 @@ export async function enrichOsm(opts: {
     }
   }
 
+  // final write: dataset enriched + final checkpoint
   const out: Dataset = {
     ...ds,
     wineries,
     meta: {
       ...(ds.meta || {}),
       enriched: {
+        ...(ds.meta?.enriched || {}),
         source: "osm",
         generatedAt: nowIso(),
         config: { minScore, weakScore, radiusM, cacheTtlDays, fallbackByName, cacheOnly },
+        progress: { processed: max, max },
         results: { processed: max, matchedStrong, matchedWeak, noMatch, noCoords, errors },
       },
     },
   };
 
   writeJson(outputPath, out);
-  writeCsv(outputCsvPath, qaRows);
+  writeJson(checkpointPath, out);
 
   const elapsed = Date.now() - startedAt;
   console.log(
     JSON.stringify(
       {
-        inputPath,
+        inputPath: resume && fs.existsSync(checkpointPath) ? checkpointPath : inputPath,
         outputPath,
         outputCsvPath,
         wineriesProcessed: max,
@@ -455,6 +511,7 @@ export async function enrichOsm(opts: {
         cacheTtlDays,
         fallbackByName,
         cacheOnly,
+        resume,
         elapsedSec: Math.round(elapsed / 1000),
       },
       null,

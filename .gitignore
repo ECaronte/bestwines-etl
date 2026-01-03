@@ -21,3 +21,10 @@ out/**
 data/osm-cache/
 data/osm-cache/**
 
+
+# local runtime
+out/
+data/osm-cache/
+
+# macOS
+.DS_Store

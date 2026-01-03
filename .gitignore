@@ -3,3 +3,7 @@ dist
 out
 .env
 .DS_Store
+
+
+data/osm-cache/
+out/

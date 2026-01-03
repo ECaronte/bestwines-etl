@@ -12,3 +12,12 @@ out/
 data/osm-cache/
 out/
 logs/
+
+# Local ETL outputs (never commit)
+out/
+out/**
+
+# Local OSM cache (never commit)
+data/osm-cache/
+data/osm-cache/**
+

@@ -7,10 +7,10 @@ import type { Dataset } from "./schema.js";
  */
 export function mergeDatasets(datasets: Dataset[]): Dataset {
   if (datasets.length === 0) throw new Error("mergeDatasets: empty input");
-  if (datasets.length === 1) return datasets[0];
+  if (datasets.length === 1) return datasets[0]!;
 
   // MVP: concat simple (NO USAR en producción sin dedupe)
-  const base = datasets[0];
+  const base = datasets[0]!;
   return datasets.slice(1).reduce((acc, ds) => {
     acc.wineries.push(...ds.wineries);
     acc.packs.push(...ds.packs);

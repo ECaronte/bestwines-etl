@@ -1,0 +1,51 @@
+name: Best Wines monthly winery candidate refresh
+
+on:
+  schedule:
+    - cron: '30 4 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bestwines-monthly-candidate-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      SOURCE: wikidata
+      LIMIT: '500'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Generate candidate only - never publish
+        run: npm run etl
+      - name: Audit generated candidate
+        run: node scripts/audit-dataset.mjs out/dataset.json
+      - name: Record non-publication boundary
+        run: |
+          echo '## Best Wines monthly candidate refresh' >> "$GITHUB_STEP_SUMMARY"
+          echo 'This workflow generates and audits a candidate dataset only.' >> "$GITHUB_STEP_SUMMARY"
+          echo '**It does not publish to S3 or write to DynamoDB.**' >> "$GITHUB_STEP_SUMMARY"
+          cat out/audit.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Retain candidate for review
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bestwines-wikidata-candidate-${{ github.run_id }}
+          path: |
+            out/dataset.json
+            out/dataset.csv
+            out/audit.json
+          retention-days: 14
+          if-no-files-found: error

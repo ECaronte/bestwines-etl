@@ -28,6 +28,8 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
+      - name: Install pinned TypeScript declarations without changing lockfile
+        run: npm install --no-save --package-lock=false --ignore-scripts @types/node@26.6.5 @types/ngeohash@0.6.8
       - run: npm run build
       - name: Generate candidate only - never publish
         run: npm run etl

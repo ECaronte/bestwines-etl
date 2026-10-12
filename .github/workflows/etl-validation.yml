@@ -1,0 +1,53 @@
+name: Best Wines ETL validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'data/manual.json'
+      - 'scripts/audit-dataset.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+      - '.github/workflows/etl-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bestwines-etl-validation
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      SOURCE: manual
+      LIMIT: '0'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Generate deterministic local candidate
+        run: npm run etl
+      - name: Audit candidate dataset
+        run: node scripts/audit-dataset.mjs out/dataset.json
+      - name: Retain validation evidence
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: bestwines-etl-validation-${{ github.run_id }}
+          path: |
+            out/dataset.json
+            out/dataset.csv
+            out/audit.json
+          retention-days: 7
+          if-no-files-found: error

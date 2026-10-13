@@ -16,6 +16,7 @@ on:
 permissions:
   contents: read
   issues: write
+  id-token: write
 
 concurrency:
   group: bestwines-monthly-candidate-refresh
@@ -28,6 +29,8 @@ jobs:
     env:
       SOURCE: wikidata
       LIMIT: '500'
+      AWS_REGION: eu-west-1
+      AWS_ACCOUNT_ID: '249562468297'
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
@@ -40,6 +43,20 @@ jobs:
       - name: Install pinned TypeScript declarations without changing lockfile
         run: npm install --no-save --package-lock=false --ignore-scripts @types/node@26.6.5 @types/ngeohash@0.6.8
       - run: npm run build
+      - name: Configure read-only AWS credentials with OIDC
+        uses: aws-actions/configure-aws-credentials@61815dcd50bd041e203e49132bacad1fd04d2708
+        with:
+          role-to-assume: arn:aws:iam::249562468297:role/BestWinesGitHubReadRole
+          aws-region: eu-west-1
+      - name: Verify read-only AWS identity
+        run: test "$(aws sts get-caller-identity --query Account --output text)" = "$AWS_ACCOUNT_ID"
+      - name: Read internal winery identity/status metadata only
+        run: |
+          aws dynamodb scan \
+            --table-name bw-dev-main \
+            --projection-expression 'PK,SK,#t,#s,indexable,canonicalSlug,slug' \
+            --expression-attribute-names '{"#t":"type","#s":"status"}' \
+            --output json > /tmp/bw-main-internal.json
       - name: Generate candidate only - never publish
         run: npm run etl
       - name: Audit generated candidate
@@ -47,6 +64,7 @@ jobs:
       - name: Compare fresh candidate with current public directory
         env:
           BW_PUBLIC_API: https://8y5sqsud79.execute-api.eu-west-1.amazonaws.com
+          BW_INTERNAL_SCAN: /tmp/bw-main-internal.json
         run: node scripts/compare-public.mjs out/dataset.json
       - name: Build approval-gated publication proposal
         run: node scripts/build-publication-proposal.mjs out/public-comparison.json out/publication-proposal.json
@@ -58,7 +76,7 @@ jobs:
           echo '**It does not publish to S3 or write to DynamoDB.**' >> "$GITHUB_STEP_SUMMARY"
           cat out/audit.json >> "$GITHUB_STEP_SUMMARY"
           echo '' >> "$GITHUB_STEP_SUMMARY"
-          node -e 'const r=require("./out/public-comparison.json"); console.log("Candidate total: "+r.candidateTotal+"\nPublic total: "+r.publicTotal+"\nAlready public: "+r.alreadyPublic+"\nCandidate not public: "+r.candidateNotPublic+"\nPublic missing from fresh source: "+r.publicMissingFromFreshSource)' >> "$GITHUB_STEP_SUMMARY"
+          node -e 'const r=require("./out/public-comparison.json"); console.log("Candidate total: "+r.candidateTotal+"\nPublic total: "+r.publicTotal+"\nAlready public: "+r.alreadyPublic+"\nAlready known internally (not public): "+r.alreadyKnownInternal+"\nCandidate not public/new: "+r.candidateNotPublic+"\nPublic missing from fresh source: "+r.publicMissingFromFreshSource)' >> "$GITHUB_STEP_SUMMARY"
           node -e 'const p=require("./out/publication-proposal.json"); console.log("\nProposal ready for review: "+p.proposedCount+"\nHeld for quality: "+p.heldForQualityCount+"\nApproval required: "+p.approvalRequired+"\nProduction write performed: "+p.productionWritePerformed)' >> "$GITHUB_STEP_SUMMARY"
       - name: Open monthly winery review case
         if: github.event_name != 'push'

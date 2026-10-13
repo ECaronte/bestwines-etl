@@ -33,6 +33,18 @@ async function loadPublic() {
 }
 
 const publicRows = await loadPublic();
+
+const sitemapRes = await fetch(apiBase + "/sitemap.xml", {
+  headers: { accept: "application/xml", "user-agent": "BestWinesETLCompare/1.0" },
+  signal: AbortSignal.timeout(15000),
+});
+if (!sitemapRes.ok) throw new Error("public sitemap returned " + sitemapRes.status);
+const sitemapText = await sitemapRes.text();
+const sitemapWinerySlugs = [...sitemapText.matchAll(/<loc>https:\/\/best-wines\.eu\/bodega\/([^<]+)<\/loc>/g)]
+  .map((m) => decodeURIComponent(m[1]));
+const publicSlugs = new Set(publicRows.map((w) => w.slug || w.canonicalSlug).filter(Boolean));
+const sitemapMissingFromPublicList = sitemapWinerySlugs.filter((slug) => !publicSlugs.has(slug));
+const publicListMissingFromSitemap = [...publicSlugs].filter((slug) => !sitemapWinerySlugs.includes(slug));
 const candidateById = new Map(candidates.map((w) => [w.id, w]));
 const publicById = new Map(publicRows.map((w) => [w.id, w]));
 
@@ -72,6 +84,9 @@ const report = {
   apiBase,
   candidateTotal: candidates.length,
   publicTotal: publicRows.length,
+  sitemapWineryTotal: sitemapWinerySlugs.length,
+  sitemapMissingFromPublicListCount: sitemapMissingFromPublicList.length,
+  publicListMissingFromSitemapCount: publicListMissingFromSitemap.length,
   alreadyPublic: alreadyPublic.length,
   candidateNotPublic: candidateNotPublic.length,
   publicMissingFromFreshSource: publicMissingFromFreshSource.length,
@@ -82,6 +97,8 @@ const report = {
   heldForQuality,
   candidates: candidateNotPublic,
   missingPublic: publicMissingFromFreshSource,
+  sitemapMissingFromPublicList,
+  publicListMissingFromSitemap,
   publishApproved: false,
 };
 
@@ -89,6 +106,9 @@ await writeFile("out/public-comparison.json", JSON.stringify(report, null, 2));
 console.log(JSON.stringify({
   candidateTotal: report.candidateTotal,
   publicTotal: report.publicTotal,
+  sitemapWineryTotal: report.sitemapWineryTotal,
+  sitemapMissingFromPublicListCount: report.sitemapMissingFromPublicListCount,
+  publicListMissingFromSitemapCount: report.publicListMissingFromSitemapCount,
   alreadyPublic: report.alreadyPublic,
   candidateNotPublic: report.candidateNotPublic,
   publicMissingFromFreshSource: report.publicMissingFromFreshSource,

@@ -1,6 +1,10 @@
 name: Best Wines monthly winery candidate refresh
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/monthly-candidate-refresh.yml'
   schedule:
     - cron: '30 4 1 * *'
   workflow_dispatch:

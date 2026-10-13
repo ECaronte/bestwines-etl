@@ -82,7 +82,7 @@ LIMIT ${LIM}
     method: "GET",
     headers: {
       Accept: "application/sparql-results+json",
-      "User-Agent": "bestwines-etl/0.1 (contact: you@yourdomain.com)",
+      "User-Agent": "bestwines-etl/0.1 (+https://best-wines.eu/)",
     },
   });
 

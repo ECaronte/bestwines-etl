@@ -5,6 +5,33 @@ const apiBase = (process.env.BW_PUBLIC_API || "https://8y5sqsud79.execute-api.eu
 const raw = JSON.parse(await readFile(candidatePath, "utf8"));
 const candidates = Array.isArray(raw.wineries) ? raw.wineries : [];
 
+async function loadCountry(countryCode) {
+  const rows = [];
+  let cursor = null;
+  const seen = new Set();
+  for (let page = 0; page < 20; page++) {
+    const qs = new URLSearchParams({ lang: "en", limit: "50" });
+    if (cursor) qs.set("cursor", cursor);
+    const res = await fetch(apiBase + "/country/" + encodeURIComponent(countryCode) + "/wineries?" + qs, {
+      headers: { accept: "application/json", "user-agent": "BestWinesETLCompare/1.0" },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) throw new Error("country " + countryCode + " returned " + res.status);
+    const body = await res.json();
+    if (!Array.isArray(body.items)) throw new Error("country " + countryCode + " has no items array");
+    for (const item of body.items) {
+      if (!item?.id || seen.has(item.id)) continue;
+      if (item.status !== "active" || item.indexable !== true) throw new Error("country endpoint leaked non-public winery " + item.id);
+      seen.add(item.id);
+      rows.push(item);
+    }
+    if (!body.nextCursor) break;
+    if (body.nextCursor === cursor) throw new Error("country cursor cycle for " + countryCode);
+    cursor = body.nextCursor;
+  }
+  return rows;
+}
+
 async function loadPublic() {
   const rows = [];
   let cursor = null;
@@ -42,6 +69,13 @@ if (!sitemapRes.ok) throw new Error("public sitemap returned " + sitemapRes.stat
 const sitemapText = await sitemapRes.text();
 const sitemapWinerySlugs = [...sitemapText.matchAll(/<loc>https:\/\/best-wines\.eu\/bodega\/([^<]+)<\/loc>/g)]
   .map((m) => decodeURIComponent(m[1]));
+const sitemapCountryCodes = [...sitemapText.matchAll(/<loc>https:\/\/best-wines\.eu\/pais\/([A-Z]{2})<\/loc>/g)]
+  .map((m) => m[1]);
+const countryRows = [];
+for (const cc of sitemapCountryCodes) countryRows.push(...await loadCountry(cc));
+const countrySlugs = new Set(countryRows.map((w) => w.slug || w.canonicalSlug).filter(Boolean));
+const sitemapMissingFromCountryLists = sitemapWinerySlugs.filter((slug) => !countrySlugs.has(slug));
+const countryListsMissingFromSitemap = [...countrySlugs].filter((slug) => !sitemapWinerySlugs.includes(slug));
 const publicSlugs = new Set(publicRows.map((w) => w.slug || w.canonicalSlug).filter(Boolean));
 const sitemapMissingFromPublicList = sitemapWinerySlugs.filter((slug) => !publicSlugs.has(slug));
 const publicListMissingFromSitemap = [...publicSlugs].filter((slug) => !sitemapWinerySlugs.includes(slug));
@@ -85,6 +119,10 @@ const report = {
   candidateTotal: candidates.length,
   publicTotal: publicRows.length,
   sitemapWineryTotal: sitemapWinerySlugs.length,
+  sitemapCountryTotal: sitemapCountryCodes.length,
+  countryListTotal: countrySlugs.size,
+  sitemapMissingFromCountryListsCount: sitemapMissingFromCountryLists.length,
+  countryListsMissingFromSitemapCount: countryListsMissingFromSitemap.length,
   sitemapMissingFromPublicListCount: sitemapMissingFromPublicList.length,
   publicListMissingFromSitemapCount: publicListMissingFromSitemap.length,
   alreadyPublic: alreadyPublic.length,
@@ -99,6 +137,8 @@ const report = {
   missingPublic: publicMissingFromFreshSource,
   sitemapMissingFromPublicList,
   publicListMissingFromSitemap,
+  sitemapMissingFromCountryLists,
+  countryListsMissingFromSitemap,
   publishApproved: false,
 };
 
@@ -107,6 +147,10 @@ console.log(JSON.stringify({
   candidateTotal: report.candidateTotal,
   publicTotal: report.publicTotal,
   sitemapWineryTotal: report.sitemapWineryTotal,
+  sitemapCountryTotal: report.sitemapCountryTotal,
+  countryListTotal: report.countryListTotal,
+  sitemapMissingFromCountryListsCount: report.sitemapMissingFromCountryListsCount,
+  countryListsMissingFromSitemapCount: report.countryListsMissingFromSitemapCount,
   sitemapMissingFromPublicListCount: report.sitemapMissingFromPublicListCount,
   publicListMissingFromSitemapCount: report.publicListMissingFromSitemapCount,
   alreadyPublic: report.alreadyPublic,

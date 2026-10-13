@@ -99,6 +99,12 @@ const byCountry = {};
 const readyForReview = [];
 const heldForQuality = [];
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const europeCountryCodes = new Set([
+  "AL","AD","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR",
+  "DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","MD","MC","ME",
+  "NL","MK","NO","PL","PT","RO","SM","RS","SK","SI","ES","SE","CH","UA",
+  "GB","VA","XK"
+]);
 
 for (const w of candidateNotPublic) {
   byCountry[w.countryCode] = (byCountry[w.countryCode] || 0) + 1;
@@ -107,7 +113,10 @@ for (const w of candidateNotPublic) {
   if (!w.hasCoords) reasons.push("coordinates");
   if (!w.region || w.region === "unknown") reasons.push("region");
   if (!slugPattern.test(String(w.slug || ""))) reasons.push("slug");
-  if (!String(w.name || "").trim()) reasons.push("name");
+  const cleanName = String(w.name || "").trim();
+  if (!cleanName) reasons.push("name");
+  else if (/^Q\d+$/i.test(cleanName)) reasons.push("name-placeholder");
+  if (!europeCountryCodes.has(String(w.countryCode || "").toUpperCase())) reasons.push("outside-europe");
   const item = { ...w, qualityHoldReasons: reasons };
   if (reasons.length) heldForQuality.push(item);
   else readyForReview.push(item);

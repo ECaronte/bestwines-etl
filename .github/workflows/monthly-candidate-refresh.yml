@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/monthly-candidate-refresh.yml'
+      - 'scripts/audit-dataset.mjs'
+      - 'scripts/compare-public.mjs'
+      - 'src/sources/wikidata.ts'
   schedule:
     - cron: '30 4 1 * *'
   workflow_dispatch:

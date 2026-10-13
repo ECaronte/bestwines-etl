@@ -4,6 +4,29 @@ const candidatePath = process.argv[2] || "out/dataset.json";
 const apiBase = (process.env.BW_PUBLIC_API || "https://8y5sqsud79.execute-api.eu-west-1.amazonaws.com").replace(/\/+$/, "");
 const raw = JSON.parse(await readFile(candidatePath, "utf8"));
 const candidates = Array.isArray(raw.wineries) ? raw.wineries : [];
+const internalScanPath = process.env.BW_INTERNAL_SCAN || "";
+const internalById = new Map();
+const internalBySlug = new Map();
+
+if (internalScanPath) {
+  const scan = JSON.parse(await readFile(internalScanPath, "utf8"));
+  for (const it of scan.Items || []) {
+    const pk = it?.PK?.S || "";
+    const sk = it?.SK?.S || "";
+    const type = it?.type?.S || "";
+    if (sk !== "META" || type !== "WINERY" || !pk.startsWith("W#")) continue;
+    const id = pk.slice(2);
+    const slug = it?.canonicalSlug?.S || it?.slug?.S || "";
+    const meta = {
+      id,
+      slug,
+      status: it?.status?.S || null,
+      indexable: it?.indexable?.BOOL ?? null,
+    };
+    internalById.set(id, meta);
+    if (slug) internalBySlug.set(slug, meta);
+  }
+}
 
 async function loadCountry(countryCode) {
   const rows = [];
@@ -83,13 +106,33 @@ const candidateById = new Map(candidates.map((w) => [w.id, w]));
 const publicById = new Map(publicRows.map((w) => [w.id, w]));
 
 const alreadyPublic = [];
+const alreadyKnownInternal = [];
 const candidateNotPublic = [];
 const publicMissingFromFreshSource = [];
 
 for (const w of candidates) {
   const pub = publicById.get(w.id);
-  if (pub) alreadyPublic.push({ id: w.id, candidateSlug: w.slug || null, publicSlug: pub.slug || pub.canonicalSlug || null, countryCode: w.countryCode });
-  else candidateNotPublic.push({ id: w.id, name: w.name, slug: w.slug || null, countryCode: w.countryCode, region: w.region || null, hasCoords: Number.isFinite(w.lat) && Number.isFinite(w.lng) });
+  if (pub) {
+    alreadyPublic.push({ id: w.id, candidateSlug: w.slug || null, publicSlug: pub.slug || pub.canonicalSlug || null, countryCode: w.countryCode });
+    continue;
+  }
+
+  const internal = internalById.get(w.id) || (w.slug ? internalBySlug.get(w.slug) : null);
+  if (internal) {
+    alreadyKnownInternal.push({
+      id: w.id,
+      name: w.name,
+      candidateSlug: w.slug || null,
+      internalId: internal.id,
+      internalSlug: internal.slug || null,
+      internalStatus: internal.status,
+      internalIndexable: internal.indexable,
+      countryCode: w.countryCode,
+    });
+    continue;
+  }
+
+  candidateNotPublic.push({ id: w.id, name: w.name, slug: w.slug || null, countryCode: w.countryCode, region: w.region || null, hasCoords: Number.isFinite(w.lat) && Number.isFinite(w.lng) });
 }
 for (const w of publicRows) {
   if (!candidateById.has(w.id)) publicMissingFromFreshSource.push({ id: w.id, name: w.name, slug: w.slug || w.canonicalSlug || null, countryCode: w.countryCode });
@@ -135,6 +178,7 @@ const report = {
   sitemapMissingFromPublicListCount: sitemapMissingFromPublicList.length,
   publicListMissingFromSitemapCount: publicListMissingFromSitemap.length,
   alreadyPublic: alreadyPublic.length,
+  alreadyKnownInternal: alreadyKnownInternal.length,
   candidateNotPublic: candidateNotPublic.length,
   publicMissingFromFreshSource: publicMissingFromFreshSource.length,
   newCandidateCountryCounts: Object.fromEntries(Object.entries(byCountry).sort()),
@@ -142,6 +186,7 @@ const report = {
   heldForQualityCount: heldForQuality.length,
   readyForReview,
   heldForQuality,
+  alreadyKnownInternalRows: alreadyKnownInternal,
   candidates: candidateNotPublic,
   missingPublic: publicMissingFromFreshSource,
   sitemapMissingFromPublicList,
@@ -163,6 +208,7 @@ console.log(JSON.stringify({
   sitemapMissingFromPublicListCount: report.sitemapMissingFromPublicListCount,
   publicListMissingFromSitemapCount: report.publicListMissingFromSitemapCount,
   alreadyPublic: report.alreadyPublic,
+  alreadyKnownInternal: report.alreadyKnownInternal,
   candidateNotPublic: report.candidateNotPublic,
   publicMissingFromFreshSource: report.publicMissingFromFreshSource,
   newCandidateCountryCounts: report.newCandidateCountryCounts,

@@ -160,3 +160,5 @@ console.log(JSON.stringify({
   readyForReviewCount: report.readyForReviewCount,
   heldForQualityCount: report.heldForQualityCount,
 }, null, 2));
+
+// Post-pagination production recheck 2026-10-13

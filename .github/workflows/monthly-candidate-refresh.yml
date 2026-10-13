@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: bestwines-monthly-candidate-refresh
@@ -59,6 +60,43 @@ jobs:
           echo '' >> "$GITHUB_STEP_SUMMARY"
           node -e 'const r=require("./out/public-comparison.json"); console.log("Candidate total: "+r.candidateTotal+"\nPublic total: "+r.publicTotal+"\nAlready public: "+r.alreadyPublic+"\nCandidate not public: "+r.candidateNotPublic+"\nPublic missing from fresh source: "+r.publicMissingFromFreshSource)' >> "$GITHUB_STEP_SUMMARY"
           node -e 'const p=require("./out/publication-proposal.json"); console.log("\nProposal ready for review: "+p.proposedCount+"\nHeld for quality: "+p.heldForQualityCount+"\nApproval required: "+p.approvalRequired+"\nProduction write performed: "+p.productionWritePerformed)' >> "$GITHUB_STEP_SUMMARY"
+      - name: Open monthly winery review case
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const p = JSON.parse(fs.readFileSync('out/publication-proposal.json','utf8'));
+          const runUrl = process.env.GITHUB_SERVER_URL + '/' + process.env.GITHUB_REPOSITORY + '/actions/runs/' + process.env.GITHUB_RUN_ID;
+          const title = 'Monthly winery publication review — ' + new Date().toISOString().slice(0,7);
+          const body = [
+            'Automated candidate review. No production write was performed.',
+            '',
+            '- Proposed for review: **'+p.proposedCount+'**',
+            '- Remaining ready: **'+p.remainingReadyCount+'**',
+            '- Held for quality: **'+p.heldForQualityCount+'**',
+            '- Approval required: **'+p.approvalRequired+'**',
+            '',
+            'Workflow run and downloadable proposal artifact: '+runUrl,
+            '',
+            'Do not publish candidates from this issue alone; approve winery IDs explicitly in the publication step.'
+          ].join('\n');
+          fetch('https://api.github.com/repos/'+process.env.GITHUB_REPOSITORY+'/issues', {
+            method:'POST',
+            headers:{
+              authorization:'Bearer '+process.env.GH_TOKEN,
+              accept:'application/vnd.github+json',
+              'x-github-api-version':'2022-11-28',
+              'content-type':'application/json'
+            },
+            body: JSON.stringify({title,body})
+          }).then(async r => {
+            if(!r.ok) throw new Error('GitHub issue creation failed: '+r.status+' '+await r.text());
+            console.log((await r.json()).html_url);
+          }).catch(e => { console.error(e); process.exit(1); });
+          NODE
+
       - name: Retain candidate for review
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:

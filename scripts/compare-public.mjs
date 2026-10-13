@@ -50,7 +50,22 @@ for (const w of publicRows) {
 }
 
 const byCountry = {};
-for (const w of candidateNotPublic) byCountry[w.countryCode] = (byCountry[w.countryCode] || 0) + 1;
+const readyForReview = [];
+const heldForQuality = [];
+const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+for (const w of candidateNotPublic) {
+  byCountry[w.countryCode] = (byCountry[w.countryCode] || 0) + 1;
+  const reasons = [];
+  if (!/^[A-Z]{2}$/.test(String(w.countryCode || "")) || w.countryCode === "ZZ") reasons.push("country");
+  if (!w.hasCoords) reasons.push("coordinates");
+  if (!w.region || w.region === "unknown") reasons.push("region");
+  if (!slugPattern.test(String(w.slug || ""))) reasons.push("slug");
+  if (!String(w.name || "").trim()) reasons.push("name");
+  const item = { ...w, qualityHoldReasons: reasons };
+  if (reasons.length) heldForQuality.push(item);
+  else readyForReview.push(item);
+}
 
 const report = {
   checkedAt: new Date().toISOString(),
@@ -61,6 +76,10 @@ const report = {
   candidateNotPublic: candidateNotPublic.length,
   publicMissingFromFreshSource: publicMissingFromFreshSource.length,
   newCandidateCountryCounts: Object.fromEntries(Object.entries(byCountry).sort()),
+  readyForReviewCount: readyForReview.length,
+  heldForQualityCount: heldForQuality.length,
+  readyForReview,
+  heldForQuality,
   candidates: candidateNotPublic,
   missingPublic: publicMissingFromFreshSource,
   publishApproved: false,
@@ -74,4 +93,6 @@ console.log(JSON.stringify({
   candidateNotPublic: report.candidateNotPublic,
   publicMissingFromFreshSource: report.publicMissingFromFreshSource,
   newCandidateCountryCounts: report.newCandidateCountryCounts,
+  readyForReviewCount: report.readyForReviewCount,
+  heldForQualityCount: report.heldForQualityCount,
 }, null, 2));

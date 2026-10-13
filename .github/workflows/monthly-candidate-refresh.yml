@@ -7,6 +7,7 @@ on:
       - '.github/workflows/monthly-candidate-refresh.yml'
       - 'scripts/audit-dataset.mjs'
       - 'scripts/compare-public.mjs'
+      - 'scripts/build-publication-proposal.mjs'
       - 'src/sources/wikidata.ts'
   schedule:
     - cron: '30 4 1 * *'
@@ -46,6 +47,9 @@ jobs:
         env:
           BW_PUBLIC_API: https://8y5sqsud79.execute-api.eu-west-1.amazonaws.com
         run: node scripts/compare-public.mjs out/dataset.json
+      - name: Build approval-gated publication proposal
+        run: node scripts/build-publication-proposal.mjs out/public-comparison.json out/publication-proposal.json
+
       - name: Record non-publication boundary
         run: |
           echo '## Best Wines monthly candidate refresh' >> "$GITHUB_STEP_SUMMARY"
@@ -54,6 +58,7 @@ jobs:
           cat out/audit.json >> "$GITHUB_STEP_SUMMARY"
           echo '' >> "$GITHUB_STEP_SUMMARY"
           node -e 'const r=require("./out/public-comparison.json"); console.log("Candidate total: "+r.candidateTotal+"\nPublic total: "+r.publicTotal+"\nAlready public: "+r.alreadyPublic+"\nCandidate not public: "+r.candidateNotPublic+"\nPublic missing from fresh source: "+r.publicMissingFromFreshSource)' >> "$GITHUB_STEP_SUMMARY"
+          node -e 'const p=require("./out/publication-proposal.json"); console.log("\nProposal ready for review: "+p.proposedCount+"\nHeld for quality: "+p.heldForQualityCount+"\nApproval required: "+p.approvalRequired+"\nProduction write performed: "+p.productionWritePerformed)' >> "$GITHUB_STEP_SUMMARY"
       - name: Retain candidate for review
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
@@ -63,5 +68,7 @@ jobs:
             out/dataset.csv
             out/audit.json
             out/public-comparison.json
+            out/publication-proposal.json
+            out/publication-proposal.csv
           retention-days: 14
           if-no-files-found: error

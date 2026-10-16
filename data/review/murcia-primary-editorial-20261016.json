@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "purpose": "additional_murcia_review_and_editorial_drafts",
+  "productionWritePerformed": false,
+  "publicationReadyCount": 0,
+  "records": [
+    {
+      "candidateId": "murcia_921",
+      "name": "Bodegas Castaño",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Yecla",
+      "address": "Avenida de Fuenteálamo 3, 30510 Yecla",
+      "phone": "+34968791115",
+      "email": "raquel@bodegascastano.com",
+      "sources": [
+        "https://www.bodegascastano.com/es/content/enoturismo/"
+      ],
+      "notes": "Recorrido de elaboración, crianza y degustación bajo reserva. Confirmar condiciones de grupos.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "Bodegas Castaño: bodega y contacto en Yecla",
+        "intro": "Castaño ofrece visitas guiadas a sus instalaciones en Yecla. Su propuesta permite conocer las zonas de elaboración y crianza y termina con una degustación acompañada de aperitivo. La bodega recibe visitantes con reserva; consulta las condiciones de tu grupo y la fecha antes de desplazarte.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con Bodegas Castaño?",
+            "answer": "Puedes contactar en raquel@bodegascastano.com o llamar al +34968791115. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_922",
+      "name": "Barahonda",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Yecla",
+      "address": "Carretera Pinoso km 3, 30510 Yecla",
+      "phone": "+34968718696",
+      "email": "info@barahonda.com",
+      "sources": [
+        "https://barahonda.com/contacto/",
+        "https://barahonda.com/enoturismo/"
+      ],
+      "notes": "https://barahonda.com/enoturismo/ presenta experiencias. Reserva de restaurante y visita deben distinguirse. Mapa enlazado es búsqueda por nombre, sin punto inequívoco.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "Barahonda: bodega y contacto en Yecla",
+        "intro": "Barahonda combina bodega, restaurante y propuestas de enoturismo en Yecla. Su dirección es carretera de Pinoso, km 3. Al consultar disponibilidad, especifica si buscas una visita a la bodega, una comida o ambas actividades: la reserva de un servicio no confirma automáticamente el otro.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con Barahonda?",
+            "answer": "Puedes contactar en info@barahonda.com o llamar al +34968718696. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_917",
+      "name": "Bodegas Luzón",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Jumilla",
+      "address": "Ctra. Jumilla-Calasparra km 3.1, 30520 Jumilla",
+      "phone": "+34968784135",
+      "email": "info@bodegasluzon.com",
+      "sources": [
+        "https://www.bodegasluzon.com/",
+        "https://www.bodegasluzon.com/enoturismo/",
+        "https://enoturismo.bodegasluzon.com/"
+      ],
+      "notes": "https://www.bodegasluzon.com/enoturismo/ y https://enoturismo.bodegasluzon.com/ para solicitudes. Modalidades premium tienen restricciones propias; no generalizar acceso de menores.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "Bodegas Luzón: bodega y contacto en Jumilla",
+        "intro": "Luzón sitúa su bodega en la carretera de Jumilla a Calasparra. Su proyecto destaca la Monastrell y ofrece distintas experiencias para conocer el vino y la bodega. Elige la modalidad antes de reservar y consulta sus condiciones: las actividades pueden tener requisitos diferentes de edad y disponibilidad.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con Bodegas Luzón?",
+            "answer": "Puedes contactar en info@bodegasluzon.com o llamar al +34968784135. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_907",
+      "name": "Viña Elena",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Jumilla",
+      "address": "N-344 km 52.7, Paraje Estrecho de Marín s/n, 30529 Jumilla",
+      "phone": "+34610900220",
+      "email": "visitas@vinaelena.com",
+      "sources": [
+        "https://vinaelena.com/contacto/",
+        "https://vinaelena.com/enoturismo-visita-bodega-jumilla/"
+      ],
+      "notes": "Otro teléfono enoturismo +34611666397; general +34968921225. https://vinaelena.com/enoturismo-visita-bodega-jumilla/ Distinguir horario tienda y visitas.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "Viña Elena: bodega y contacto en Jumilla",
+        "intro": "Viña Elena recibe visitantes en Jumilla y ofrece la posibilidad de combinar la visita con una propuesta gastronómica en la Casa de los Abuelos. Su departamento de enoturismo atiende las consultas y reservas. Comprueba la modalidad elegida, el horario y el acceso indicado por la bodega: los horarios de tienda no son el calendario de visitas.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con Viña Elena?",
+            "answer": "Puedes contactar en visitas@vinaelena.com o llamar al +34610900220. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_920",
+      "name": "La Purísima",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Yecla",
+      "address": "Travesía Pinoso 3, 30510 Yecla",
+      "phone": "+34968751257",
+      "email": "enoturismo@bodegaslapurisima.com",
+      "sources": [
+        "https://www.bodegaslapurisima.com/enoturismo/"
+      ],
+      "notes": "Mínimos de visita y eventos distintos; no importar un único mínimo ni precio. Dirección también aparece como Ctra. de Pinoso 3; acceso pendiente.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "La Purísima: bodega y contacto en Yecla",
+        "intro": "La Purísima ofrece visitas guiadas con degustación en Yecla. Su página de enoturismo presenta modalidades con distintos vinos e indica atención en español e inglés. Para organizar una salida, consulta el tamaño de grupo y la disponibilidad con el equipo: las condiciones de una visita y las de un evento de empresa son diferentes.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con La Purísima?",
+            "answer": "Puedes contactar en enoturismo@bodegaslapurisima.com o llamar al +34968751257. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_4925",
+      "name": "Alceño",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Jumilla",
+      "address": "Calle Duque 34, 30520 Jumilla",
+      "phone": "+34968780142",
+      "email": "info@alceno.com",
+      "sources": [
+        "https://alceno.com/contacto/",
+        "https://rutadelvinojumilla.com/bodegas-alceno/"
+      ],
+      "notes": "Contacto propio corroborado. La ruta https://rutadelvinojumilla.com/bodegas-alceno/ indica visitas, pero programa propio actual pendiente de confirmar.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "Alceño: bodega y contacto en Jumilla",
+        "intro": "Alceño publica su dirección en la calle Duque de Jumilla. Su web permite consultar los vinos y contactar directamente con la bodega. Si deseas conocer las instalaciones, pide información sobre la posibilidad de visita y espera confirmación antes de organizar el desplazamiento.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con Alceño?",
+            "answer": "Puedes contactar en info@alceno.com o llamar al +34968780142. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_901",
+      "name": "Silvano García",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Jumilla",
+      "address": "Avenida de Murcia 29, 30520 Jumilla",
+      "phone": "+34611087535",
+      "email": "visitas@silvanogarcia.es",
+      "sources": [
+        "https://www.turismoregiondemurcia.es/en/winery/bodegas-silvano-garcia-901/",
+        "https://rutadelvinojumilla.com/bodegas-silvano-garcia/"
+      ],
+      "notes": "https://rutadelvinojumilla.com/bodegas-silvano-garcia/ corrobora visita urbana y sala aromas. Turismo distingue producción trasladada fuera de ciudad; no tratar dirección urbana como fábrica actual. Web propia no inspeccionada.",
+      "editorialDraft": {
+        "language": "es",
+        "title": "Silvano García: bodega y contacto en Jumilla",
+        "intro": "La información turística oficial sitúa las visitas de Silvano García en el casco urbano de Jumilla, en la avenida de Murcia. La Ruta del Vino describe un recorrido por la bodega antigua, la sala de aromas y la zona de crianza, con cata. Confirma con el equipo el recorrido y la cita antes de acudir.",
+        "faq": [
+          {
+            "question": "¿Cómo consulto con Silvano García?",
+            "answer": "Puedes contactar en visitas@silvanogarcia.es o llamar al +34611087535. Confirma directamente las condiciones para tu fecha."
+          }
+        ]
+      },
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "no_specific_anomaly_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "murcia_912",
+      "name": "Bodegas Bleda",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "province": "Murcia",
+      "municipality": "Jumilla",
+      "address": "C/ Ontur km 2, 30520 Jumilla",
+      "phone": "+34968780012",
+      "email": "enoturismo@bodegasbleda.com",
+      "sources": [
+        "https://bodegasbleda.com/enoturismo/"
+      ],
+      "notes": "SOURCE_INTEGRITY_REVIEW_REQUIRED: el contenido recuperado contiene publicidad de relojes ajena al vino. No importar ni enlazar ese contenido extraño; no afirmar que el sitio esté comprometido sin verificar. Corroborar datos mediante ruta/Consejo antes de preparar ficha.",
+      "editorialDraft": null,
+      "coordinateReview": "pending_primary_point_and_internal_match",
+      "sourceIntegrity": "hold_unrelated_content_observed",
+      "indexable": false,
+      "publicationReady": false,
+      "emailDeliveryTested": false
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16",
+  "purpose": "editorial_and_identity_review_not_import",
+  "productionWritePerformed": false,
+  "publicationReadyCount": 0,
+  "records": [
+    {
+      "candidateId": "euskadi_e4a36b105b34b23a",
+      "name": "Ameztoi",
+      "sources": [
+        {
+          "url": "https://txakoliameztoi.com/es/bodega",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://txakoliameztoi.com/es/experience/visitas-guiadas",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": "Barrio Eitzaga 10, 20808 Getaria, Gipuzkoa",
+        "phone": "+34943060946",
+        "email": "reservas@txakoliameztoi.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Ameztoi: bodega y visitas",
+        "intro": "Ameztoi elabora txakoli en Getaria, junto a la costa de Gipuzkoa. La bodega familiar trabaja con Hondarrabi Zuri y Hondarrabi Beltza y combina la elaboración de vino con una propuesta de visitas, degustación y alojamiento.",
+        "visit": "La web oficial presenta recorridos por la bodega con cata de blancos. Una de las modalidades añade anchoa y bonito de Getaria. Para elegir experiencia y fecha, consulta directamente el programa de visitas de Ameztoi.",
+        "faq": [
+          {
+            "question": "¿Dónde está Ameztoi?",
+            "answer": "En el barrio Eitzaga de Getaria. La dirección publicada para contactar y organizar la visita es Eitzaga 10."
+          },
+          {
+            "question": "¿Cómo se solicita una visita?",
+            "answer": "A través de las opciones de reserva de su web oficial o del contacto de enoturismo. Confirma con la bodega la disponibilidad y las condiciones del grupo."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "primary_point_pending"
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    },
+    {
+      "candidateId": "euskadi_a1db89d1540a4448",
+      "name": "Bodegas Baigorri",
+      "sources": [
+        {
+          "url": "https://bodegasbaigorri.com/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://bodegasbaigorri.com/reservar-visita/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": null,
+        "phone": "+34945609420",
+        "email": "enoturismo@bodegasbaigorri.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Bodegas Baigorri: bodega y visitas",
+        "intro": "Baigorri permite conocer una forma de elaborar vino organizada por gravedad. Su propuesta arquitectónica distribuye las distintas fases del trabajo en plantas subterráneas, que forman parte del recorrido ofrecido a los visitantes.",
+        "visit": "El programa oficial diferencia visitas con cata y opciones que incorporan gastronomía. Conviene escoger la modalidad antes de reservar: la experiencia de cata y el menú degustación tienen contenidos distintos. Los horarios y los idiomas disponibles deben confirmarse con el equipo de enoturismo.",
+        "faq": [
+          {
+            "question": "¿Se puede visitar Baigorri?",
+            "answer": "Sí. La bodega publica visitas guiadas con cata, sujetas a reserva y disponibilidad."
+          },
+          {
+            "question": "¿Hay una opción con comida?",
+            "answer": "Su web ofrece experiencias con menú degustación. Consulta el programa oficial para elegir la opción y comprobar sus condiciones."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "replacement_proposed_from_primary_map_target",
+        "lat": 42.566226,
+        "lon": -2.686522,
+        "source": "https://bodegasbaigorri.com/",
+        "method": "Explicit !3d / !4d place target in winery-owned map link; not viewport @ coordinates",
+        "requiresEntranceReview": true
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    },
+    {
+      "candidateId": "euskadi_183f1d8db6f0e0a4",
+      "name": "Bodega Berroja",
+      "sources": [
+        {
+          "url": "https://bodegaberroja.com/contacto/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://bodegaberroja.com/enoturismo/visitas-guiadas/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": "Barrio Berroja, 48392 Ajuria, Bizkaia",
+        "phone": "+34944106254",
+        "email": "txakoli@bodegaberroja.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Bodega Berroja: bodega y visitas",
+        "intro": "Berroja propone una visita centrada en el txakoli y en el entorno de Urdaibai. La bodega se encuentra en el ámbito de Muxika y publica indicaciones de acceso por Ajuria, útiles para organizar el desplazamiento por carretera.",
+        "visit": "La oferta oficial incluye visitas guiadas con degustación de txakoli y acompañamientos gastronómicos. Antes de salir, consulta con la bodega el recorrido elegido y su disponibilidad. Para llegar, sigue las indicaciones de acceso que publica Berroja en su página de contacto.",
+        "faq": [
+          {
+            "question": "¿Qué localidad conviene indicar al preparar el viaje?",
+            "answer": "La bodega recomienda buscar Muxika y después Ajuria o Axurias, el barrio por el que se accede."
+          },
+          {
+            "question": "¿Dónde consultar las visitas?",
+            "answer": "En la sección de visitas guiadas de su web o por teléfono y correo de la bodega."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "primary_access_point_differs_from_dataset",
+        "rawPublishedDms": "43″ 15′ 21.55º N; – 2º 39′ 58.06″ W",
+        "source": "https://bodegaberroja.com/contacto/",
+        "note": "Published DMS typography inconsistent; location described as access. Do not substitute for winery entrance automatically."
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    },
+    {
+      "candidateId": "euskadi_5449b651946df5e7",
+      "name": "Bodegas Ostatu",
+      "sources": [
+        {
+          "url": "https://www.ostatu.com/contacto/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.ostatu.com/enoturismo-en-rioja-alavesa/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": "Ctra. Vitoria 1, 01307 Samaniego, Álava",
+        "phone": "+34945609133",
+        "email": "comunicacion@ostatu.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Bodegas Ostatu: bodega y visitas",
+        "intro": "Ostatu recibe visitantes en Samaniego, en Rioja Alavesa. Su propuesta de enoturismo permite elegir entre visitas a la bodega, catas y wine bar, con diferentes formatos para acercarse a sus vinos.",
+        "visit": "La web distingue la visita Ostatu de la visita premium y presenta también experiencias de cata. Revisa el contenido de cada modalidad antes de elegir. La dirección de contacto publicada es carretera de Vitoria 1; confirma el punto de encuentro al concertar la actividad.",
+        "faq": [
+          {
+            "question": "¿Dónde se encuentra Ostatu?",
+            "answer": "En Samaniego, Álava. La bodega publica como dirección carretera de Vitoria 1."
+          },
+          {
+            "question": "¿Visita y cata son la misma actividad?",
+            "answer": "La web presenta modalidades diferentes. Comprueba si la experiencia elegida incluye recorrido por la bodega o se centra en la degustación."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "primary_point_pending",
+        "note": "Embedded Google Maps center is not treated as a place pin."
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    },
+    {
+      "candidateId": "euskadi_75e15e6a1925c1be",
+      "name": "Bodegas Loli Casado",
+      "sources": [
+        {
+          "url": "https://bodegaslolicasado.com/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://bodegaslolicasado.com/visitar-bodegas-en-la-rioja-alavesa/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://bodegaslolicasado.com/en/contact-us/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": "Avda. La Póveda 46, 01306 Lapuebla de Labarca, Álava",
+        "phone": "+34678041484",
+        "email": "loli@bodegaslolicasado.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Bodegas Loli Casado: bodega y visitas",
+        "intro": "Loli Casado es una bodega familiar de Lapuebla de Labarca, en Rioja Alavesa. Sus vinos se presentan bajo las marcas Jaun de Alzate y Polus, y la oferta se completa con aceite de oliva virgen extra.",
+        "visit": "La bodega ofrece una visita para conocer la elaboración y catar vinos y aceite. También publica una modalidad que se acerca al viñedo El Redondo. Esta distinción permite elegir entre conocer las instalaciones o añadir una salida al viñedo.",
+        "faq": [
+          {
+            "question": "¿Dónde está la bodega?",
+            "answer": "En avenida La Póveda 46, Lapuebla de Labarca, Álava."
+          },
+          {
+            "question": "¿Cómo se consulta una visita?",
+            "answer": "La web oficial facilita reserva por teléfono, WhatsApp y correo. Confirma qué modalidad está disponible para la fecha elegida."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "dataset_point_corroborated_within_50m",
+        "lat": 42.4899754,
+        "lon": -2.5796162,
+        "source": "https://bodegaslolicasado.com/en/contact-us/",
+        "mapLink": "https://goo.gl/maps/suWzgmRN1whzrM4u5",
+        "method": "Explicit place target !3d42.4899754!4d-2.5796162 in redirect of official address link",
+        "entranceSurveyPerformed": false
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    },
+    {
+      "candidateId": "euskadi_7e38876508d01782",
+      "name": "Luberri–Familia Monje Amestoy",
+      "sources": [
+        {
+          "url": "https://www.luberri.com/es/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://visitas.luberri.com/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": "Camino Rehoyos, Elciego, Álava",
+        "phone": "+34945606010",
+        "email": "luberri@luberri.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Luberri–Familia Monje Amestoy: bodega y visitas",
+        "intro": "Luberri–Familia Monje Amestoy es una bodega familiar de Elciego. Su catálogo permite acercarse a distintas elaboraciones, entre ellas vinos de maceración carbónica, blancos y tintos con crianza.",
+        "visit": "La página de enoturismo ofrece una visita con degustación y otra dedicada a vinos de su gama alta. Ambas incluyen recorrido por la bodega y aperitivo. La solicitud se realiza a través del formulario oficial; la bodega contacta después con la persona interesada.",
+        "faq": [
+          {
+            "question": "¿Dónde se encuentra Luberri?",
+            "answer": "La página de visitas indica Camino Rehoyos, en Elciego, Álava."
+          },
+          {
+            "question": "¿Enviar el formulario confirma la reserva?",
+            "answer": "La página indica que se pondrán en contacto con el solicitante. Espera esa respuesta para dar por confirmada la actividad."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "primary_point_pending"
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    },
+    {
+      "candidateId": "euskadi_eee79fd98249e16e",
+      "name": "Bodegas Tierra",
+      "sources": [
+        {
+          "url": "https://tierrayvino.com/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://tierrayvino.com/enoturismo-2/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.labastida.eus/index.php/es/turismo/bodegas-y-enoturismo",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "contact": {
+        "address": "Calle El Olmo 16, 01330 Labastida, Álava",
+        "phone": "+34605672313",
+        "email": "enoturismo@tierrayvino.com",
+        "deliveryTested": false
+      },
+      "editorial": {
+        "language": "es",
+        "title": "Bodegas Tierra: bodega y visitas",
+        "intro": "Bodegas Tierra se encuentra en el barrio judío de Labastida. La bodega describe un conjunto de casas conectado con cuevas subterráneas, un entorno que permite acercarse a la relación entre el vino y la arquitectura histórica de la localidad.",
+        "visit": "La web ofrece actividades de enoturismo que explican la elaboración del vino. Para preparar el recorrido, consulta la modalidad disponible y concierta la visita. El ayuntamiento de Labastida también identifica la bodega en la calle El Olmo 16 y facilita su contacto de enoturismo.",
+        "faq": [
+          {
+            "question": "¿Cuál es la dirección de contacto?",
+            "answer": "Calle El Olmo 16, Labastida, según la web de la bodega y el directorio municipal."
+          },
+          {
+            "question": "¿Cómo consultar una visita?",
+            "answer": "En la sección de enoturismo de Tierra o mediante su correo específico de visitas. Confirma fecha y punto de encuentro antes del desplazamiento."
+          }
+        ],
+        "pricingOmitted": true,
+        "ratingsOmitted": true,
+        "photo": "use_existing_illustrative_grapes_asset"
+      },
+      "geographicReview": {
+        "status": "dataset_point_corroborated_within_50m",
+        "lat": 42.59138888888889,
+        "lon": -2.7938888888888886,
+        "source": "https://tierrayvino.com/",
+        "rawPublishedDms": "42°35′29″N 2°47′38″W",
+        "method": "Explicit GPS text from winery site",
+        "entranceSurveyPerformed": false
+      },
+      "checks": {
+        "identity": "documentary_supported",
+        "locality": "documentary_supported",
+        "visits": "official_program_observed_availability_not_guaranteed",
+        "internalIdentity": "pending",
+        "editorial": "draft_for_staging",
+        "publication": "blocked"
+      }
+    }
+  ]
+}

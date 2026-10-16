@@ -3,10 +3,10 @@
   "productionWritePerformed": false,
   "publicationReadyCount": 0,
   "summary": {
-    "total": 178,
-    "baseCount": 159,
-    "addedCandidateRecords": 19,
-    "editorialDrafts": 32
+    "total": 202,
+    "baseCount": 178,
+    "addedCandidateRecords": 24,
+    "editorialDrafts": 36
   },
   "records": [
     {
@@ -2759,14 +2759,407 @@
       "indexable": false,
       "sourceUrl": "https://doriasbaixas.com/bodega/attis-bodegas-y-vinedos-s-l/",
       "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_augusto-expres-s-l",
+      "name": "Augusto Expres, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/augusto-expres-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_avelina-rial-cores",
+      "name": "Avelina Otero Rial",
+      "priority": 4,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/avelina-rial-cores/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_balbina-s-l",
+      "name": "Balbina, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/balbina-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_begona-troncoso-fernandez",
+      "name": "Begoña Troncoso Fernández",
+      "priority": 4,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/begona-troncoso-fernandez/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_benjamin-miguez-noval",
+      "name": "Benjamín Miguez Noval, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/benjamin-miguez-noval/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_bocaleon-iberica-s-l",
+      "name": "Bocaleon Iberica, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bocaleon-iberica-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_carlos-rey-lustres",
+      "name": "Bodega Anadigna, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/carlos-rey-lustres/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_bodega-lagar-da-cachada",
+      "name": "Bodega Lagar da Cachada, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodega-lagar-da-cachada/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_vina-caeira",
+      "name": "Bodega Viña Caeira, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/vina-caeira/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-adonis-s-l",
+      "name": "Bodegas Adonis, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-adonis-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-aguiuncho-s-l",
+      "name": "Bodegas Aguiuncho, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-aguiuncho-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-albamar-s-l-n-e",
+      "name": "Bodegas Albamar, S.L.N.E.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-albamar-s-l-n-e/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-aldea-de-abaixo-s-a-t",
+      "name": "Bodegas Aldea de Abaixo S.A.T.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-aldea-de-abaixo-s-a-t/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-altos-de-torona-s-a",
+      "name": "Bodegas Altos de Torona, S.A.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-altos-de-torona-s-a/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-aquitania-s-l",
+      "name": "Bodegas Aquitania, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-aquitania-s-l/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-aragunde-s-l",
+      "name": "Bodegas Aragunde, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-aragunde-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_pazo-de-rubianes-s-l",
+      "name": "Bodegas Arzuaga Navarro, S.L. — Pazo de Rubianes",
+      "priority": 4,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "ENTITY_SCOPE_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/pazo-de-rubianes-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodega-as-laxas-s-a",
+      "name": "Bodegas As Laxas, S.A.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodega-as-laxas-s-a/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-castro-martin-s-l",
+      "name": "Bodegas Castro Martín, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-castro-martin-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-chaves-s-l",
+      "name": "Bodegas Chaves, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-chaves-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-del-palacio-de-fefinanes-s-l",
+      "name": "Bodegas del Palacio de Fefiñanes, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-del-palacio-de-fefinanes-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-eidosela-s-c-g",
+      "name": "Bodegas Eidosela, S.C.G.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-eidosela-s-c-g/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-escudeiro-s-l",
+      "name": "Bodegas Escudeiro, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-escudeiro-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_bodegas-fillaboa-s-a",
+      "name": "Bodegas Fillaboa, S.A.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-fillaboa-s-a/",
+      "editorialDraftAvailable": false
     }
-  ],
-  "inputSha256": {
-    "publication-queue.json": "135603505441c5a3933bce75f34609bf4aa10c0574a2e88ddedcf0e2f1a61c82",
-    "input.json": "926a493344173e4163d9238b51dc8da96b66c2fa8ae03263e88fb65417af41b1",
-    "riasbaixas-expansion.json": "710b1ae6a4b5dbb90953de7cbde639ba814c875f75d194b31802d0285306a21f",
-    "priority-profiles.json": "efbc8fabe71a226a4754b2f717e46abfb3fe61c814e8a73bbe3670ed6e8d74f7",
-    "do-editorial-drafts.json": "ab2780be3408ead41c12f5ab71577c5df2e6ff15297157b845cbd7d2552c64a5",
-    "murcia-primary-editorial.json": "580cccdc5ea55d2f4e9a7096f1de4d57000405239a29c02b96a4f2897c181ee8"
-  }
+  ]
 }

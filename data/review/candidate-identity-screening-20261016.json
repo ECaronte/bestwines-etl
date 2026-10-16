@@ -1,0 +1,356 @@
+{
+  "purpose": "candidate_identity_screening_not_merge",
+  "checkedAt": "2026-10-16",
+  "candidateCount": 202,
+  "productionWritePerformed": false,
+  "automaticMerges": 0,
+  "publicationReadyCount": 0,
+  "signals": [
+    {
+      "candidateIds": [
+        "euskadi_eee79fd98249e16e",
+        "euskadi_f43589323ac89456"
+      ],
+      "names": [
+        "Bodegas Tierra",
+        "González Teso"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_dcec30faba4a1ea4",
+        "euskadi_8ef960b145f8346d"
+      ],
+      "names": [
+        "Bodegas Campillo",
+        "Bodegas Faustino"
+      ],
+      "signals": [
+        "SHARED_DOMAIN_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "shared_publisher_or_group_domain_not_duplicate_evidence",
+      "finding": "Las URLs son fichas diferentes del mismo consejo regulador o portal de visitas de un grupo. No fusionar por dominio compartido."
+    },
+    {
+      "candidateIds": [
+        "euskadi_b66e60bbaf33af46",
+        "euskadi_a9478a0568104b52"
+      ],
+      "names": [
+        "Espada Ojeda",
+        "Bodegas Casado Morales"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_5694701285599e95",
+        "euskadi_816e7ed1869a3c58"
+      ],
+      "names": [
+        "Palacio",
+        "Solar de Samaniego"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_11e2387b91c46ce8",
+        "euskadi_0ddd2148dd6440e3"
+      ],
+      "names": [
+        "Primicia",
+        "Torre de Oña"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_11e2387b91c46ce8",
+        "euskadi_77f134611ff46778"
+      ],
+      "names": [
+        "Primicia",
+        "Bodegas Mayor de Migueloa"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_4279f324d5c86597",
+        "euskadi_5176f52618c3abb0"
+      ],
+      "names": [
+        "Valdelana",
+        "Viña Salceda"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_4279f324d5c86597",
+        "euskadi_74e99345cffb6ecc"
+      ],
+      "names": [
+        "Valdelana",
+        "Bodegas Las Orcas"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_5d526c4e65999a35",
+        "euskadi_5e3e62aac6e05a4a"
+      ],
+      "names": [
+        "De Luis R.",
+        "Bodegas El Mozo Wines"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_c2170a14b70ab5e9",
+        "euskadi_fb29cc14fefab6c7"
+      ],
+      "names": [
+        "Gorka Izagirre",
+        "Azurmendi Complejo Enogastronómico"
+      ],
+      "signals": [
+        "SHARED_DOMAIN_NOT_PROOF_OF_IDENTITY",
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [
+        {
+          "candidateIds": [
+            "euskadi_fb29cc14fefab6c7",
+            "euskadi_c2170a14b70ab5e9"
+          ],
+          "action": "hold_for_identity_and_location",
+          "flags": [
+            "COMPLEX_AND_WINERY_OVERLAP"
+          ],
+          "finding": "Uribe presenta Gorka Izagirre y Azurmendi en una misma experiencia. Propuesta: una ficha de bodega Gorka Izagirre; no contar el complejo como segunda bodega ni afirmar que restaurante y bodega son la misma entidad legal.",
+          "sources": [
+            "https://www.uribe.eu/disfruta/experiencias/bodega-gorka-izagirre-azurmendi-complejo-enogastronomico-larrabetzu",
+            "https://www.gorkaizagirre.com/bodega/"
+          ]
+        }
+      ],
+      "reviewDisposition": "prior_documentary_decision_preserved"
+    },
+    {
+      "candidateIds": [
+        "euskadi_378e3e2378f93946",
+        "euskadi_efcd8ce8f32d654c"
+      ],
+      "names": [
+        "Gurrutxaga",
+        "Abio Txakolina"
+      ],
+      "signals": [
+        "SHARED_DOMAIN_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "shared_publisher_or_group_domain_not_duplicate_evidence",
+      "finding": "Las URLs son fichas diferentes del mismo consejo regulador o portal de visitas de un grupo. No fusionar por dominio compartido."
+    },
+    {
+      "candidateIds": [
+        "euskadi_378e3e2378f93946",
+        "euskadi_09531dbc2771e45b"
+      ],
+      "names": [
+        "Gurrutxaga",
+        "Talaiazpia"
+      ],
+      "signals": [
+        "SHARED_DOMAIN_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "shared_publisher_or_group_domain_not_duplicate_evidence",
+      "finding": "Las URLs son fichas diferentes del mismo consejo regulador o portal de visitas de un grupo. No fusionar por dominio compartido."
+    },
+    {
+      "candidateIds": [
+        "euskadi_5176f52618c3abb0",
+        "euskadi_74e99345cffb6ecc"
+      ],
+      "names": [
+        "Viña Salceda",
+        "Bodegas Las Orcas"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_d4e1f15c37e8c29c",
+        "euskadi_77f134611ff46778"
+      ],
+      "names": [
+        "Carlos San Pedro Pérez Deviñaspre",
+        "Bodegas Mayor de Migueloa"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_d4e1f15c37e8c29c",
+        "euskadi_551a5798bac183ba"
+      ],
+      "names": [
+        "Carlos San Pedro Pérez Deviñaspre",
+        "Cueva Dorretxe"
+      ],
+      "signals": [
+        "WITHIN_100M_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "requires_documentary_review"
+    },
+    {
+      "candidateIds": [
+        "euskadi_efcd8ce8f32d654c",
+        "euskadi_09531dbc2771e45b"
+      ],
+      "names": [
+        "Abio Txakolina",
+        "Talaiazpia"
+      ],
+      "signals": [
+        "SHARED_DOMAIN_NOT_PROOF_OF_IDENTITY"
+      ],
+      "priorDocumentaryDecisions": [],
+      "reviewDisposition": "shared_publisher_or_group_domain_not_duplicate_evidence",
+      "finding": "Las URLs son fichas diferentes del mismo consejo regulador o portal de visitas de un grupo. No fusionar por dominio compartido."
+    },
+    {
+      "candidateIds": [
+        "murcia_905",
+        "murcia_6367"
+      ],
+      "names": [
+        "Bodega Balcona",
+        "Bodega Balcona"
+      ],
+      "signals": [
+        "NORMALIZED_NAME_OR_ALIAS"
+      ],
+      "priorDocumentaryDecisions": [
+        {
+          "candidateIds": [
+            "murcia_905",
+            "murcia_6367"
+          ],
+          "action": "hold_for_identity_and_location",
+          "flags": [
+            "PROBABLE_BATCH_DUPLICATE",
+            "PRIMARY_LOCATION_CONFLICT"
+          ],
+          "finding": "Dos registros Balcona con municipios distintos. El Consejo de Bullas enlaza bodegabalcona.com y publica un punto distinto del registro 6367. La pertenencia a la DO no prueba el municipio.",
+          "proposedFacts": {
+            "councilCoordinates": {
+              "lat": 37.97931,
+              "lon": -1.71829
+            },
+            "officialUrl": "https://bodegabalcona.com/"
+          },
+          "sources": [
+            "https://vinosdebullas.es/bodegas/"
+          ]
+        }
+      ],
+      "reviewDisposition": "prior_documentary_decision_preserved"
+    },
+    {
+      "candidateIds": [
+        "murcia_6369",
+        "murcia_5320"
+      ],
+      "names": [
+        "Bodegas Lavia",
+        "Bodegas Lavia"
+      ],
+      "signals": [
+        "NORMALIZED_NAME_OR_ALIAS"
+      ],
+      "priorDocumentaryDecisions": [
+        {
+          "candidateIds": [
+            "murcia_6369",
+            "murcia_5320"
+          ],
+          "action": "hold_for_identity_and_location",
+          "flags": [
+            "PROBABLE_BATCH_DUPLICATE",
+            "MUNICIPALITY_LOCATION_CONFLICT"
+          ],
+          "finding": "Los dos registros Lavia comparten exactamente las coordenadas originales. El Consejo vincula Lavia con la web MGWines y una dirección postal en Cehegín. Propuesta de consolidación pendiente del catálogo interno; no se infiere propiedad actual.",
+          "proposedFacts": {
+            "postalMunicipality": "Cehegín",
+            "address": "Paraje Venta del Pino, Parcela 38, 30430 Cehegín"
+          },
+          "sources": [
+            "https://vinosdebullas.es/bodegas/"
+          ]
+        }
+      ],
+      "reviewDisposition": "prior_documentary_decision_preserved"
+    }
+  ],
+  "limitations": [
+    "Only supplied fields; missing contacts are not evidence of distinctness.",
+    "Shared groups, neighbouring premises and similar names require documentary review.",
+    "Coordinates may be unverified source points.",
+    "Fresh private inventory still required before production import."
+  ],
+  "inputSha256": {
+    "consolidated-queue-v3.json": "31c6899381481b13469513996fd5a4bc6f26535a256ac5feca1bb562cb74b30c",
+    "reviewed.json": "6682210e53ee4d92f4ab5b7e30031d214db4440b7a67c7cf6258ce6b3b25abec",
+    "riasbaixas-expansion.json": "710b1ae6a4b5dbb90953de7cbde639ba814c875f75d194b31802d0285306a21f",
+    "riasbaixas-expansion-2.json": "a7a1c9b46e0f0edc9d9367f4806446f6a874707a9cac2f64aff25d2cd022f8fb"
+  }
+}

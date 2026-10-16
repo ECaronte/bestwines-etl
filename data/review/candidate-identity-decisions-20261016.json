@@ -1,0 +1,84 @@
+{
+  "purpose": "review_decisions_not_production_merge",
+  "productionWritePerformed": false,
+  "records": [
+    {
+      "candidateIds": [
+        "murcia_905",
+        "murcia_6367"
+      ],
+      "proposedCanonicalCandidateId": "murcia_6367",
+      "action": "single_public_profile_proposed_keep_both_source_records",
+      "finding": "Ambas candidatas Balcona deben tratarse como un solo grupo de identidad para preparar la publicación. No se ejecuta fusión de registros. La web propia distingue domicilio postal y emplazamiento del valle. El municipio físico sigue pendiente.",
+      "facts": {
+        "postalAddress": "Democracia 7, 30180 Bullas (Murcia)",
+        "phone": "+34968652891",
+        "email": "info@bodegabalcona.com",
+        "visitsEmail": "visitas@bodegabalcona.com"
+      },
+      "coordinateProposal": {
+        "lat": 37.97931,
+        "lon": -1.71829,
+        "source": "https://bodegabalcona.com/en/contact/",
+        "corroboratedBy": "https://vinosdebullas.es/bodegas/",
+        "applied": false
+      },
+      "sources": [
+        "https://bodegabalcona.com/en/contact/",
+        "https://vinosdebullas.es/bodegas/"
+      ],
+      "checkedAt": "2026-10-16",
+      "publicationReady": false,
+      "internalIdentityReview": "pending_fresh_snapshot"
+    },
+    {
+      "candidateIds": [
+        "murcia_6369",
+        "murcia_5320"
+      ],
+      "proposedCanonicalCandidateId": "murcia_6369",
+      "action": "single_public_profile_proposed_keep_both_source_records",
+      "finding": "Dos registros Lavia, mismo nombre y coordenadas originales idénticas: propuesta de una ficha. El consejo publica dirección postal en Cehegín. Su enlace MGWines redirige a una noticia histórica: no usar como prueba de contacto actual ni de titularidad actual.",
+      "facts": {
+        "postalAddress": "Paraje Venta del Pino, Parcela 38, 30430 Cehegín",
+        "phoneListedByCouncil": "+34638046694"
+      },
+      "sources": [
+        "https://vinosdebullas.es/bodegas/",
+        "https://www.mgwinesgroup.com/de-vino-en-familia/bodegas-lavia-aterriza-en-nueva-york/"
+      ],
+      "checkedAt": "2026-10-16",
+      "publicationReady": false,
+      "internalIdentityReview": "pending_fresh_snapshot"
+    },
+    {
+      "candidateIds": [
+        "euskadi_c2170a14b70ab5e9",
+        "euskadi_fb29cc14fefab6c7"
+      ],
+      "proposedCanonicalCandidateId": "euskadi_c2170a14b70ab5e9",
+      "action": "winery_profile_preferred_complex_held_separately",
+      "finding": "Preparar una ficha de bodega Gorka Izagirre. Mantener Azurmendi como registro de complejo sin segunda alta automática de bodega; no afirmar equivalencia jurídica.",
+      "facts": {
+        "address": "Barrio Legina s/n, 48195 Larrabetzu (Bizkaia)",
+        "phone": "+34606206651",
+        "email": "txakoli@gorkaizagirre.com",
+        "visitProgramObserved": true
+      },
+      "sources": [
+        "https://www.gorkaizagirre.com/bodega/",
+        "https://www.gorkaizagirre.com/enoturismo/"
+      ],
+      "checkedAt": "2026-10-16",
+      "publicationReady": false,
+      "internalIdentityReview": "pending_fresh_snapshot"
+    }
+  ],
+  "sourceRecordCount": 202,
+  "proposedPublicationUnitsAfterTheseThreeGroupings": 199,
+  "publicationReadyCount": 0,
+  "limitations": [
+    "199 is provisional, not a verified unique winery count. Other entity, source and location holds remain.",
+    "The private inventory snapshot is still unavailable; infrastructure PR 13 is open."
+  ]
+}

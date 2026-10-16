@@ -340,6 +340,7 @@
       "editorialDraftAvailable": false,
       "blockers": [
         "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "DO_NOT_CREATE_SEPARATE_WINERY_PENDING_GROUP_REVIEW",
         "EDITORIAL_DRAFT_REQUIRED",
         "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
         "PRIMARY_LOCATION_REVIEW_REQUIRED",
@@ -347,7 +348,9 @@
         "STAGING_CONTENT_REVIEW_REQUIRED"
       ],
       "state": "blocked_for_publication",
-      "indexable": false
+      "indexable": false,
+      "identityGroupProposal": "euskadi_c2170a14b70ab5e9",
+      "identityReviewEvidence": "data/review/candidate-identity-decisions-20261016.json"
     },
     {
       "candidateId": "murcia_922",
@@ -1476,7 +1479,9 @@
         "STAGING_CONTENT_REVIEW_REQUIRED"
       ],
       "state": "blocked_for_publication",
-      "indexable": false
+      "indexable": false,
+      "identityGroupProposal": "euskadi_c2170a14b70ab5e9",
+      "identityReviewEvidence": "data/review/candidate-identity-decisions-20261016.json"
     },
     {
       "candidateId": "euskadi_503f533673858f93",
@@ -2324,7 +2329,9 @@
         "STAGING_CONTENT_REVIEW_REQUIRED"
       ],
       "state": "blocked_for_publication",
-      "indexable": false
+      "indexable": false,
+      "identityGroupProposal": "murcia_6367",
+      "identityReviewEvidence": "data/review/candidate-identity-decisions-20261016.json"
     },
     {
       "candidateId": "murcia_905",
@@ -2333,6 +2340,7 @@
       "editorialDraftAvailable": false,
       "blockers": [
         "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "DO_NOT_CREATE_SEPARATE_WINERY_PENDING_GROUP_REVIEW",
         "EDITORIAL_DRAFT_REQUIRED",
         "ENTITY_SCOPE_REVIEW_REQUIRED",
         "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
@@ -2342,7 +2350,9 @@
         "STAGING_CONTENT_REVIEW_REQUIRED"
       ],
       "state": "blocked_for_publication",
-      "indexable": false
+      "indexable": false,
+      "identityGroupProposal": "murcia_6367",
+      "identityReviewEvidence": "data/review/candidate-identity-decisions-20261016.json"
     },
     {
       "candidateId": "murcia_5828",
@@ -2368,6 +2378,7 @@
       "editorialDraftAvailable": false,
       "blockers": [
         "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "DO_NOT_CREATE_SEPARATE_WINERY_PENDING_GROUP_REVIEW",
         "EDITORIAL_DRAFT_REQUIRED",
         "ENTITY_SCOPE_REVIEW_REQUIRED",
         "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
@@ -2377,7 +2388,9 @@
         "STAGING_CONTENT_REVIEW_REQUIRED"
       ],
       "state": "blocked_for_publication",
-      "indexable": false
+      "indexable": false,
+      "identityGroupProposal": "murcia_6369",
+      "identityReviewEvidence": "data/review/candidate-identity-decisions-20261016.json"
     },
     {
       "candidateId": "murcia_6369",
@@ -2395,7 +2408,9 @@
         "STAGING_CONTENT_REVIEW_REQUIRED"
       ],
       "state": "blocked_for_publication",
-      "indexable": false
+      "indexable": false,
+      "identityGroupProposal": "murcia_6369",
+      "identityReviewEvidence": "data/review/candidate-identity-decisions-20261016.json"
     },
     {
       "candidateId": "murcia_4926",
@@ -3161,5 +3176,11 @@
       "sourceUrl": "https://doriasbaixas.com/bodega/bodegas-fillaboa-s-a/",
       "editorialDraftAvailable": false
     }
-  ]
+  ],
+  "identityScreening": {
+    "candidateRecords": 202,
+    "flaggedPairs": 18,
+    "groupProposals": 3,
+    "privateInventoryChecked": false
+  }
 }

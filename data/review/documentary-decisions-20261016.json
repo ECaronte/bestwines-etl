@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "purpose": "review_only_not_production_import",
+  "checkedAt": "2026-10-16",
+  "productionWritePerformed": false,
+  "publicationReadyCount": 0,
+  "decisions": [
+    {
+      "candidateIds": [
+        "murcia_5280"
+      ],
+      "action": "exclude_from_winery_queue",
+      "flags": [
+        "NON_WINERY_OLIVE_OIL_PRODUCER"
+      ],
+      "finding": "DeOrtegas presenta una almazara y actividades de oleoturismo; no hay evidencia de bodega vinícola en la fuente revisada.",
+      "sources": [
+        "https://es.deortegas.com/pages/oleoturismo"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_4948"
+      ],
+      "action": "exclude_from_winery_queue",
+      "flags": [
+        "NON_WINERY_OLIVE_OIL_PRODUCER"
+      ],
+      "finding": "Olimendros describe producción de aceite y una almazara. Su almacenamiento denominado bodega no acredita elaboración de vino.",
+      "sources": [
+        "https://www.olimendros.com/sobre-nosotros/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_905",
+        "murcia_6367"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "PROBABLE_BATCH_DUPLICATE",
+        "PRIMARY_LOCATION_CONFLICT"
+      ],
+      "finding": "Dos registros Balcona con municipios distintos. El Consejo de Bullas enlaza bodegabalcona.com y publica un punto distinto del registro 6367. La pertenencia a la DO no prueba el municipio.",
+      "proposedFacts": {
+        "councilCoordinates": {
+          "lat": 37.97931,
+          "lon": -1.71829
+        },
+        "officialUrl": "https://bodegabalcona.com/"
+      },
+      "sources": [
+        "https://vinosdebullas.es/bodegas/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_6369",
+        "murcia_5320"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "PROBABLE_BATCH_DUPLICATE",
+        "MUNICIPALITY_LOCATION_CONFLICT"
+      ],
+      "finding": "Los dos registros Lavia comparten exactamente las coordenadas originales. El Consejo vincula Lavia con la web MGWines y una dirección postal en Cehegín. Propuesta de consolidación pendiente del catálogo interno; no se infiere propiedad actual.",
+      "proposedFacts": {
+        "postalMunicipality": "Cehegín",
+        "address": "Paraje Venta del Pino, Parcela 38, 30430 Cehegín"
+      },
+      "sources": [
+        "https://vinosdebullas.es/bodegas/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_fb29cc14fefab6c7",
+        "euskadi_c2170a14b70ab5e9"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "COMPLEX_AND_WINERY_OVERLAP"
+      ],
+      "finding": "Uribe presenta Gorka Izagirre y Azurmendi en una misma experiencia. Propuesta: una ficha de bodega Gorka Izagirre; no contar el complejo como segunda bodega ni afirmar que restaurante y bodega son la misma entidad legal.",
+      "sources": [
+        "https://www.uribe.eu/disfruta/experiencias/bodega-gorka-izagirre-azurmendi-complejo-enogastronomico-larrabetzu",
+        "https://www.gorkaizagirre.com/bodega/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_918"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "CONTACT_ADDRESS_DIFFERS_FROM_SOURCE",
+        "PRIMARY_LOCATION_CONFLICT"
+      ],
+      "finding": "La página de contacto de Madrid Romero publica dirección en Balsicas, Torre Pacheco, frente a Jumilla en el origen. Su HTML contiene dos puntos próximos pero diferentes. No se infiere traslado ni se sustituye la ubicación productiva por la dirección de contacto.",
+      "proposedFacts": {
+        "contactAddress": "Finca Los Triviños, Diseminado Triviños 97, 30591 Balsicas, Torre Pacheco",
+        "siteStructuredCoordinates": {
+          "lat": 37.82427,
+          "lon": -0.91943
+        },
+        "siteMapTargetCoordinates": {
+          "lat": 37.824337,
+          "lon": -0.9191614
+        }
+      },
+      "sources": [
+        "https://www.bodegamadridromero.com/contacto"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_904"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "PRIMARY_LOCATION_CONFLICT"
+      ],
+      "finding": "Carchelo: el punto turístico propuesto difiere aproximadamente 10 km del dato original con ejes invertidos. El mapa del sitio usa una búsqueda por nombre, insuficiente para confirmar una entrada exacta.",
+      "sources": [
+        "https://carchelo.com/"
+      ],
+      "proposedFacts": {
+        "sourceAxesCorrected": {
+          "lat": 38.4561581,
+          "lon": -1.2149614
+        },
+        "tourismProposal": {
+          "lat": 38.4657785,
+          "lon": -1.329387
+        }
+      }
+    }
+  ]
+}

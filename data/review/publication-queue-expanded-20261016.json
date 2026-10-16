@@ -1,0 +1,2772 @@
+{
+  "purpose": "consolidated_review_queue_not_import",
+  "productionWritePerformed": false,
+  "publicationReadyCount": 0,
+  "summary": {
+    "total": 178,
+    "baseCount": 159,
+    "addedCandidateRecords": 19,
+    "editorialDrafts": 32
+  },
+  "records": [
+    {
+      "candidateId": "euskadi_eee79fd98249e16e",
+      "name": "Bodegas Tierra",
+      "priority": 1,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_75e15e6a1925c1be",
+      "name": "Loli Casado",
+      "priority": 1,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e4a36b105b34b23a",
+      "name": "Ameztoi",
+      "priority": 2,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_a1db89d1540a4448",
+      "name": "Baigorri",
+      "priority": 2,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_183f1d8db6f0e0a4",
+      "name": "Berroja",
+      "priority": 2,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_7e38876508d01782",
+      "name": "Luberri-Monje Amestoy",
+      "priority": 2,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5449b651946df5e7",
+      "name": "Ostatu",
+      "priority": 2,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_538efb42a4c3c509",
+      "name": "41 Norte, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_0412b9c67c26b4b3",
+      "name": "A. Pazos de Lusco, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_17b7f39fc0683485",
+      "name": "AALTO BODEGAS Y VIÑEDOS",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_825d2ae7bb34cf82",
+      "name": "Abadía de Acón, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_d284abcdeb3adc15",
+      "name": "Abadía de Tortoreos, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_efcd8ce8f32d654c",
+      "name": "Abio Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_883bae7c2e5d7895",
+      "name": "ADE GUMIEL, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_c659036238c8d026",
+      "name": "ADEGA CONDES DE ALBAREI, S.A.U.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_365d3e9fb140821b",
+      "name": "Adega Destinos Cruzados, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_e70f94b05b464d02",
+      "name": "Adega dos Eidos, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_52d4b57f1139543e",
+      "name": "Ados Basarte Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_77a342b508ebc752",
+      "name": "AGRICOLA RIOVA, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_653761c457aa06a3",
+      "name": "Amunategi",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_9b1349a3e36de504",
+      "name": "Arabako Txakolina, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_7bb2c16e5e7fdb1b",
+      "name": "Artomaña Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_fb29cc14fefab6c7",
+      "name": "Azurmendi Complejo Enogastronómico",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_922",
+      "name": "Barahonda",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5547d87d38dce4d1",
+      "name": "Beldui Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_8f70c5009d825fd1",
+      "name": "Bideona",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_914",
+      "name": "Bodega artesanal Viña Campanero, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_65e5abcc23c0ed4d",
+      "name": "Bodega Campo Eliseo",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_906",
+      "name": "Bodega Cooperativa San Isidro",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_915",
+      "name": "Bodega Cooperativa San Isidro (BSI)",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_f96a04ff06c0e2b4",
+      "name": "Bodega Cuatro Rayas",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_9adea9bd8b514031",
+      "name": "Bodega Emina",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6264",
+      "name": "BODEGA LLORET",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_918",
+      "name": "Bodega Madrid Romero",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_909",
+      "name": "Bodega Monastrell",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_9993c189db065e96",
+      "name": "Bodega Remírez de Ganuza",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_7351",
+      "name": "Bodega Sierra Norte Jumilla",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6178",
+      "name": "BODEGA TERCIA DE ULEA",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_d5d3bc2cdf448e7c",
+      "name": "Bodega Txakoli Uriarte",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_4925",
+      "name": "Bodegas Alceño",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e57ad5e2a9767b54",
+      "name": "Bodegas Alutiz",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_c8ecf69cf1f4432d",
+      "name": "Bodegas Amador García",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_9520c7fe46d41aeb",
+      "name": "Bodegas Amaren",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_912",
+      "name": "Bodegas Bleda",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_dcec30faba4a1ea4",
+      "name": "Bodegas Campillo",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_904",
+      "name": "Bodegas Carchelo S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_5653",
+      "name": "BODEGAS CARREÑO",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_a9478a0568104b52",
+      "name": "Bodegas Casado Morales",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_921",
+      "name": "Bodegas Castaño",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_1c3ea51d165c0a8f",
+      "name": "Bodegas Contino",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6938",
+      "name": "Bodegas Contreras",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_902",
+      "name": "Bodegas del Rosario",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5e3e62aac6e05a4a",
+      "name": "Bodegas El Mozo Wines",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_8761",
+      "name": "Bodegas Enrique Trenor, Conde de Montornés",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_8ef960b145f8346d",
+      "name": "Bodegas Faustino",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_50999ef637fed1d9",
+      "name": "Bodegas Garciarévalo, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6188",
+      "name": "Bodegas Hydria",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_b14e7bc7f0c0faf4",
+      "name": "Bodegas Itsasmendi",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_dfd79efffc785d3c",
+      "name": "Bodegas Javier San Pedro",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e26bdf51389b3788",
+      "name": "Bodegas Juan José García Berrueco",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_de9ee0fd155f113a",
+      "name": "Bodegas la Marquesa-Valserrano",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_920",
+      "name": "Bodegas La Purísima",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_74e99345cffb6ecc",
+      "name": "Bodegas Las Orcas",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_8016",
+      "name": "Bodegas LLano y Monte",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_50d90809f1b86faa",
+      "name": "Bodegas Lozano",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_a3d40ba7d5a16a78",
+      "name": "Bodegas Luis Alegre",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_917",
+      "name": "Bodegas Luzón",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_77f134611ff46778",
+      "name": "Bodegas Mayor de Migueloa",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_4b3141f28b5940d9",
+      "name": "Bodegas Murua",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_b689df89148942f5",
+      "name": "Bodegas Páganos",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_7349",
+      "name": "BODEGAS RIBERA DEL JUÁ",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_5659",
+      "name": "BODEGAS SERRANO",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_901",
+      "name": "Bodegas Silvano García",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_907",
+      "name": "Bodegas Viña Elena",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_4927",
+      "name": "BODEGAS XENYSEL",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_911",
+      "name": "Bodegas y Viñedos Evine",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_9d53651c9785062a",
+      "name": "Butroi Upategia",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_d4e1f15c37e8c29c",
+      "name": "Carlos San Pedro Pérez Deviñaspre",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_5962",
+      "name": "CASA BOQUERA",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_916",
+      "name": "Casa Pareja",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_39eb946a563ae327",
+      "name": "CATAVINUM Escuela de Vino",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_556960a30a4192e7",
+      "name": "Covila",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5d526c4e65999a35",
+      "name": "De Luis R.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_cbbf6e33dd61f233",
+      "name": "Dominio de Berzal",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_3825ed753c770f4a",
+      "name": "Doniene Gorrondona Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_8ae62b6e559707ea",
+      "name": "Eguren Ugarte",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_713618c90e30f845",
+      "name": "Eizaguirre",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_72cc2a0ae4852713",
+      "name": "El Fabulista",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_49472b9ed25f3ec2",
+      "name": "El Txakoli",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_7c37297d6b1fc73f",
+      "name": "Elkano",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_b66e60bbaf33af46",
+      "name": "Espada Ojeda",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_4cefc6be50ac39d7",
+      "name": "Estraunza",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_c7b2ec7df170d36c",
+      "name": "Gaintza",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_b3dbe414a5ae51b0",
+      "name": "García de Olano",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_f43589323ac89456",
+      "name": "González Teso",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_c2170a14b70ab5e9",
+      "name": "Gorka Izagirre",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_503f533673858f93",
+      "name": "Granja Nuestra Señora de Remelluri",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e7641f6f7c807f40",
+      "name": "Gure Ahaleginak",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_378e3e2378f93946",
+      "name": "Gurrutxaga",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5601c91bddd49584",
+      "name": "Herederos Bello Berganzo",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_4d9b5eda9f6a04c6",
+      "name": "Hiruzta",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_d6125a4a8bdf5428",
+      "name": "Hnos. Frías del Val",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_600cfdc3f8a245ef",
+      "name": "Izadi",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "discovery_56a090dd721fdadd",
+      "name": "Javier Sanz Viticultor",
+      "priority": 3,
+      "editorialDraftAvailable": true,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6062",
+      "name": "Jorge Piernas Bodegas y Viñedos",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_be0257e094658949",
+      "name": "Katxiña",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_0a724bee65a44182",
+      "name": "Labastida - Solagüen",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_de868c2468fdda75",
+      "name": "Lamioga",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_ed2f03ce3fff3c76",
+      "name": "Lar de Paula",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e88ca41b9592e932",
+      "name": "Laukote",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_1d2d3a46450b38a3",
+      "name": "Luis A. Casado Manzanos JILABA",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_342765c542fdde7d",
+      "name": "Luis Cañas",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e213a576bd45bf28",
+      "name": "Magalarte Lezama Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_a502d016809ac75f",
+      "name": "Magalarte Zamudio Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_ae7e626c2158473c",
+      "name": "Marqués de Riscal",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_5539",
+      "name": "Mateo Wines - Tradersmatt, S.L.",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_6a21de76467e3381",
+      "name": "Merrutxu",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_f37dd93d4da90307",
+      "name": "Miguel Angel Muro y Otros",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_03024906f32bfa59",
+      "name": "Mitarte",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_fd25a1a55d62fd60",
+      "name": "Ondalan",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_efa954d7e08aea04",
+      "name": "Pago de Larrea",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5694701285599e95",
+      "name": "Palacio",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_3bc9e05a2b274528",
+      "name": "Pascual Berganzo",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_f8c38a7bd41bab8b",
+      "name": "Pascual Larrieta",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_11e2387b91c46ce8",
+      "name": "Primicia",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_f4abce743518c410",
+      "name": "Rezabal",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_ca758f3f6fa9ff8e",
+      "name": "Ruiz de Viñaspre",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_a1972cfbbdd1128c",
+      "name": "Sagarmina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_87e4f0ed4d8028fc",
+      "name": "Señorio de Astobiza (Okendo Txakolina)",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_e8f490a9318b694b",
+      "name": "Señorío de las Viñas",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_816e7ed1869a3c58",
+      "name": "Solar de Samaniego",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_bc4e1fc3c79b99c0",
+      "name": "Solar Viejo",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_15a40247c9b4e57f",
+      "name": "Talai Berri",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_09531dbc2771e45b",
+      "name": "Talaiazpia",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_478e5bd36a1ae790",
+      "name": "Talleri",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_0ddd2148dd6440e3",
+      "name": "Torre de Oña",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_ff99b3e77fa0de22",
+      "name": "Txabarri",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_b58f94a4753a4a36",
+      "name": "Txakoli Garate",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_8e6099381f4cb59f",
+      "name": "Txomin Etxaniz",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_780aade3a2f4ca5d",
+      "name": "Urki Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_4279f324d5c86597",
+      "name": "Valdelana",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_3d140d283975277d",
+      "name": "Valdemar",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_070de595c6c4555e",
+      "name": "Vallobera",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_63cf94844c280912",
+      "name": "Virgen de Lorea",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_9e11f9b12efa5a4e",
+      "name": "Viña Laguardia",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_274bfeb862c7230b",
+      "name": "Viña Real",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_5176f52618c3abb0",
+      "name": "Viña Salceda",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6179",
+      "name": "Viñedos  Pago de la Rogativa",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_8762",
+      "name": "Viñedos Casa de las Especias",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_90ca3f380d60f84b",
+      "name": "Ysios",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_8e91092b31fc7af5",
+      "name": "Zabala Txakolina",
+      "priority": 3,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6367",
+      "name": "Bodega Balcona",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_905",
+      "name": "Bodega Balcona",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_5828",
+      "name": "Bodegas Juan Gil- La Tienda de GFE",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_5320",
+      "name": "Bodegas Lavia",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_6369",
+      "name": "Bodegas Lavia",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "BATCH_IDENTITY_RESOLUTION_REQUIRED",
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_4926",
+      "name": "BODEGAS Y ALMAZARA PIO DEL RAMO",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "euskadi_551a5798bac183ba",
+      "name": "Cueva Dorretxe",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "murcia_913",
+      "name": "Museo del vino Hacienda del Carche- Casa de la Ermita",
+      "priority": 4,
+      "editorialDraftAvailable": false,
+      "blockers": [
+        "EDITORIAL_DRAFT_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED",
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "SOURCE_DOCUMENTARY_DOSSIER_REQUIRED",
+        "SOURCE_REUSE_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED"
+      ],
+      "state": "blocked_for_publication",
+      "indexable": false
+    },
+    {
+      "candidateId": "riasbaixas_adega-laureatus-s-l",
+      "name": "Adega Laureatus, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adega-laureatus-s-l/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_adega-pedralonga-s-l",
+      "name": "Adega Pedralonga S.L",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adega-pedralonga-s-l/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_adega-pombal-a-lanzada-s-l",
+      "name": "Adega Pombal A Lanzada, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adega-pombal-a-lanzada-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adega-san-salvador-de-soutomaior-s-l",
+      "name": "Adega San Salvador de Soutomaior, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adega-san-salvador-de-soutomaior-s-l/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_adega-valdes-s-l",
+      "name": "Adega Valdés, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adega-valdes-s-l/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_adega-vieites-s-l",
+      "name": "Adega Vieites, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adega-vieites-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adegas-castrobrey-s-l",
+      "name": "Adegas Castrobrey, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-castrobrey-s-l/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_adegas-chan-de-vide",
+      "name": "Adegas Chan de Vide S.L",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-chan-de-vide/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adegas-gran-vinum-s-l",
+      "name": "Adegas Gran Vinum, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-gran-vinum-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adegas-morgadio-s-l",
+      "name": "Adegas Morgadío, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-morgadio-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adegas-terra-de-asorei-s-l",
+      "name": "Adegas Terra de Asorei, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-terra-de-asorei-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adegas-terra-santa-s-l",
+      "name": "Adegas Terra Santa, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-terra-santa-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_adegas-valminor-s-l",
+      "name": "Adegas Valmiñor, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/adegas-valminor-s-l/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_agro-de-bazan-s-a",
+      "name": "Agro de Bazán, S.A.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/agro-de-bazan-s-a/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_agrupacion-de-cosecheros-albarino-do-salnes-s-a-t",
+      "name": "Agrupación de Cosecheros Albariño do Salnés, S.A.T.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/agrupacion-de-cosecheros-albarino-do-salnes-s-a-t/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_alberto-cabaco-marino",
+      "name": "Bodegas Pentecostés",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/alberto-cabaco-marino/",
+      "editorialDraftAvailable": true
+    },
+    {
+      "candidateId": "riasbaixas_ana-belen-rocha-ferreira",
+      "name": "Ana Belén Rocha Ferreira",
+      "priority": 4,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/ana-belen-rocha-ferreira/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_antonio-abalo-mendez",
+      "name": "Antonio Abalo Méndez",
+      "priority": 4,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS",
+        "OFFICIAL_DETAIL_REVIEW_REQUIRED",
+        "ENTITY_SCOPE_REVIEW_REQUIRED"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/antonio-abalo-mendez/",
+      "editorialDraftAvailable": false
+    },
+    {
+      "candidateId": "riasbaixas_attis-bodegas-y-vinedos-s-l",
+      "name": "Attis Bodegas y Viñedos, S.L.",
+      "priority": 3,
+      "blockers": [
+        "INTERNAL_IDENTITY_SNAPSHOT_AND_REVIEW_REQUIRED",
+        "PRIMARY_LOCATION_REVIEW_REQUIRED",
+        "STAGING_CONTENT_REVIEW_REQUIRED",
+        "VERIFY_REUSE_TERMS"
+      ],
+      "candidateNameMatches": [],
+      "state": "blocked_for_publication",
+      "indexable": false,
+      "sourceUrl": "https://doriasbaixas.com/bodega/attis-bodegas-y-vinedos-s-l/",
+      "editorialDraftAvailable": false
+    }
+  ],
+  "inputSha256": {
+    "publication-queue.json": "135603505441c5a3933bce75f34609bf4aa10c0574a2e88ddedcf0e2f1a61c82",
+    "input.json": "926a493344173e4163d9238b51dc8da96b66c2fa8ae03263e88fb65417af41b1",
+    "riasbaixas-expansion.json": "710b1ae6a4b5dbb90953de7cbde639ba814c875f75d194b31802d0285306a21f",
+    "priority-profiles.json": "efbc8fabe71a226a4754b2f717e46abfb3fe61c814e8a73bbe3670ed6e8d74f7",
+    "do-editorial-drafts.json": "ab2780be3408ead41c12f5ab71577c5df2e6ff15297157b845cbd7d2552c64a5",
+    "murcia-primary-editorial.json": "580cccdc5ea55d2f4e9a7096f1de4d57000405239a29c02b96a4f2897c181ee8"
+  }
+}

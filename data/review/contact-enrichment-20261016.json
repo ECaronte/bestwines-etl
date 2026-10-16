@@ -1,0 +1,753 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16",
+  "purpose": "internal_review_not_marketing_list",
+  "publicationReady": false,
+  "records": [
+    {
+      "candidateId": "euskadi_b66e60bbaf33af46",
+      "name": "Espada Ojeda",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "espadaojeda@telefonica.net",
+          "sourceUrl": "https://turismoa.euskadi.eus/webtur00-content/es/contenidos/b_restauracion/0000003187_b1_rec_turismo/es_3187/3187-ficha2.html",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "email",
+          "value": "bodegas@espadaojeda.com",
+          "sourceUrl": "https://riojawine.com/es/bodegas-rioja/bodegas-espada-ojeda/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "945627349",
+          "sourceUrl": "https://riojawine.com/es/bodegas-rioja/bodegas-espada-ojeda/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://www.espadaojeda.com",
+          "sourceUrl": "https://riojawine.com/es/bodegas-rioja/bodegas-espada-ojeda/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [
+        "El consejo publica un correo distinto del dataset; confirmar vigencia del anterior."
+      ],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_e26bdf51389b3788",
+      "name": "Bodegas Juan José García Berrueco",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "bodegb@hotmail.com",
+          "sourceUrl": "https://turismoa.euskadi.eus/webtur00-content/es/contenidos/b_restauracion/0000003216_b1_rec_turismo/es_3216/3216-ficha2.html",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "email",
+          "value": "bodegab@hotmail.com",
+          "sourceUrl": "https://www.villabuenadealava.org/es/bodega/garcia-berrueco-juan-jose/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "659 756 184 / 945 609 119",
+          "sourceUrl": "https://www.villabuenadealava.org/es/bodega/garcia-berrueco-juan-jose/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "CONFLICTO: turismo publica bodegb@hotmail.com y el ayuntamiento bodegab@hotmail.com. Confirmar por teléfono."
+      ],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_f37dd93d4da90307",
+      "name": "Miguel Angel Muro y Otros",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@bodegasmiguelangelmuro.com",
+          "sourceUrl": "https://turismoa.euskadi.eus/webtur00-content/es/contenidos/b_restauracion/0000003229_b1_rec_turismo/es_3229/3229-ficha2.html",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "email",
+          "value": "info@bodegasmuro.es",
+          "sourceUrl": "https://riojawine.com/es/bodegas-rioja/bodegas-muro/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "0034659135108",
+          "sourceUrl": "https://riojawine.com/es/bodegas-rioja/bodegas-muro/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://www.bodegasmuro.es",
+          "sourceUrl": "https://riojawine.com/es/bodegas-rioja/bodegas-muro/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [
+        "Nombre comercial Muro; revisar alias antes de fusionar."
+      ],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_d5d3bc2cdf448e7c",
+      "name": "Bodega Txakoli Uriarte",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@txakoli-uriarte.com",
+          "sourceUrl": "https://turismoa.euskadi.eus/webtur00-content/es/contenidos/b_restauracion/0000003312_b1_rec_turismo/es_3312/3312-ficha2.html",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://txakoli-uriarte.com/",
+          "sourceUrl": "https://txakoli-uriarte.com/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_49472b9ed25f3ec2",
+      "name": "El Txakoli",
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "945890703",
+          "sourceUrl": "https://turismo.euskadi.eus/es/restaurantes/bodega-de-txakoli-el-txakoli/webtur00-content/es/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "Amurrio, Aldai 40. No confundir con restaurante homónimo. Actividad actual por confirmar."
+      ],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_780aade3a2f4ca5d",
+      "name": "Urki Txakolina",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@urkitxakolina.com",
+          "sourceUrl": "https://turismoa.euskadi.eus/webtur00-content/es/contenidos/b_restauracion/0000049203_b1_rec_turismo/es_49203/49203-ficha2.html",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "943140888",
+          "sourceUrl": "https://turismo.euskadi.eus/es/restaurantes/bodega-txakoli-urki-txakolina/webtur00-content/es/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_8e91092b31fc7af5",
+      "name": "Zabala Txakolina",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "zabalatxakolina@gmail.com",
+          "sourceUrl": "https://turismoa.euskadi.eus/webtur00-content/es/contenidos/b_restauracion/0000063673_b1_rec_turismo/es_63673/63673-ficha2.html",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "656767954",
+          "sourceUrl": "https://bizkaikotxakolina.eus/bodegas/zabala/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://www.zabalatxakolina.com",
+          "sourceUrl": "https://bizkaikotxakolina.eus/bodegas/zabala/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [
+        "Consejo indica traslado en 2017: revisar coordenadas antiguas."
+      ],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "euskadi_b689df89148942f5",
+      "name": "Bodegas Páganos",
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "945600590",
+          "sourceUrl": "https://www.euskadi.eus/es/restaurantes/bodeagas-paganos/web01-ejeduki/es/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "Fuente identifica como Viñedos de Páganos; revisar alias."
+      ],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "murcia_6264",
+      "name": "BODEGA LLORET",
+      "contacts": [
+        {
+          "type": "phone",
+          "value": " 968 56 00 97",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "No asignar bodegalloret.com: corresponde a tienda en Los Alcázares; este registro es La Unión. Posible homónimo."
+      ],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "murcia_5659",
+      "name": "BODEGAS SERRANO",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@bodegasserrano.es",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "660 162 755",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "murcia_5962",
+      "name": "CASA BOQUERA",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "winery@casaboquera.com",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "605 40 90 40 - 968 01 15 11",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://casaboquera.es/",
+          "sourceUrl": "https://casaboquera.es/es/contacto/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "murcia_6062",
+      "name": "Jorge Piernas Bodegas y Viñedos",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@jorgepiernas.com",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "660187177",
+          "sourceUrl": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Bodegas.json",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://jorgepiernas.com/",
+          "sourceUrl": "https://jorgepiernas.com/contacto/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_65e5abcc23c0ed4d",
+      "name": "Bodega Campo Eliseo",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "bodega@campoeliseo.com",
+          "sourceUrl": "https://www.campoeliseo.es/politica-de-cookies/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "983034030",
+          "sourceUrl": "https://www.campoeliseo.es/politica-de-cookies/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://www.campoeliseo.es/",
+          "sourceUrl": "https://www.campoeliseo.es/politica-de-cookies/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_f96a04ff06c0e2b4",
+      "name": "Bodega Cuatro Rayas",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@cuatrorayas.es",
+          "sourceUrl": "https://cuatrorayas.es/contacto-oficinas-almacen/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://cuatrorayas.es/",
+          "sourceUrl": "https://cuatrorayas.es/contacto-oficinas-almacen/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_56a090dd721fdadd",
+      "name": "Javier Sanz Viticultor",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@bodegajaviersanz.com",
+          "sourceUrl": "https://bodegajaviersanz.com/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "983816669",
+          "sourceUrl": "https://bodegajaviersanz.com/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://bodegajaviersanz.com/",
+          "sourceUrl": "https://bodegajaviersanz.com/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_50999ef637fed1d9",
+      "name": "Bodegas Garciarévalo, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "comunicacion@garciarevalo.com",
+          "sourceUrl": "https://www.garciarevalo.com/es/contacto",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "983832914",
+          "sourceUrl": "https://www.garciarevalo.com/es/contacto",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://www.garciarevalo.com/",
+          "sourceUrl": "https://www.garciarevalo.com/es/contacto",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_9adea9bd8b514031",
+      "name": "Bodega Emina",
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "983803346",
+          "sourceUrl": "https://emina.es/contacto/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://emina.es/",
+          "sourceUrl": "https://emina.es/contacto/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [
+        "Teléfono de Emina Rueda, Medina del Campo; no confundir con Emina Ribera."
+      ],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_538efb42a4c3c509",
+      "name": "41 Norte, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@41norte.com",
+          "sourceUrl": "https://www.riberadelduero.es/bodegas/41-norte-sl",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "http://www.41norte.com",
+          "sourceUrl": "https://www.riberadelduero.es/bodegas/41-norte-sl",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [
+        "URL publicada por el consejo; comprobar redirección y dominio actual antes de publicar."
+      ],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_17b7f39fc0683485",
+      "name": "AALTO BODEGAS Y VIÑEDOS",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "aalto@aalto.es",
+          "sourceUrl": "https://aalto.es/aviso-legal/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "983036949",
+          "sourceUrl": "https://aalto.es/aviso-legal/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://aalto.es/",
+          "sourceUrl": "https://aalto.es/aviso-legal/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_825d2ae7bb34cf82",
+      "name": "Abadía de Acón, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@abadiadeacon.com",
+          "sourceUrl": "https://www.abadiadeacon.com/abadia-de-acon/contacto/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "947509292",
+          "sourceUrl": "https://www.abadiadeacon.com/abadia-de-acon/contacto/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://www.abadiadeacon.com/",
+          "sourceUrl": "https://www.abadiadeacon.com/abadia-de-acon/contacto/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_883bae7c2e5d7895",
+      "name": "ADE GUMIEL, S.L.",
+      "contacts": [],
+      "websites": [],
+      "notes": [
+        "Consejo publica dirección en Gumiel de Izán pero ningún teléfono, email ni web. Sin contacto fiable encontrado."
+      ],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_77a342b508ebc752",
+      "name": "AGRICOLA RIOVA, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "mgarcia@agricolariova.com",
+          "sourceUrl": "https://agricolariova.com/home/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "620854802 / 663797346",
+          "sourceUrl": "https://agricolariova.com/home/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://agricolariova.com/home/",
+          "sourceUrl": "https://agricolariova.com/home/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [
+        "La propia web publica dos teléfonos. Alias Palacio de Villachica Ribera por revisar."
+      ],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_0412b9c67c26b4b3",
+      "name": "A. Pazos de Lusco, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@lusco.es",
+          "sourceUrl": "https://doriasbaixas.com/bodega/a-pazos-de-lusco-s-l/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "986658519",
+          "sourceUrl": "https://doriasbaixas.com/bodega/a-pazos-de-lusco-s-l/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "http://www.lusco.es",
+          "sourceUrl": "https://doriasbaixas.com/bodega/a-pazos-de-lusco-s-l/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_d284abcdeb3adc15",
+      "name": "Abadía de Tortoreos, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "adegasluz@gmail.com",
+          "sourceUrl": "https://doriasbaixas.com/bodega/abadia-de-tortoreos-s-l/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "615270704",
+          "sourceUrl": "https://doriasbaixas.com/bodega/abadia-de-tortoreos-s-l/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "http://www.abadiadetortoreos.com",
+          "sourceUrl": "https://doriasbaixas.com/bodega/abadia-de-tortoreos-s-l/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_c659036238c8d026",
+      "name": "ADEGA CONDES DE ALBAREI, S.A.U.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "inf@condesdealbarei.com",
+          "sourceUrl": "https://doriasbaixas.com/bodega/adega-condes-de-albarei-s-a-u/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "986543535",
+          "sourceUrl": "https://doriasbaixas.com/bodega/adega-condes-de-albarei-s-a-u/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://condesdealbarei.com/",
+          "sourceUrl": "https://condesdealbarei.com/contactar/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_365d3e9fb140821b",
+      "name": "Adega Destinos Cruzados, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "i.destinoscruzados@gmail.com",
+          "sourceUrl": "https://doriasbaixas.com/bodega/adegas-destinos-cruzados-sl/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        },
+        {
+          "type": "phone",
+          "value": "600536154",
+          "sourceUrl": "https://doriasbaixas.com/bodega/adegas-destinos-cruzados-sl/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [],
+      "notes": [],
+      "websiteStatus": "not_found_in_checked_sources",
+      "outreachSent": false
+    },
+    {
+      "candidateId": "discovery_e70f94b05b464d02",
+      "name": "Adega dos Eidos, S.L.",
+      "contacts": [
+        {
+          "type": "email",
+          "value": "info@adegaeidos.com",
+          "sourceUrl": "https://doriasbaixas.com/bodega/adega-dos-eidos-s-l/",
+          "checkedAt": "2026-10-16",
+          "status": "published_not_delivery_verified"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://adegaeidos.com/",
+          "sourceUrl": "https://adegaeidos.com/condiciones-de-venta/",
+          "status": "identified_not_availability_guaranteed"
+        }
+      ],
+      "notes": [],
+      "websiteStatus": "website_identified",
+      "outreachSent": false
+    }
+  ],
+  "summary": {
+    "total": 27,
+    "withPublicContact": 26,
+    "withWebsiteIdentified": 19
+  },
+  "limitations": [
+    "Published contact does not prove current delivery or consent to commercial outreach.",
+    "No website found is not evidence that no website exists.",
+    "15 original records were discovery seeds with research pending, not established website-less wineries.",
+    "No production writes or messages sent."
+  ]
+}

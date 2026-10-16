@@ -1,24 +1,47 @@
-# Revisión documental adicional — 16 octubre 2026
+# Revisión documental — 16 octubre 2026
 
-Se han registrado decisiones documentales para **10 de 161 registros**, no una validación manual completa del lote. Dos registros se excluyen de la cola de bodegas: DeOrtegas y Olimendros, cuya actividad acreditada es la elaboración de aceite. Quedan **159 candidatas**, todavía incluyendo duplicados pendientes. Ninguna recibe aprobación de publicación.
+## Resultado acumulado
+- 161 registros originales conservados.
+- 29 registros con decisiones documentales; no equivale a revisión integral de sus fichas.
+- Dos exclusiones de la cola de bodegas: DeOrtegas y Olimendros (almazaras).
+- 159 candidatas restantes, todavía incluyendo duplicados sin resolver.
+- 11 parejas de proximidad resueltas como entidades comerciales distintas.
+- Seis registros conservan alertas de duplicado: Balcona (2), Lavia (2), Gorka Izagirre / Azurmendi (2).
+- Cero aprobaciones para publicación y cero escrituras en producción.
 
-## Incidencias
-- Balcona: dos registros, municipios y puntos distintos. El Consejo de la DO aporta otra coordenada; corregir ejes no resuelve la ubicación.
-- Lavia: mismo nombre y coordenadas originales; el Consejo relaciona la bodega con MGWines y dirección en Cehegín. Consolidación propuesta, no ejecutada.
-- Gorka Izagirre / Azurmendi: evitar contar el complejo turístico como otra bodega; la evidencia no equipara entidades legales.
-- Madrid Romero: dirección de contacto en Torre Pacheco distinta del origen Jumilla. Coordenadas del enlace cartográfico y datos estructurados conservadas como propuestas, no como ubicación productiva validada.
-- Carchelo: discrepancia de aproximadamente 10 km pendiente. El mapa por búsqueda de nombre no prueba un punto exacto.
+## Parejas diferenciadas
+Tierra / González Teso; Espada Ojeda / Casado Morales; Cosme Palacio / Solar de Samaniego; De Luis R. / El Mozo Wines; Casa Primicia / Torre de Oña; Casa Primicia / Mayor de Migueloa; Valdelana / Viña Salceda; Valdelana / Las Orcas; Viña Salceda / Las Orcas; Mayor de Migueloa / Carlos San Pedro; Carlos San Pedro / Cueva Dorretxe.
 
-Fuentes, IDs, hechos propuestos y limitaciones están en `data/review/documentary-decisions-20261016.json`. No se han contactado bodegas ni probado entregabilidad de correos.
+Las fuentes acreditan identidades comerciales distintas, no necesariamente independencia societaria. El contraste pendiente con el catálogo interno no se sustituye por esta revisión del lote.
 
-## Uso reproducible
-Aplicar después del enriquecimiento existente de contactos y coordenadas, conservando todos los originales:
+## Incidencias que permanecen
+- Balcona: dos registros con municipios/puntos distintos. Coordenada del Consejo de Bullas diferente del registro 6367.
+- Lavia: propuesta de consolidación, con dirección postal en Cehegín según el Consejo. No inferir titularidad actual de una referencia histórica a MGWines.
+- Gorka Izagirre / Azurmendi: distinguir complejo turístico de bodega; no afirmar identidad legal entre restaurante y bodega.
+- Madrid Romero: contacto en Torre Pacheco frente a Jumilla en el origen. No se infiere traslado ni ubicación productiva.
+- Carchelo: aproximadamente 10 km de diferencia entre puntos propuestos.
+- Casa Primicia: dos sedes y teléfonos diferenciados; modelar por función antes de elegir la entrada principal.
+- Torre de Oña: dirección oficial en Páganos; revisar coordenada del lote próxima a Casa Primicia.
+- Viña Salceda: web y ayuntamiento aportan puntos distintos del lote; el texto de coordenadas de la web tiene un separador ambiguo. No interpretar automáticamente signo de longitud.
+- Las Orcas: municipio/dirección no coherentes entre fuentes consultadas.
+- De Luis R.: portada en Camino de Elvillar 22; aviso legal en número 18. No confundir domicilio legal y contacto.
+- Cueva Dorretxe: actividad de visita a cueva-bodega documentada; elaboración propia actual no acreditada en esta revisión.
+- Pío del Ramo: actividad vinícola acreditada; no excluir por la palabra almazara. Dirección publicada en Ontur, Albacete: el origen Murcia del dataset no determina provincia.
+- Juan Gil / tienda GFE: separar comercio e instalaciones de elaboración.
+- Museo Casa de la Ermita: evitar confusión con el Museo del Vino municipal en El Arsenal; no contar el museo como otra bodega.
 
+Fuentes, IDs y hechos propuestos: `data/review/documentary-decisions-20261016.json`. Datos propuestos se guardan como evidencia, no sustituyen automáticamente campos canónicos. No se han contactado bodegas ni probado entregabilidad.
+
+## Reproducción
 ```sh
 python tools/apply-research.py data/review/spain-quality-review-20261016.json data/review/contact-enrichment-20261016.json data/review/murcia-location-evidence-20261016.json /tmp/spain-enriched.json
 python tools/apply-documentary-review.py /tmp/spain-enriched.json data/review/documentary-decisions-20261016.json /tmp/spain-reviewed.json
+python tools/test-documentary-review.py
 ```
 
-El segundo paso no modifica latitud, longitud ni municipio; añade decisiones y excluye únicamente dos registros de esta cola. No borra entidades de producción ni fusiona registros. Rechaza IDs desconocidos o repetidos y es idempotente. Verificados conservación de registros/coordenadas, exclusiones, bloqueo de indexación, idempotencia y rechazo de ID desconocido.
+La ejecución encadenada conserva 26 registros con contactos públicos y 16 correcciones de ejes corroboradas por turismo, así como 6 propuestas de sustitución sin aplicar. La revisión documental añade conflictos donde procede: una corrección de ejes no acredita entrada principal.
 
-Para publicar siguen pendientes el contraste con una instantánea completa del catálogo interno, validación de ubicación principal, resolución de duplicados, condiciones de reutilización aplicables y contenido editorial. Las alertas de cercanía por sí solas nunca justifican fusionar bodegas.
+Las 5 pruebas comprueban conservación de datos originales e inmutabilidad de entrada, exclusiones exactas, bloqueo de publicación, resolución limitada a parejas documentadas, idempotencia y rechazo de IDs/parejas inválidos o sin evidencia. Todas pasan.
+
+## Pendiente para publicación
+Instantánea interna completa y reciente, validación de ubicación principal, resolución de duplicados restantes, condiciones de reutilización aplicables y contenido editorial. `resolvedDistinctBatchMatches` y `unresolvedBatchMatches` separan los resultados de revisión; `batchMatches` conserva la alerta original para trazabilidad.

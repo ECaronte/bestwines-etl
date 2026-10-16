@@ -14,7 +14,7 @@ def apply(report, evidence):
         raise ValueError("Duplicate candidate IDs")
     seen = set()
     for decision in evidence["decisions"]:
-        if decision["action"] not in {"exclude_from_winery_queue", "hold_for_identity_and_location"}:
+        if decision["action"] not in {"exclude_from_winery_queue", "hold_for_identity_and_location", "retain_distinct_candidate"}:
             raise ValueError("Unsupported documentary action")
         if not decision.get("sources") or not all(u.startswith("https://") for u in decision["sources"]):
             raise ValueError("Source URLs required")
@@ -27,6 +27,35 @@ def apply(report, evidence):
             row["reviewFlags"] = sorted(set(row["reviewFlags"]) | set(decision["flags"]))
             row["queueDisposition"] = decision["action"]
             row["state"] = "excluded_from_winery_queue" if decision["action"] == "exclude_from_winery_queue" else "blocked_for_publication"
+    # Resolve only explicitly sourced pairs; retain original match provenance.
+    distinct = {key: set() for key in by_id}
+    pairs = set()
+    for pair in evidence.get("distinctPairs", []):
+        ids = pair.get("candidateIds", [])
+        if len(ids) != 2 or len(set(ids)) != 2 or any(i not in by_id for i in ids):
+            raise ValueError("Invalid distinct pair")
+        a, b = ids
+        key = tuple(sorted(ids))
+        if key in pairs or not pair.get("sources") or not all(u.startswith("https://") for u in pair["sources"]):
+            raise ValueError("Repeated pair or missing evidence")
+        if b not in by_id[a].get("batchMatches", []) or a not in by_id[b].get("batchMatches", []):
+            raise ValueError("Pair is not an original mutual match")
+        if a not in seen or b not in seen:
+            raise ValueError("Both pair members require documentary review")
+        pairs.add(key)
+        distinct[a].add(b)
+        distinct[b].add(a)
+    for key, row in by_id.items():
+        row["resolvedDistinctBatchMatches"] = sorted(distinct[key])
+        row["unresolvedBatchMatches"] = sorted(set(row.get("batchMatches", [])) - distinct[key])
+        flags = set(row["reviewFlags"])
+        if distinct[key]:
+            flags.add("NEIGHBOURING_ENTITIES_DISTINGUISHED")
+        if row["unresolvedBatchMatches"]:
+            flags.add("POSSIBLE_BATCH_DUPLICATE")
+        else:
+            flags.discard("POSSIBLE_BATCH_DUPLICATE")
+        row["reviewFlags"] = sorted(flags)
     # This review artifact is not an approval channel, including for untouched rows.
     for row in result["records"]:
         row.update(indexable=False, visitsVerified=False)
@@ -39,6 +68,8 @@ def apply(report, evidence):
         "excludedFromWineryQueue": excluded,
         "remainingCandidatesIncludingUnresolvedDuplicates": len(by_id) - excluded,
         "completeManualReview": False,
+        "distinctPairsResolved": len(pairs),
+        "recordsWithUnresolvedBatchMatches": sum(bool(r["unresolvedBatchMatches"]) for r in result["records"]),
     }
     result["summary"]["flags"] = dict(collections.Counter(f for r in result["records"] for f in r["reviewFlags"]))
     return result

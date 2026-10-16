@@ -134,6 +134,470 @@
           "lon": -1.329387
         }
       }
+    },
+    {
+      "candidateIds": [
+        "euskadi_eee79fd98249e16e"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Tierra: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Tierra",
+        "contactAddress": "Calle El Olmo 16, Labastida",
+        "officialUrl": "https://tierrayvino.com/"
+      },
+      "sources": [
+        "https://tierrayvino.com/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_f43589323ac89456"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "González Teso: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "González Teso",
+        "contactAddress": "El Olmo 34, Labastida",
+        "officialUrl": "https://gontes.com/"
+      },
+      "sources": [
+        "https://riojawine.com/es/bodegas-rioja/bodegas-gonzalez-teso/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_b66e60bbaf33af46"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Espada Ojeda: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Espada Ojeda",
+        "contactAddress": "Avda. La Póveda 8, Lapuebla de Labarca",
+        "officialUrl": "https://espadaojeda.com/"
+      },
+      "sources": [
+        "https://riojawine.com/es/bodegas-rioja/bodegas-espada-ojeda/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_a9478a0568104b52"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Casado Morales: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Casado Morales",
+        "contactAddress": "Avda. La Póveda 12–14, Lapuebla de Labarca",
+        "officialUrl": "https://www.casadomorales.es/"
+      },
+      "sources": [
+        "https://www.casadomorales.es/contacto-y-localizacion/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5694701285599e95"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Cosme Palacio: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Cosme Palacio",
+        "contactAddress": "Calle San Lázaro 1, Laguardia",
+        "officialUrl": "https://entrecanalesdomecq.com/bodegas/bodegas-cosme-palacio/"
+      },
+      "sources": [
+        "https://riojawine.com/es/bodegas-rioja/bodegas-cosme-palacio/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_816e7ed1869a3c58"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Solar de Samaniego: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Solar de Samaniego",
+        "contactAddress": "Carretera de Elciego s/n, Laguardia",
+        "officialUrl": "https://www.solardesamaniego.com/"
+      },
+      "sources": [
+        "https://www.solardesamaniego.com/contacto"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5d526c4e65999a35"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED",
+        "CONTACT_ADDRESS_CONFLICT"
+      ],
+      "finding": "De Luis R.: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos. La portada indica número 22 y el aviso legal 18; conservar ambos ámbitos hasta aclaración.",
+      "proposedFacts": {
+        "displayName": "De Luis R.",
+        "contactAddress": "Camino de Elvillar 22, Lanciego",
+        "officialUrl": "https://www.bodegasdeluisr.com/"
+      },
+      "sources": [
+        "https://www.bodegasdeluisr.com/",
+        "https://www.bodegasdeluisr.com/aviso-legal/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5e3e62aac6e05a4a"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "El Mozo Wines: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "El Mozo Wines",
+        "contactAddress": "Calle Arregoia 1, Lanciego",
+        "officialUrl": "https://elmozowines.com/"
+      },
+      "sources": [
+        "https://elmozowines.com/index.php/es/contacto"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_11e2387b91c46ce8"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED",
+        "MULTIPLE_SITE_ROLES_REQUIRE_REVIEW"
+      ],
+      "finding": "Casa Primicia: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos. La web distingue dos sedes y teléfonos; no elegir automáticamente una como entrada principal.",
+      "proposedFacts": {
+        "displayName": "Casa Primicia",
+        "contactAddress": "Casa Primicia: Calle Páganos 78; Bodegas Casa Primicia SA: Camino de la Hoya 1; ambas en Laguardia",
+        "officialUrl": "https://www.bodegascasaprimicia.com/"
+      },
+      "sources": [
+        "https://www.bodegascasaprimicia.com/en/contact/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_0ddd2148dd6440e3"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED",
+        "PRIMARY_LOCATION_CHECK_REQUIRED"
+      ],
+      "finding": "Torre de Oña: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos. La dirección publicada es Páganos; comprobar el punto del dataset próximo a Casa Primicia.",
+      "proposedFacts": {
+        "displayName": "Torre de Oña",
+        "contactAddress": "Finca San Martín s/n, 01309 Páganos",
+        "officialUrl": "https://www.riojalta.com/grupo-la-rioja-alta/bodegas/torre-de-ona/"
+      },
+      "sources": [
+        "https://reservas.torredeona.com/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_4279f324d5c86597"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Valdelana: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Valdelana",
+        "contactAddress": "Puente Barrihuelo 67–69, Elciego",
+        "officialUrl": "https://www.bodegasvaldelana.com/"
+      },
+      "sources": [
+        "https://www.bodegasvaldelana.com/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5176f52618c3abb0"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED",
+        "PRIMARY_LOCATION_CONFLICT"
+      ],
+      "finding": "Viña Salceda: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos. La web publica el texto de coordenadas '42.500679 – 2.620742'; el separador no se interpreta automáticamente como signo. El ayuntamiento publica 42.497016,-2.621822. Ambos difieren del punto del lote casi coincidente con Valdelana.",
+      "proposedFacts": {
+        "displayName": "Viña Salceda",
+        "contactAddress": "Carretera de Cenicero km 3, Elciego",
+        "officialUrl": "https://vinasalceda.com/"
+      },
+      "sources": [
+        "https://vinasalceda.com/en/contact/",
+        "https://www.elciego.es/en/quehacer/bodegas/bodegas-vina-salceda"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_74e99345cffb6ecc"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED",
+        "MUNICIPALITY_LOCATION_CONFLICT"
+      ],
+      "finding": "Las Orcas: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Las Orcas",
+        "contactAddress": "Dirección/municipio pendiente por discrepancias entre fuentes propias",
+        "officialUrl": "https://lasorcas.com/"
+      },
+      "sources": [
+        "https://lasorcas.com/contacto/",
+        "https://www.rutadelvinoderiojaalavesa.com/es/las-orcas-1"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_77f134611ff46778"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Mayor de Migueloa: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Mayor de Migueloa",
+        "contactAddress": "Calle Mayor 20, Laguardia",
+        "officialUrl": "https://www.mayordemigueloa.com/"
+      },
+      "sources": [
+        "https://www.mayordemigueloa.com/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_d4e1f15c37e8c29c"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED"
+      ],
+      "finding": "Carlos San Pedro Pérez de Viñaspre: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos.",
+      "proposedFacts": {
+        "displayName": "Carlos San Pedro Pérez de Viñaspre",
+        "contactAddress": "Calle Páganos 44 bajo, Laguardia",
+        "officialUrl": "https://www.bodegascarlossanpedro.com/"
+      },
+      "sources": [
+        "https://www.bodegascarlossanpedro.com/es/aviso-legal/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_551a5798bac183ba"
+      ],
+      "action": "retain_distinct_candidate",
+      "flags": [
+        "DOCUMENTARY_IDENTITY_SUPPORTED",
+        "ENTITY_TYPE_REVIEW"
+      ],
+      "finding": "Cueva Dorretxe: identidad comercial documentada separadamente de las candidatas vecinas. No implica validación de coordenadas ni ausencia de duplicados internos. Se acredita actividad de visita a cueva-bodega; no dar por acreditada elaboración propia actual.",
+      "proposedFacts": {
+        "displayName": "Cueva Dorretxe",
+        "contactAddress": "Calle Mayor 13, Laguardia",
+        "officialUrl": "https://www.cuevadorretxe.com/"
+      },
+      "sources": [
+        "https://www.cuevadorretxe.com/menu"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_4926"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "WINERY_ACTIVITY_SUPPORTED",
+        "REGION_MEMBERSHIP_NOT_LOCATION"
+      ],
+      "finding": "Pío del Ramo sí publica elaboración de vinos: no excluir por contener 'almazara'. Su dirección publicada en Ontur (Albacete) exige distinguir ubicación de pertenencia a DOP Jumilla y del origen del dataset Murcia.",
+      "sources": [
+        "https://piodelramo.com/vinos/",
+        "https://piodelramo.com/politica-de-devoluciones-y-reembolsos/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_5828"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "RETAIL_SITE_VERSUS_WINERY"
+      ],
+      "finding": "El registro combina Juan Gil y La Tienda de GFE. La web del grupo identifica una tienda en Portillo de la Glorieta 7, Jumilla; no usar la tienda como coordenada de elaboración ni sumar otra bodega.",
+      "sources": [
+        "https://gilfamily.es/datos_seguros",
+        "https://gilfamily.es/aviso_legal"
+      ]
+    },
+    {
+      "candidateIds": [
+        "murcia_913"
+      ],
+      "action": "hold_for_identity_and_location",
+      "flags": [
+        "MUSEUM_VERSUS_WINERY",
+        "HOMONYMOUS_MUSEUM_REVIEW"
+      ],
+      "finding": "Casa de la Ermita presenta su museo en Sierra del Carche. El ayuntamiento presenta otro Museo del Vino en El Arsenal. No mezclar direcciones de ambos ni convertir automáticamente un museo en nueva bodega.",
+      "sources": [
+        "https://casadelaermita.com/es/",
+        "https://jumillaturismo.es/museos-de-jumilla/museo-del-vino/"
+      ]
+    }
+  ],
+  "distinctPairs": [
+    {
+      "candidateIds": [
+        "euskadi_eee79fd98249e16e",
+        "euskadi_f43589323ac89456"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://tierrayvino.com/",
+        "https://riojawine.com/es/bodegas-rioja/bodegas-gonzalez-teso/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_b66e60bbaf33af46",
+        "euskadi_a9478a0568104b52"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://riojawine.com/es/bodegas-rioja/bodegas-espada-ojeda/",
+        "https://www.casadomorales.es/contacto-y-localizacion/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5694701285599e95",
+        "euskadi_816e7ed1869a3c58"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://riojawine.com/es/bodegas-rioja/bodegas-cosme-palacio/",
+        "https://www.solardesamaniego.com/contacto"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5d526c4e65999a35",
+        "euskadi_5e3e62aac6e05a4a"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.bodegasdeluisr.com/",
+        "https://elmozowines.com/index.php/es/contacto"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_11e2387b91c46ce8",
+        "euskadi_0ddd2148dd6440e3"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.bodegascasaprimicia.com/en/contact/",
+        "https://reservas.torredeona.com/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_11e2387b91c46ce8",
+        "euskadi_77f134611ff46778"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.bodegascasaprimicia.com/en/contact/",
+        "https://www.mayordemigueloa.com/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_4279f324d5c86597",
+        "euskadi_5176f52618c3abb0"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.bodegasvaldelana.com/",
+        "https://vinasalceda.com/en/contact/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_4279f324d5c86597",
+        "euskadi_74e99345cffb6ecc"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.bodegasvaldelana.com/",
+        "https://lasorcas.com/contacto/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_5176f52618c3abb0",
+        "euskadi_74e99345cffb6ecc"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://vinasalceda.com/en/contact/",
+        "https://lasorcas.com/contacto/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_77f134611ff46778",
+        "euskadi_d4e1f15c37e8c29c"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.mayordemigueloa.com/",
+        "https://www.bodegascarlossanpedro.com/es/aviso-legal/"
+      ]
+    },
+    {
+      "candidateIds": [
+        "euskadi_d4e1f15c37e8c29c",
+        "euskadi_551a5798bac183ba"
+      ],
+      "finding": "Identidades comerciales diferenciadas por fuentes propias o consejo regulador; proximidad no equivale a duplicado.",
+      "sources": [
+        "https://www.bodegascarlossanpedro.com/es/aviso-legal/",
+        "https://www.cuevadorretxe.com/menu"
+      ]
     }
   ]
 }

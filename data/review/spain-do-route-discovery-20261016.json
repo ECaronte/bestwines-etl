@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "productionWritePerformed": false,
+  "sources": [
+    {
+      "id": "rueda",
+      "area": "Rueda",
+      "url": "https://dorueda.com/bodegas/",
+      "publisherType": "Consejo regulador",
+      "notes": "Localidad, nombre, web y señal de visitas; contrastar visitas en web de bodega",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "ribera",
+      "area": "Ribera del Duero",
+      "url": "https://www.riberadelduero.es/bodegas",
+      "publisherType": "Consejo regulador",
+      "notes": "Directorio paginado con fichas",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "rias-baixas",
+      "area": "Rías Baixas",
+      "url": "https://doriasbaixas.com/bodega/",
+      "publisherType": "Consejo regulador",
+      "notes": "Directorio paginado y listado descargable",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "priorat",
+      "area": "Priorat",
+      "url": "https://www.doqpriorat.org/cellers/",
+      "publisherType": "Consejo regulador",
+      "notes": "Directorio; no usar cifra histórica de 2017 como recuento actual",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "jerez",
+      "area": "Jerez",
+      "url": "https://www.sherry.wine/sherry-wine/bodegas/bodegas-listing",
+      "publisherType": "Consejo regulador",
+      "notes": "Distinguir empresas, instalaciones y categorías de registro",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "navarra",
+      "area": "Navarra",
+      "url": "https://navarrawine.com/bodegas-navarra/",
+      "publisherType": "Consejo regulador",
+      "notes": "Directorio",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "ribeiro",
+      "area": "Ribeiro",
+      "url": "https://www.ribeiro.wine/es/bodegas-y-colleiteiros",
+      "publisherType": "Consejo regulador",
+      "notes": "Bodegas y colleiteiros",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "bierzo",
+      "area": "Bierzo",
+      "url": "https://www.crdobierzo.es/es/bodegas-y-vinos/",
+      "publisherType": "Consejo regulador",
+      "notes": "Listado descargable",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "rutas",
+      "area": "España",
+      "url": "https://wineroutesofspain.com/rutas-del-vino/",
+      "publisherType": "Rutas del Vino de España",
+      "notes": "Índice territorial; no confundir adhesión a ruta con certificación DO",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "murcia",
+      "area": "Murcia",
+      "url": "https://datos.gob.es/es/catalogo/a14002961-bodegas",
+      "publisherType": "Datos abiertos",
+      "notes": "JSON CSV RDF; licencia propia y metadatos de 2024 requieren revisión",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "ruta-rueda",
+      "area": "Rueda",
+      "url": "https://www.rutadelvinoderueda.com/nuestros-socios/bodegas",
+      "publisherType": "Ruta del vino",
+      "notes": "Contraste de oferta turística",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    },
+    {
+      "id": "ruta-ribera",
+      "area": "Ribera del Duero",
+      "url": "https://rutadelvinoriberadelduero.es/guia-de-empresas/",
+      "publisherType": "Ruta del vino",
+      "notes": "Incluye empresas de otras categorías: filtrar bodegas",
+      "checkedOn": "2026-10-16",
+      "bulkReuseLicenseVerified": false
+    }
+  ],
+  "candidates": [
+    {
+      "sourceId": "rueda",
+      "name": "Bodega Campo Eliseo",
+      "municipality": "La Seca",
+      "countryCode": "ES",
+      "sourceUrl": "https://dorueda.com/bodegas/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rueda",
+      "name": "Bodega Cuatro Rayas",
+      "municipality": "La Seca",
+      "countryCode": "ES",
+      "sourceUrl": "https://dorueda.com/bodegas/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rueda",
+      "name": "Javier Sanz Viticultor",
+      "municipality": "La Seca",
+      "countryCode": "ES",
+      "sourceUrl": "https://dorueda.com/bodegas/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rueda",
+      "name": "Bodegas Garciarévalo, S.L.",
+      "municipality": "Matapozuelos",
+      "countryCode": "ES",
+      "sourceUrl": "https://dorueda.com/bodegas/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rueda",
+      "name": "Bodega Emina",
+      "municipality": "Medina del Campo",
+      "countryCode": "ES",
+      "sourceUrl": "https://dorueda.com/bodegas/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "ribera",
+      "name": "41 Norte, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://www.riberadelduero.es/bodegas",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "ribera",
+      "name": "AALTO BODEGAS Y VIÑEDOS",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://www.riberadelduero.es/bodegas",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "ribera",
+      "name": "Abadía de Acón, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://www.riberadelduero.es/bodegas",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "ribera",
+      "name": "ADE GUMIEL, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://www.riberadelduero.es/bodegas",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "ribera",
+      "name": "AGRICOLA RIOVA, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://www.riberadelduero.es/bodegas",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rias-baixas",
+      "name": "A. Pazos de Lusco, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://doriasbaixas.com/bodega/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rias-baixas",
+      "name": "Abadía de Tortoreos, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://doriasbaixas.com/bodega/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rias-baixas",
+      "name": "ADEGA CONDES DE ALBAREI, S.A.U.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://doriasbaixas.com/bodega/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rias-baixas",
+      "name": "Adega Destinos Cruzados, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://doriasbaixas.com/bodega/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    },
+    {
+      "sourceId": "rias-baixas",
+      "name": "Adega dos Eidos, S.L.",
+      "municipality": null,
+      "countryCode": "ES",
+      "sourceUrl": "https://doriasbaixas.com/bodega/",
+      "state": "discovered",
+      "indexable": false,
+      "visitsVerified": false,
+      "reviewRequired": [
+        "identity",
+        "internal_duplicates",
+        "official_website",
+        "coordinates",
+        "editorial_content"
+      ]
+    }
+  ]
+}

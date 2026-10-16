@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "publicationReadyCount": 0,
+  "productionWritePerformed": false,
+  "profiles": [
+    {
+      "candidateId": "discovery_65e5abcc23c0ed4d",
+      "language": "es",
+      "title": "Campo Elíseo en La Seca: contacto y visitas",
+      "intro": "Campo Elíseo tiene su dirección de contacto en la calle Nueva de La Seca, en Valladolid. Su web distingue la atención de bodega de la atención de enoturismo, algo útil si estás preparando una visita. Para consultar experiencias y disponibilidad, utiliza el contacto específico de enoturismo y confirma el punto de encuentro antes de desplazarte.",
+      "faq": [
+        {
+          "question": "¿Cómo consulto una visita a Campo Elíseo?",
+          "answer": "La bodega publica enoturismo@campoeliseo.com y el teléfono +34 678 852 927 para estas consultas."
+        }
+      ],
+      "sources": [
+        "https://www.campoeliseo.es/contacto/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_f96a04ff06c0e2b4",
+      "language": "es",
+      "title": "Cuatro Rayas: visitas a la bodega en La Seca",
+      "intro": "Cuatro Rayas ofrece experiencias de enoturismo en La Seca, Valladolid. Su programa Vinos y Manjares combina recorrido por la bodega, cata y una comida en Matapozuelos. Al organizar la jornada, conviene distinguir el punto de encuentro de la visita de la dirección general de la bodega. Consulta la experiencia elegida y espera su confirmación: la propia web advierte que solicitar una reserva no confirma por sí solo la visita.",
+      "faq": [
+        {
+          "question": "¿Dónde comienza la experiencia Vinos y Manjares?",
+          "answer": "La página oficial indica la Vinoteca de Bodega Cuatro Rayas, en carretera Rodilana s/n, La Seca. Confirma ese punto con la bodega al reservar."
+        }
+      ],
+      "sources": [
+        "https://cuatrorayas.es/experiencia-vinos-y-manjares/",
+        "https://cuatrorayas.es/experiencias-enoturismo/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_56a090dd721fdadd",
+      "language": "es",
+      "title": "Javier Sanz Viticultor: viñedo y enoturismo en La Seca",
+      "intro": "Javier Sanz Viticultor presenta un proyecto centrado en conservar viñedos y recuperar variedades de uva en La Seca. Su oferta de enoturismo incluye una visita clásica con recorrido por el viñedo y cata, además de experiencias ligadas a la Colección V y al patrimonio local. La dirección de la bodega es CL-610, km 29. Comprueba qué experiencia está disponible para tu fecha: los eventos anunciados y las visitas regulares tienen condiciones diferentes.",
+      "faq": [
+        {
+          "question": "¿La solicitud online confirma la visita?",
+          "answer": "La bodega indica que, después de recibir la reserva, confirma la visita por correo electrónico o contacta si hay cambios."
+        }
+      ],
+      "sources": [
+        "https://bodegajaviersanz.com/bodega/",
+        "https://bodegajaviersanz.com/enoturismo/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_50999ef637fed1d9",
+      "language": "es",
+      "title": "Garciarévalo en Matapozuelos: dirección y contacto",
+      "intro": "Garciarévalo publica su contacto en la plaza de San Juan de Matapozuelos, en Valladolid. Para solicitar información sobre sus vinos o plantear una consulta a la bodega, dispone de teléfono y correo propios. Estos datos permiten dirigirte al productor, pero no equivalen a una oferta confirmada de visitas: antes de organizar un desplazamiento, pregunta si pueden recibirte.",
+      "faq": [
+        {
+          "question": "¿Cómo contacto con Garciarévalo?",
+          "answer": "Su web publica el teléfono +34 983 832 914 y comunicacion@garciarevalo.com."
+        }
+      ],
+      "sources": [
+        "https://www.garciarevalo.com/es/contacto"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_9adea9bd8b514031",
+      "language": "es",
+      "title": "Emina Rueda en Medina del Campo: ubicación y contacto",
+      "intro": "Emina Rueda está en Medina del Campo, Valladolid. Es importante elegir esta sede al planificar el desplazamiento: Emina también publica una bodega en Ribera del Duero, ubicada en Valbuena de Duero. Para Emina Rueda, la dirección oficial es la carretera de Medina del Campo a Olmedo, km 1,4. Consulta directamente los horarios y las opciones de visita para la fecha que te interese.",
+      "faq": [
+        {
+          "question": "¿Qué teléfono corresponde a Emina Rueda?",
+          "answer": "La página oficial asigna a Emina Rueda el +34 983 803 346."
+        }
+      ],
+      "sources": [
+        "https://emina.es/contacto/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_17b7f39fc0683485",
+      "language": "es",
+      "title": "AALTO: visitar la bodega en Quintanilla de Arriba",
+      "intro": "AALTO ofrece visitas guiadas a su bodega en Quintanilla de Arriba, Valladolid. El recorrido explica la elaboración por gravedad y termina con una cata de AALTO y AALTO PS. La bodega exige cita previa, con al menos tres días laborables de antelación según las condiciones consultadas. Para llegar, su web separa el acceso al camino de la ubicación de las instalaciones: son dos puntos distintos y conviene seguir las instrucciones oficiales.",
+      "faq": [
+        {
+          "question": "¿Puedo visitar AALTO sin reservar?",
+          "answer": "No. La página oficial indica que no admite visitas sin reserva. Consulta la disponibilidad directamente antes de viajar."
+        }
+      ],
+      "sources": [
+        "https://aalto.es/visitas/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_825d2ae7bb34cf82",
+      "language": "es",
+      "title": "Abadía de Acón en Castrillo de la Vega",
+      "intro": "Abadía de Acón se presenta como una empresa familiar dedicada a la viticultura y a elaborar vinos tintos de la D.O. Ribera del Duero. Su dirección se encuentra en Castrillo de la Vega, Burgos, en la carretera de Hontangas. Puedes consultar sus vinos en la web y contactar con la bodega para resolver dudas. La existencia de un contacto comercial no confirma un servicio de visitas.",
+      "faq": [
+        {
+          "question": "¿Dónde está Abadía de Acón?",
+          "answer": "La dirección publicada por la bodega es carretera de Hontangas, km 0,400, 09391 Castrillo de la Vega, Burgos."
+        }
+      ],
+      "sources": [
+        "https://www.abadiadeacon.com/abadia-de-acon/contacto/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_0412b9c67c26b4b3",
+      "language": "es",
+      "title": "Pazos de Lusco: albariño en Salvaterra de Miño",
+      "intro": "Pazos de Lusco es una bodega de Rías Baixas vinculada al albariño y a la subzona Condado do Tea. La página del grupo González Byass sitúa su contacto en Grixó–Alxén, Salvaterra de Miño, Pontevedra, y presenta los vinos Lusco y Pazo Piñeiro. Para consultas sobre la bodega, utiliza sus canales oficiales; la información consultada no confirma un calendario de visitas reservables.",
+      "faq": [
+        {
+          "question": "¿Cómo contacto con Pazos de Lusco?",
+          "answer": "El teléfono publicado en la página oficial del grupo es +34 986 658 519."
+        }
+      ],
+      "sources": [
+        "https://www.gonzalezbyass.com/es/bodegas-marcas/pazos-de-lusco",
+        "https://doriasbaixas.com/bodega/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_d284abcdeb3adc15",
+      "language": "es",
+      "title": "Abadía de Tortoreos en As Neves: vinos y contacto",
+      "intro": "Abadía de Tortoreos publica su dirección en Setados, dentro del municipio de As Neves, Pontevedra. Su tienda presenta vinos albariños y otras referencias propias. Para consultar directamente con la bodega, utiliza los datos de contacto contrastados con el directorio del Consejo Regulador de Rías Baixas. Antes de planificar una visita, pregunta por la posibilidad de recibir visitantes y sus condiciones.",
+      "faq": [
+        {
+          "question": "¿Dónde está la dirección de contacto de Abadía de Tortoreos?",
+          "answer": "En la calle Costa 17, Setados, 36446 As Neves, Pontevedra."
+        }
+      ],
+      "sources": [
+        "https://abadiadetortoreos.es/contacto/",
+        "https://doriasbaixas.com/bodega/,"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_c659036238c8d026",
+      "language": "es",
+      "title": "Condes de Albarei en Cambados: dirección y contacto",
+      "intro": "Condes de Albarei publica su dirección en A Bouza, Castrelo, dentro de Cambados, Pontevedra. La web ofrece información sobre sus vinos y un canal directo de contacto. También enlaza Pazo Baión, pero esa relación no permite tratar ambos lugares como una misma dirección de visita. Si buscas una experiencia de enoturismo, confirma primero el establecimiento concreto y su punto de encuentro.",
+      "faq": [
+        {
+          "question": "¿Cuál es el correo oficial publicado por Condes de Albarei?",
+          "answer": "La web indica inf@condesdealbarei.com, sin la letra o después de inf."
+        }
+      ],
+      "sources": [
+        "https://condesdealbarei.com/contactar/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_365d3e9fb140821b",
+      "language": "es",
+      "title": "Destinos Cruzados: vinos del Condado do Tea",
+      "intro": "El Consejo Regulador de Rías Baixas sitúa Adega Destinos Cruzados en Crecente, Pontevedra, dentro de la subzona Condado do Tea. Su ficha presenta un proyecto centrado en vinos blancos de albariño y recoge también variedades tintas gallegas. El directorio facilita un teléfono y un correo para contactar con la bodega. No se ha verificado un programa actual de visitas ni una web propia.",
+      "faq": [
+        {
+          "question": "¿Cómo puedo contactar con Destinos Cruzados?",
+          "answer": "El Consejo publica +34 600 536 154 e i.destinoscruzados@gmail.com."
+        }
+      ],
+      "sources": [
+        "https://doriasbaixas.com/bodega/adegas-destinos-cruzados-sl/"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    },
+    {
+      "candidateId": "discovery_e70f94b05b464d02",
+      "language": "es",
+      "title": "Adega Eidos: contacto y enoturismo en Sanxenxo",
+      "intro": "Adega Eidos está en Padriñán, Sanxenxo, Pontevedra. Su web presenta vinos albariños y enlaza un portal propio de visitas. Para preparar una experiencia en la bodega, ese portal proporciona un contacto específico de enoturismo y la dirección del establecimiento. Consulta allí las modalidades disponibles y confirma la reserva antes del desplazamiento.",
+      "faq": [
+        {
+          "question": "¿Cómo consulto una visita a Adega Eidos?",
+          "answer": "El portal oficial de visitas publica enoturismo@adegaeidos.com y +34 986 690 009."
+        }
+      ],
+      "sources": [
+        "https://visitas.adegaeidos.com/",
+        "https://adegaeidos.com/contacto/;"
+      ],
+      "checkedAt": "2026-10-16",
+      "editorialStatus": "draft_for_staging",
+      "indexable": false,
+      "publicationReady": false
+    }
+  ]
+}

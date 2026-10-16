@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "purpose": "primary_source_enrichment_review_only",
+  "productionWritePerformed": false,
+  "publicationReadyCount": 0,
+  "records": [
+    {
+      "candidateId": "discovery_65e5abcc23c0ed4d",
+      "name": "Campo Elíseo",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "La Seca",
+        "province": "Valladolid",
+        "officialUrl": "https://www.campoeliseo.es/",
+        "address": "Calle Nueva 12, 47491 La Seca",
+        "phone": "+34678852927",
+        "email": "enoturismo@campoeliseo.com"
+      },
+      "sources": [
+        "https://www.campoeliseo.es/contacto/"
+      ],
+      "visitEvidence": "official_visit_service_observed",
+      "notes": "Contacto específico de enoturismo distinto del teléfono general de bodega (+34983034030).",
+      "coordinateProposal": {
+        "lat": 41.4135633,
+        "lon": -4.907783,
+        "method": "official_contact_map_target",
+        "sourceUrl": "https://maps.app.goo.gl/D74e2SbkmaGP5p9Y9",
+        "status": "documented_primary_point_pending_internal_review",
+        "applied": false
+      },
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_f96a04ff06c0e2b4",
+      "name": "Cuatro Rayas",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "La Seca",
+        "province": "Valladolid",
+        "officialUrl": "https://cuatrorayas.es/",
+        "address": "Camino de la Fuentecilla s/n, 47491 La Seca",
+        "phone": "+34647740517",
+        "email": "enoturismo@cuatrorayas.es"
+      },
+      "sources": [
+        "https://cuatrorayas.es/experiencia-vinos-y-manjares/",
+        "https://cuatrorayas.es/experiencias-enoturismo/"
+      ],
+      "visitEvidence": "official_visit_program_observed",
+      "notes": "Punto de encuentro de la experiencia: Vinoteca, carretera Rodilana s/n. Una reserva web no implica confirmación. No confundir con la dirección general publicada en https://cuatrorayas.es/experiencias-enoturismo/.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_56a090dd721fdadd",
+      "name": "Javier Sanz Viticultor",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "La Seca",
+        "province": "Valladolid",
+        "officialUrl": "https://bodegajaviersanz.com/",
+        "address": "CL-610 km 29, 47491 La Seca",
+        "phone": "+34983816669",
+        "email": "info@bodegajaviersanz.com"
+      },
+      "sources": [
+        "https://bodegajaviersanz.com/bodega/",
+        "https://bodegajaviersanz.com/enoturismo/"
+      ],
+      "visitEvidence": "official_visit_program_observed",
+      "notes": "https://bodegajaviersanz.com/enoturismo/ describe recorrido de viñedo y cata; la bodega confirma por email. No reutilizar fechas de eventos sin año ni disponibilidad.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_50999ef637fed1d9",
+      "name": "Garciarévalo",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Matapozuelos",
+        "province": "Valladolid",
+        "officialUrl": "https://www.garciarevalo.com/",
+        "address": "Plaza de San Juan 4, 47320 Matapozuelos",
+        "phone": "+34983832914",
+        "email": "comunicacion@garciarevalo.com"
+      },
+      "sources": [
+        "https://www.garciarevalo.com/es/contacto"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "La página de contacto no basta para afirmar visitas disponibles.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_9adea9bd8b514031",
+      "name": "Emina Rueda",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Medina del Campo",
+        "province": "Valladolid",
+        "officialUrl": "https://emina.es/",
+        "address": "Ctra. Medina del Campo-Olmedo km 1.4, 47400 Medina del Campo",
+        "phone": "+34983803346",
+        "email": "emina@emina.es"
+      },
+      "sources": [
+        "https://emina.es/contacto/"
+      ],
+      "visitEvidence": "not_established_for_current_booking",
+      "notes": "Separar Emina Rueda de Emina Ribera (Valbuena de Duero). La misma página difiere sobre apertura lunes/martes: no importar horarios.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_538efb42a4c3c509",
+      "name": "41 Norte",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Curiel de Duero",
+        "province": "Valladolid",
+        "officialUrl": null,
+        "address": "Plaza San Nicolás 7, 47316 Curiel de Duero",
+        "phone": null,
+        "email": "info@41norte.com"
+      },
+      "sources": [
+        "https://www.riberadelduero.es/bodegas/41-norte-sl"
+      ],
+      "visitEvidence": "council_reports_prior_booking",
+      "notes": "Consejo enlaza 41norte.com; búsqueda encuentra 41norte.es, que agotó tiempo de acceso. No confirmar migración de dominio ni vigencia de cifras de producción con previsión 2020.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_17b7f39fc0683485",
+      "name": "AALTO",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Quintanilla de Arriba",
+        "province": "Valladolid",
+        "officialUrl": "https://aalto.es/",
+        "address": "Paraje Vallejo de Carril s/n, 47360 Quintanilla de Arriba",
+        "phone": "+34983036949",
+        "email": "comunicacion@aalto.es"
+      },
+      "sources": [
+        "https://aalto.es/visitas/"
+      ],
+      "visitEvidence": "official_visit_program_observed",
+      "notes": "La web distingue acceso al camino (41°37′23″N,4°15′24″W) de ubicación bodega. Cita previa con tres días laborables de antelación; confirmar condiciones actuales.",
+      "coordinateProposal": {
+        "lat": 41.603611111111114,
+        "lon": -4.2652777777777775,
+        "method": "official_explicit_winery_dms",
+        "sourceUrl": "https://aalto.es/visitas/",
+        "status": "documented_primary_point_pending_internal_review",
+        "applied": false
+      },
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_825d2ae7bb34cf82",
+      "name": "Abadía de Acón",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Castrillo de la Vega",
+        "province": "Burgos",
+        "officialUrl": "https://www.abadiadeacon.com/",
+        "address": "Ctra. Hontangas km 0.400, 09391 Castrillo de la Vega",
+        "phone": "+34947509292",
+        "email": "info@abadiadeacon.com"
+      },
+      "sources": [
+        "https://www.abadiadeacon.com/abadia-de-acon/contacto/"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "No inferir servicio turístico a partir de tienda o página de contacto.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_883bae7c2e5d7895",
+      "name": "ADE GUMIEL",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Gumiel de Izán",
+        "province": "Burgos",
+        "officialUrl": null,
+        "address": "Camino del Cementerio, 09370 Gumiel de Izán",
+        "phone": null,
+        "email": null
+      },
+      "sources": [
+        "https://www.riberadelduero.es/en/node/2742"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "Dirección identificada expresamente como datos de sociedad, no punto de visita. Consejo no publica teléfono, email ni web en la ficha leída.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_77a342b508ebc752",
+      "name": "Agrícola Riova / Palacio de Villachica Ribera",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Peñafiel",
+        "province": "Valladolid",
+        "officialUrl": "https://agricolariova.com/",
+        "address": "Carretera de Cogeces del Monte km 0.5, Peñafiel",
+        "phone": null,
+        "email": "mgarcia@agricolariova.com"
+      },
+      "sources": [
+        "https://agricolariova.com/home/"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "La propia página relaciona ambas denominaciones. Publica dos teléfonos diferentes (+34620854802 y +34663797346); guardar como alternativas sin designar principal. Revisar alias internos; no crear dos bodegas.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_0412b9c67c26b4b3",
+      "name": "Pazos de Lusco",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Salvaterra de Miño",
+        "province": "Pontevedra",
+        "officialUrl": "https://www.gonzalezbyass.com/es/bodegas-marcas/pazos-de-lusco",
+        "address": "Lugar de Grixó–Alxén, 36458 Salvaterra de Miño",
+        "phone": "+34986658519",
+        "email": "info@lusco.es"
+      },
+      "sources": [
+        "https://www.gonzalezbyass.com/es/bodegas-marcas/pazos-de-lusco",
+        "https://doriasbaixas.com/bodega/"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "Email observado en directorio del Consejo https://doriasbaixas.com/bodega/. GPS publicado por propietario del grupo, no geocodificación de dirección.",
+      "coordinateProposal": {
+        "lat": 42.09752777777778,
+        "lon": -8.524222222222223,
+        "method": "official_explicit_dms",
+        "sourceUrl": "https://www.gonzalezbyass.com/es/bodegas-marcas/pazos-de-lusco",
+        "status": "documented_primary_point_pending_internal_review",
+        "applied": false
+      },
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_d284abcdeb3adc15",
+      "name": "Abadía de Tortoreos",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "As Neves",
+        "province": "Pontevedra",
+        "officialUrl": "https://abadiadetortoreos.es/",
+        "address": "Calle Costa 17, Setados, 36446 As Neves",
+        "phone": "+34615270704",
+        "email": "adegasluz@gmail.com"
+      },
+      "sources": [
+        "https://abadiadetortoreos.es/contacto/",
+        "https://doriasbaixas.com/bodega/,"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "Texto visible de email coincide con Consejo https://doriasbaixas.com/bodega/, pero destinos de enlaces muestran info@example.com y abadiadetortoreos@gmail.com. No copiar enlaces defectuosos ni afirmar entrega comprobada.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_c659036238c8d026",
+      "name": "Condes de Albarei",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Cambados",
+        "province": "Pontevedra",
+        "officialUrl": "https://condesdealbarei.com/",
+        "address": "Lugar A Bouza 1, Castrelo, 36639 Cambados",
+        "phone": "+34986543535",
+        "email": "inf@condesdealbarei.com"
+      },
+      "sources": [
+        "https://condesdealbarei.com/contactar/"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "Conservar inf@ exactamente; no autocorregir a info@. Pazo Baión enlazado no prueba que esta dirección sea el lugar de su experiencia.",
+      "coordinateProposal": {
+        "lat": 42.4898432,
+        "lon": -8.8045563,
+        "method": "official_contact_map_target",
+        "sourceUrl": "https://goo.gl/maps/o6YHUA8rmW3hx3aG9",
+        "status": "documented_primary_point_pending_internal_review",
+        "applied": false
+      },
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_365d3e9fb140821b",
+      "name": "Adega Destinos Cruzados",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Crecente",
+        "province": "Pontevedra",
+        "officialUrl": null,
+        "address": "Calle Pousa–Pouson 8, 36493 Ribeira, Crecente",
+        "phone": "+34600536154",
+        "email": "i.destinoscruzados@gmail.com"
+      },
+      "sources": [
+        "https://doriasbaixas.com/bodega/adegas-destinos-cruzados-sl/"
+      ],
+      "visitEvidence": "not_established",
+      "notes": "Consejo identifica la subzona Condado do Tea. No deducir web inexistente: únicamente no verificada. No convertir prácticas descritas como no certificadas en sello ecológico.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    },
+    {
+      "candidateId": "discovery_e70f94b05b464d02",
+      "name": "Adega Eidos",
+      "checkedAt": "2026-10-16",
+      "countryCode": "ES",
+      "facts": {
+        "municipality": "Sanxenxo",
+        "province": "Pontevedra",
+        "officialUrl": "https://adegaeidos.com/",
+        "address": "Padriñán 65, 36960 Sanxenxo",
+        "phone": "+34986690009",
+        "email": "enoturismo@adegaeidos.com"
+      },
+      "sources": [
+        "https://visitas.adegaeidos.com/",
+        "https://adegaeidos.com/contacto/;"
+      ],
+      "visitEvidence": "official_visit_service_observed",
+      "notes": "Portal de visitas enlazado desde https://adegaeidos.com/contacto/; contacto general info@adegaeidos.com. No confundir con Bodegas Eidosela.",
+      "coordinateProposal": null,
+      "publicationReady": false,
+      "indexable": false,
+      "internalIdentityReview": "pending_fresh_snapshot",
+      "emailDeliveryTested": false
+    }
+  ],
+  "limitations": [
+    "Facts are proposals; no original dataset or production records overwritten.",
+    "Maps target coordinates extracted from official outgoing link redirects; map content itself was unavailable.",
+    "Postal addresses do not establish a visitor entrance.",
+    "Contacts are publicly listed business contacts; no messages sent.",
+    "No source photographs or substantial source text reproduced."
+  ]
+}
